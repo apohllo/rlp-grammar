@@ -1,0 +1,3 @@
+[submodule "polish-spec"]
+	path = polish-spec
+	url = git://github.com/apohllo/polish-spec.git
