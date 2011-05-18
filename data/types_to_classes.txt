@@ -45,11 +45,3 @@ xxx Foreign
 ign Ignored
 interp Punctuation
 brev Abbreviation
-appos Apposition
-mod Modaliser
-oper Operator
-paprep Parapreposition
-part Particle
-prenum Prenumeral
-prepart Preparticle
-interj Interjection
