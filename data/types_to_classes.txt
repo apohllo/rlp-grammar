@@ -1,43 +1,44 @@
-subst Noun
-depr DepreciativeNoun
-sdef DefectiveNoun
-xxs ForeignNominal
-num Numeral
-numcol CollectiveNumeral
-numsgen SingleGenderNumeral
-nummgen MultipleGenderNumeral
-numdef DefectiveNumeral
+subst Noun case:_,number:_
+depr DepreciativeNoun case:nom+voc
+sdef DefectiveNoun case:_
+xxs ForeignNominal case:_,number:_
+num Numeral gender:m1.p1+m2.m3.f.n1.n2.p2.p3,case:_
+numcol CollectiveNumeral case:_
+numsgen SingleGenderNumeral number:_,case:_
+nummgen MultipleGenderNumeral gender:m1+m2.m3.n2+f+n1.p1.p2,case:_
+numdef DefectiveNumeral gender:m1+m2.m3.f.n1.n2.p1.p2,:case:_
 numind IndeterminateNumeral
-adj Adjective
-adjng NonGradableAdjective
+numnum Number
+adj Adjective number:sg,gender:m1.m2+m3+f+n1.n2,case:_,degree:_|number:pl,gender:m1.p1+m2.m3.f.n1.n2.p2.p3,case:_,degree:_
+adjng NonGradableAdjective number:sg,gender:m1.m2+m3+f+n1.n2,case:_,|number:pl,gender:m1.p1+m2.m3.f.n1.n2.p2.p3,case:_
 adja PreadjectivalAdjective
 adjp PostprepositionalAdjective
 adjdef DefectiveAdjective
-adv Adverb
+adv Adverb degree:_
 advdef DefectiveAdverb
-ppron12 GenderlessPronoun
-ppron3 ThirdPersonPronoun
-siebie ReflexivePronoun
-pronbgen BigenderPronoun
+ppron12 GenderlessPronoun case:_
+ppron3 ThirdPersonPronoun number:_,case:_
+siebie ReflexivePronoun case:gen.dat.acc.inst.loc
+pronbgen BigenderPronoun case:_
 prondef DefectivePronoun
-imppron ImpersonalPronoun
-ppron PersonalPronoun
-fin NonpastVerb
-bedzie FutureVerb
-aglt AglutinativeVerb
+imppron ImpersonalPronoun case:_
+ppron PersonalPronoun case:_
+fin NonpastVerb number:_,person:_
+bedzie FutureVerb number:_,person:_
+aglt AglutinativeVerb number:_,person:pri+sec,:vocal:_
 acond AgultinativeConditional
-praet PastVerb
-impt ImperativeMoodVerb
+praet PastVerb number:sg,gender:m1.m2.m3+f+n1.n2|number:pl,gender:m1.p1+m2.m3.f.n1.n2.p2.p3
+impt ImperativeMoodVerb number:sg,person:sec|number:pl,person:pri,sec
 imps ImpersonalMoodVerb
 inf InfinitiveVerb
 pcon PresentParticiple
 pant PerfectParticiple
-pact ActiveParticiple
-ppas PassiveParticiple
-ger Gerund
-imptdef ImperativeVerb
+pact ActiveParticiple number:sg,gender:m1.m2+m3+f+n1.n2,case:_,|number:pl,gender:m1.p1+m2.m3.f.n1.n2.p2.p3,case:_
+ppas PassiveParticiple number:sg,gender:m1.m2+m3+f+n1.n2,case:_,|number:pl,gender:m1.p1+m2.m3.f.n1.n2.p2.p3,case:_
+ger Gerund number:_,case:_
+imptdef ImperativeVerb number:sg,gender:m1.m2.m3+f+n1.n2|number:pl,gender:m1.p1+m2.m3.f.n1.n2.p2.p3
 anl AnalyticVerb
-impsdef ImpersonalVerb
+impsdef ImpersonalVerb tense:present.past
 prep Preposition
 conj Conjunction
 qub Invariable
