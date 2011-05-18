@@ -9,7 +9,7 @@ When /^w słowniku występuje wartość kategorii fleksyjej '([^']+)'$/ do |name
 end
 
 When /^w słowniku występuje kategoria gramatycza '([^']+)'$/ do |name|
-  @item = Rlp::GrammarCategory.for_name(name)
+  @item = Rlp::GrammaticalCategory.for_name(name)
 end
 
 
@@ -17,7 +17,7 @@ end
 # Then
 ################################################################
 Then /^należy ona do kategorii fleksyjnej '([^']*)'$/ do |name|
-  Rlp::GrammarCategory.for_name(name).values.include?(@item)
+  Rlp::GrammaticalCategory.for_name(name).values.include?(@item)
 end
 
 Then /^posiada on(a)? oznaczenie '(\w+)'$/ do |ignore,name|

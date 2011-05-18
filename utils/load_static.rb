@@ -86,7 +86,7 @@ end
 
 @cats = {}
 CATEGORIES.each do |name,tag|
-  category = Rlp::GrammarCategory.new
+  category = Rlp::GrammaticalCategory.new
   category.tag = tag.to_sym
   category.name = name
   @cats[name] = category

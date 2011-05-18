@@ -7,7 +7,7 @@ module Rlp
   class Value < StaticModel
     field :tag, :object, :index => true
     field :name, :string, :index => true
-    has_one :category, :class_name => "Rlp::GrammarCategory"
+    has_one :category, :class_name => "Rlp::GrammaticalCategory"
 
     # Returns grammar category value for given +tag+.
     def self.for_tag(tag)
