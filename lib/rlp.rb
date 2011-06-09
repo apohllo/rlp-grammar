@@ -2,7 +2,7 @@ require 'rlp/constants'
 require 'rlp/exception'
 require 'rlp/client'
 require 'rlp/model'
-require 'rlp/grammar_category'
+require 'rlp/grammatical_category'
 require 'rlp/value'
 # flexemes
 require 'rlp/flexeme'
@@ -39,3 +39,4 @@ require 'rlp/flexeme/postprepositional_adjective'
 require 'rlp/flexeme/preadjectival_adjective'
 require 'rlp/flexeme/present_participle.rb'
 require 'rlp/word_form'
+

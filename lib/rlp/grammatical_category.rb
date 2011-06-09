@@ -13,6 +13,11 @@ module Rlp
       "Grammatical category: #{self.tag} - '#{self.name}'"
     end
 
+    # Returns a symbol representation of the category.
+    def to_sym
+      self.tag
+    end
+
     # Returns the category instance for given category +tag+.
     def self.for_tag(tag)
       category = self.find_by_tag(tag)
