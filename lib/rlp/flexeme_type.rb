@@ -1,5 +1,4 @@
 # encoding: utf-8
-require 'rlp/static_model'
 
 module Rlp
   # This class represents the types of flexemes. It corresponds
@@ -10,7 +9,7 @@ module Rlp
   # the instances of flexemes. As en effect no data should be stored
   # in large hashes (such as flexeme type name - flexeme type tag),
   # but should be provided via object oriented API.
-  class FlexemeType < StaticModel
+  class FlexemeType < Model
     field :tag, :object, :index => true
     field :name, :string, :index => true
     field :class_name, :string, :index => true

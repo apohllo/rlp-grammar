@@ -1,9 +1,8 @@
 # encoding: utf-8
-require 'rlp/static_model'
 
 module Rlp
   # This class represtens various grammatical (flexemic and syntactic) categories.
-  class GrammaticalCategory < StaticModel
+  class GrammaticalCategory < Model
     field :tag, :object, :index => true
     field :name, :string, :index => true
     has_many :values

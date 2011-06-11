@@ -1,10 +1,9 @@
 # encoding 'utf-8'
-require 'rlp/static_model'
 
 module Rlp
   # This class represents various grammar
   # (flexemic and syntactic) categories' values.
-  class Value < StaticModel
+  class Value < Model
     field :tag, :object, :index => true
     field :name, :string, :index => true
     has_one :category, :class_name => "Rlp::GrammaticalCategory"
