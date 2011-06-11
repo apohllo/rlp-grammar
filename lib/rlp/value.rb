@@ -9,6 +9,16 @@ module Rlp
     field :name, :string, :index => true
     has_one :category, :class_name => "Rlp::GrammaticalCategory"
 
+    # A string representation of the value.
+    def to_s
+      "Grammatical value from '#{self.catgory.name}': #{self.tag} - '#{self.name}'"
+    end
+
+    # A symbol representation of the category.
+    def to_sym
+      self.tag
+    end
+
     # Returns grammar category value for given +tag+.
     def self.for_tag(tag)
       value = self.find_by_tag(tag)
