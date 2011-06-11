@@ -14,6 +14,7 @@ module Rlp
     field :tag, :object, :index => true
     field :name, :string, :index => true
     field :class_name, :string, :index => true
+    field :inflections, :object
 
     # Returns a class implementing this flexeme type.
     def to_class
@@ -27,6 +28,27 @@ module Rlp
     # String representation of the flexeme type.
     def to_s
       "Flexeme type: #{self.tag} - '#{self.name}'"
+    end
+
+    # Returns all the inflection positions (sets of tags which might
+    # have distinct forms) of given flexeme type. If +category+ is given,
+    # only the values of the category for which the flexemes of this flexeme type
+    # have forms are returned.
+    def positions(category=nil)
+      if category == nil
+        values_map = inflections.keys.map{|c| self.positions(c) }
+        values_map.inject([[]]) do |sum,values|
+          result = []
+          sum.each do |pvalues|
+            values.each do |value|
+              result << pvalues + [value]
+            end
+          end
+          result
+        end
+      else
+        inflections[category.to_sym].map{|v| Value.for_tag(v)}
+      end
     end
 
     # Returns the flexeme type for given flexeme type +tag+.
