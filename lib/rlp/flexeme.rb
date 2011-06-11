@@ -17,20 +17,23 @@ module Rlp
       FlexemeType.for_class_name(self.class.to_s)
     end
 
-    # Dose the flexeme have a defined value for given
+    # Does the flexeme have a defined value for given
     # flexemic +category+?
     def has?(category)
-      raise AbstractMethod.new(self.class,"has?")
+      self.respond_to?(category)
     end
 
     # Dose the flexeme inflect for given flexemic +category+?
     def inflects_for?(category)
-      raise AbstractMethod.new(self.class,"inflects_for?")
+      !self.positions(category).nil?
     end
 
-    # Returns all the inflections (word form + tags) of given flexeme.
-    def inflections
-      raise AbstractMethod.new(self.class,"inflections")
+    # Returns all the inflection positions (sets of tags which might
+    # have distinct forms) of given flexeme. If +category+ is given,
+    # only the values of the category for which the flexeme has forms
+    # are returned.
+    def positions(category=nil)
+      self.type.positions(category)
     end
 
     # String representation of the lexeme.
