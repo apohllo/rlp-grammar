@@ -68,8 +68,30 @@ end
 Then /^odmienia się przez ([[:lower:]]+)$/ do |name|
   category = get_category(name)
   @flexeme.inflects_for?(category).should == true
+  @flexeme.positions(category).each do |position|
+    @flexeme.inflect(category => position).should_not == nil
+  end
 end
 
 Then /^posiada (\d+) pozycj(ę|i) fleksyjn(ą|ych)/ do |count,ignore1,ignore2|
-  @flexeme.inflections.size.should == count.to_i
+  @flexeme.positions.size.should == count.to_i
+end
+
+Then /^jest on nieodmienny$/ do
+  @flexeme.positions.size.should == 1
+end
+
+Then /^posiada on liczbę ([[:lower:]]+)$/ do |value|
+  value = (value == "pojedynczą" ? :sg : :pl)
+  @flexeme.number.should == value
+end
+
+Then /^odmienia się przez przypadki: (.*)$/ do |cases|
+  cases = cases.split(/(,| i )\s+/).map{|c| Rlp::Value.for_name(c).tag}
+  category = get_category("przypadki")
+  @flexeme.inflects_for?(category).should == true
+  @flexeme.positions(category).size.should == cases.size
+  cases.each do |kase|
+    @flexeme.positions(category).include?(kase).should == true
+  end
 end
