@@ -2,7 +2,7 @@
 # encoding: utf-8
 
 $:.unshift "lib"
-require 'rlp'
+require 'rlp/grammar'
 require 'rod'
 require 'pp'
 
@@ -67,17 +67,18 @@ File.open("data/types_to_classes.txt") do |file|
   file.each do |line|
     tag,klass = line.split(/\s+/)
     type = FLEXEME_TYPES.find{|t| t[-1] == tag}
-    type << "Rlp::Flexeme::#{klass}"
+    type << "Rlp::Grammar::Flexeme::#{klass}"
   end
 end
 #pp FLEXEME_TYPES
 
+include Rlp::Grammar
 
 FileUtils.mkdir("tmp") if !File.exist?("tmp")
-Rlp::Client.instance.create_database("tmp/rlp-grammar")
+Client.instance.create_database("tmp/rlp-grammar")
 
 FLEXEME_TYPES.each do |name,tag,klass|
-  type = Rlp::FlexemeType.new
+  type = FlexemeType.new
   type.name = name
   type.tag = tag.to_sym
   type.class_name = klass
@@ -86,13 +87,13 @@ end
 
 @cats = {}
 CATEGORIES.each do |name,tag|
-  category = Rlp::GrammaticalCategory.new
+  category = Category.new
   category.tag = tag.to_sym
   category.name = name
   @cats[name] = category
 end
 VALUES.each do |name, cat_name, tag|
-  value = Rlp::Value.new
+  value = Value.new
   value.name = name
   value.tag = tag.to_sym
   value.category = @cats[cat_name]
@@ -102,4 +103,4 @@ end
 
 @cats.each{|k,v| v.store}
 
-Rlp::Client.instance.close_database
+Client.instance.close_database

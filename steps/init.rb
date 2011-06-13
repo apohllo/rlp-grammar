@@ -1,11 +1,11 @@
 # encoding: utf-8
 $:.unshift "lib"
-require 'rlp'
+require 'rlp/grammar'
 require 'rspec/expectations'
 
 Before do
-  unless Rlp::Client.instance.opened?
-    Rlp::Client.instance.open_database("tmp/rlp-grammar")
+  unless Rlp::Grammar::Client.instance.opened?
+    Rlp::Grammar::Client.instance.open_database("tmp/rlp-grammar")
   end
 end
 
@@ -14,6 +14,6 @@ end
 ################################################################
 
 Given /^że kodowanie ustawione jest na '([^']+)'$/ do |encoding|
-  Rlp::Client.instance.encoding = 'utf-8'
+  Rlp::Grammar::Client.instance.encoding = 'utf-8'
 end
 

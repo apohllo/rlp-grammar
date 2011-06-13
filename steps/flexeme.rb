@@ -39,16 +39,16 @@ When /^w słowniku jest forma '([^']+)'$/ do |form|
 end
 
 When /^szukam dla niej fleksemów$/ do
-  @flexemes = Rlp::Flexeme.find(@form)
+  @flexemes = Rlp::Grammar::Flexeme.find(@form)
 end
 
 When /^w słowniku jest fleksem typu '([^']+)'$/ do |name|
-  klass = Rlp::FlexemeType.for_name(name).to_class
+  klass = Rlp::Grammar::FlexemeType.for_name(name).to_class
   @flexeme = klass.each{|f| break f}
 end
 
 When /^w słowniku występuje typ fleksemu '([^']*)'/ do |name|
-  @item = Rlp::FlexemeType.for_name(name)
+  @item = Rlp::Grammar::FlexemeType.for_name(name)
 end
 
 ################################################################
@@ -87,7 +87,7 @@ Then /^posiada on liczbę ([[:lower:]]+)$/ do |value|
 end
 
 Then /^odmienia się przez przypadki: (.*)$/ do |cases|
-  cases = cases.split(/(,| i )\s+/).map{|c| Rlp::Value.for_name(c).tag}
+  cases = cases.split(/(,| i )\s+/).map{|c| Rlp::Grammar::Value.for_name(c).tag}
   category = get_category("przypadki")
   @flexeme.inflects_for?(category).should == true
   @flexeme.positions(category).size.should == cases.size

@@ -1,10 +1,10 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "rlp/version"
+require "rlp/grammar/version"
 
 Gem::Specification.new do |s|
   s.name        = "rlp-grammar"
-  s.version     = Rlp::VERSION
+  s.version     = Rlp::Grammar::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Aleksander Pohl"]
   s.email       = ["apohllo@o2.pl"]

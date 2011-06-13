@@ -5,11 +5,11 @@ require File.join(File.dirname(__FILE__),"init")
 # When
 ################################################################
 When /^w słowniku występuje wartość kategorii fleksyjej '([^']+)'$/ do |name|
-  @item = Rlp::Value.for_name(name)
+  @item = Rlp::Grammar::Value.for_name(name)
 end
 
 When /^w słowniku występuje kategoria gramatycza '([^']+)'$/ do |name|
-  @item = Rlp::GrammaticalCategory.for_name(name)
+  @item = Rlp::Grammar::Category.for_name(name)
 end
 
 
@@ -17,7 +17,7 @@ end
 # Then
 ################################################################
 Then /^należy ona do kategorii fleksyjnej '([^']*)'$/ do |name|
-  Rlp::GrammaticalCategory.for_name(name).values.include?(@item)
+  Rlp::Grammar::Category.for_name(name).values.include?(@item)
 end
 
 Then /^posiada on(a)? oznaczenie '(\w+)'$/ do |ignore,name|
