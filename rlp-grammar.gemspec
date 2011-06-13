@@ -3,17 +3,17 @@ $:.push File.expand_path("../lib", __FILE__)
 require "rlp/version"
 
 Gem::Specification.new do |s|
-  s.name        = "rlp"
+  s.name        = "rlp-grammar"
   s.version     = Rlp::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Aleksander Pohl"]
   s.email       = ["apohllo@o2.pl"]
-  s.homepage    = "http://github.com/apohllo/rlp"
-  s.summary     = %q{A Ruby implementation of the Polish-spec}
+  s.homepage    = "http://github.com/apohllo/rlp-grammar"
+  s.summary     = %q{A Ruby implementation of the Polish grammar spec}
   s.description = %q{This library is an implementation of the Polish-spec, 
-    a specification of inflection and grammar rules of Polish}
+    a specification of inflection and grammatical rules of Polish}
 
-  s.rubyforge_project = "rlp"
+  s.rubyforge_project = "rlp-grammar"
   s.has_rdoc = true
   s.rdoc_options = ["--main", "README.txt"]
 
