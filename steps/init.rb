@@ -5,10 +5,7 @@ require 'rspec/expectations'
 
 Before do
   unless Rlp::Client.instance.opened?
-    Rlp::Client.instance.open_database("tmp/seed.dat")
-  end
-  unless Rlp::StaticDatabase.instance.opened?
-    Rlp::StaticDatabase.instance.open_database("tmp/static.dat")
+    Rlp::Client.instance.open_database("tmp/rlp-grammar")
   end
 end
 

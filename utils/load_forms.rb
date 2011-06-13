@@ -10,16 +10,20 @@ require 'rod'
 def get_flexeme(lemma,tags,flexemes)
   tags = tags.split(":")
   unless flexemes["#{lemma}+#{tags}"]
-    flexeme = Rlp::Flexeme.class_for(tags[0]).new
+    flexeme = Rlp::FlexemeType.for_tag(tags[0].to_sym).to_class.new
     flexemes["#{lemma}+#{tags}"] = flexeme
-    flexeme.lemma = lemma
+    begin
+      flexeme.lemma = lemma
+    rescue
+      puts Rlp::FlexemeType.for_tag(tags[0].to_sym).to_class
+    end
   end
   flexemes["#{lemma}+#{tags}"]
 end
 
 FLEXEMES = {}
 FileUtils.mkdir("tmp") if !File.exist?("tmp")
-Rlp::Client.instance.create_database("tmp/seed.dat")
+Rlp::Client.instance.open_database("tmp/rlp-grammar",false)
 
 File.open(ARGV[0]) do |file|
   file.each do |line|

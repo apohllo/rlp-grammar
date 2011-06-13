@@ -67,14 +67,14 @@ File.open("data/types_to_classes.txt") do |file|
   file.each do |line|
     tag,klass = line.split(/\s+/)
     type = FLEXEME_TYPES.find{|t| t[-1] == tag}
-    type << klass
+    type << "Rlp::Flexeme::#{klass}"
   end
 end
 #pp FLEXEME_TYPES
 
 
 FileUtils.mkdir("tmp") if !File.exist?("tmp")
-Rlp::StaticDatabase.instance.create_database("tmp/static.dat")
+Rlp::Client.instance.create_database("tmp/rlp-grammar")
 
 FLEXEME_TYPES.each do |name,tag,klass|
   type = Rlp::FlexemeType.new
@@ -102,4 +102,4 @@ end
 
 @cats.each{|k,v| v.store}
 
-Rlp::StaticDatabase.instance.close_database
+Rlp::Client.instance.close_database
