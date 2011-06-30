@@ -5,30 +5,28 @@ xxs ForeignNominal case:_,number:_
 num Numeral gender:m1.p1+m2.m3.f.n1.n2.p2.p3,case:_
 numcol CollectiveNumeral case:_
 numsgen SingleGenderNumeral number:_,case:_
-nummgen MultipleGenderNumeral gender:m1+m2.m3.n2+f+n1.p1.p2,case:_
-numdef DefectiveNumeral gender:m1+m2.m3.f.n1.n2.p1.p2,:case:_
-numind IndeterminateNumeral
+nummgen MultipleGenderNumeral gender:m1+m2.m3.n2+f,case:_
+numdef DefectiveNumeral
+numind IndeterminateNumeral gender:m1+m2.m3.f.n1.n2.p1.p2,case:_
 numnum Number
-adj Adjective number:sg,gender:m1.m2+m3+f+n1.n2,case:_,degree:_|number:pl,gender:m1.p1+m2.m3.f.n1.n2.p2.p3,case:_,degree:_
-adjng NonGradableAdjective number:sg,gender:m1.m2+m3+f+n1.n2,case:_,|number:pl,gender:m1.p1+m2.m3.f.n1.n2.p2.p3,case:_
+adj Adjective number:sg,gender:m1.m2+m3+f+n1.n2,case:_|number:pl,gender:m1.p1+m2.m3.f.n1.n2.p2.p3,case:_
 adja PreadjectivalAdjective
 adjp PostprepositionalAdjective
 adjdef DefectiveAdjective
-adv Adverb degree:_
-advdef DefectiveAdverb
+adv Adverb
 ppron12 GenderlessPronoun case:_
 ppron3 ThirdPersonPronoun number:_,case:_
-siebie ReflexivePronoun case:gen.dat.acc.inst.loc
+siebie ReflexivePronoun case:gen+dat+acc+inst+loc
 pronbgen BigenderPronoun case:_
 prondef DefectivePronoun
 imppron ImpersonalPronoun case:_
 ppron PersonalPronoun case:_
 fin NonpastVerb number:_,person:_
 bedzie FutureVerb number:_,person:_
-aglt AglutinativeVerb number:_,person:pri+sec,:vocal:_
+aglt AglutinativeVerb number:_,person:pri+sec,vocal:_
 acond AgultinativeConditional
 praet PastVerb number:sg,gender:m1.m2.m3+f+n1.n2|number:pl,gender:m1.p1+m2.m3.f.n1.n2.p2.p3
-impt ImperativeMoodVerb number:sg,person:sec|number:pl,person:pri,sec
+impt ImperativeMoodVerb number:sg,person:sec|number:pl,person:pri+sec
 imps ImpersonalMoodVerb
 inf InfinitiveVerb
 pcon PresentParticiple
@@ -38,7 +36,8 @@ ppas PassiveParticiple number:sg,gender:m1.m2+m3+f+n1.n2,case:_,|number:pl,gende
 ger Gerund number:_,case:_
 imptdef ImperativeVerb number:sg,gender:m1.m2.m3+f+n1.n2|number:pl,gender:m1.p1+m2.m3.f.n1.n2.p2.p3
 anl AnalyticVerb
-impsdef ImpersonalVerb tense:present.past
+impspres ImpersonalPresentVerb tense:present
+impspast ImpersonalPastVerb tense:past
 prep Preposition
 conj Conjunction
 qub Invariable

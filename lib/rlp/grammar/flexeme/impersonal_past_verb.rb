@@ -3,7 +3,7 @@
 module Rlp
   module Grammar
     class Flexeme
-      class NonGradableAdjective < Flexeme
+      class ImpersonalPastVerb < Flexeme
       end
     end
   end

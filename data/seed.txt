@@ -11,12 +11,10 @@ troszkę troszkę numdef
 wiele wiele numind
 5 5 numnum
 polski polski adj
-taki taki adjng
 polsko polski adja
 polsku polski adjp
 trefl trefl adjdef
 dobrze dobrze adv
-ludzko ludzko advdef
 ja ja ppron12
 on on ppron3
 siebie siebie siebie
@@ -39,7 +37,8 @@ czytany czytać ppas
 czytanie czytać ger
 winien winien imptdef
 warto warto anl
-należy należy impsdef
+należy należy impspres
+należało należy impspast
 do do prep
 i i conj
 już już qub

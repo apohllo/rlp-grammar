@@ -3,7 +3,7 @@
 module Rlp
   module Grammar
     class Flexeme
-      class DefectiveAdverb < Flexeme
+      class ImpersonalPresentVerb < Flexeme
       end
     end
   end
