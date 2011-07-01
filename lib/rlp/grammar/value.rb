@@ -11,7 +11,7 @@ module Rlp
 
       # A string representation of the value.
       def to_s
-        "Grammatical value from '#{self.catgory.name}': #{self.tag} - '#{self.name}'"
+        "Grammatical value from '#{self.category.name}': #{self.tag} - '#{self.name}'"
       end
 
       # A symbol representation of the category.
