@@ -4,7 +4,15 @@ require 'rlp/grammar/exception'
 module Rlp
   module Grammar
     class Flexeme < Model
+      # The +lemma+ of the flexeme, i.e. its base form.
       field :lemma, :string, :index => true
+
+      # The paradigm of the flexeme, i.e. the way the flexeme
+      # inflects itself.
+      has_one :paradigm, :class_name => "Rlp::Grammar::Paradigm"
+
+      # The +word_forms+ of the flexeme, sorted according to the
+      # order of +paradigm+'s suffixes.
       has_many :word_forms, :class_name => "Rlp::Grammar::WordForm"
 
       # For given +form+ find all lexemes posessing it.
