@@ -6,6 +6,7 @@ require 'rlp/grammar/category'
 require 'rlp/grammar/value'
 require 'rlp/grammar/word_form'
 require 'rlp/grammar/paradigm'
+require 'rlp/grammar/text_segment'
 # flexemes
 require 'rlp/grammar/flexeme'
 require 'rlp/grammar/flexeme_type'
