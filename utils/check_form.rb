@@ -1,0 +1,26 @@
+#!/bin/env ruby
+# encoding: utf-8
+
+$:.unshift "lib"
+require 'rlp/grammar'
+
+Rlp::Grammar::Client.instance.open_database("tmp/rlp-grammar")
+if ARGV.size != 1
+  puts "check_form form"
+  exit
+end
+#Rlp::Grammar::Flexeme.find(ARGV[0])
+word_form = Rlp::Grammar::WordForm.find_by_value(ARGV[0])
+if word_form
+  if word_form.flexemes.count == 0
+    puts "Missing flexemes for '#{ARGV[0]}'"
+  else
+    word_form.flexemes.each do |flexeme|
+      puts flexeme.pretty_to_s
+    end
+  end
+else
+  puts "Missing word form for '#{ARGV[0]}'"
+end
+
+Rlp::Grammar::Client.instance.close_database
