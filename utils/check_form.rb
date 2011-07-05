@@ -4,12 +4,14 @@
 $:.unshift "lib"
 require 'rlp/grammar'
 
-Rlp::Grammar::Client.instance.open_database("tmp/rlp-grammar")
-if ARGV.size != 1
-  puts "check_form form"
+if ARGV.size < 1
+  puts "check_form form [source]"
   exit
 end
-#Rlp::Grammar::Flexeme.find(ARGV[0])
+SOURCE = ARGV[1] || "tmp/rlp-grammar"
+puts SOURCE
+Rlp::Grammar::Client.instance.open_database(SOURCE)
+
 word_form = Rlp::Grammar::WordForm.find_by_value(ARGV[0])
 if word_form
   if word_form.flexemes.count == 0
