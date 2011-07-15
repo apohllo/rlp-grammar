@@ -71,18 +71,14 @@ module Rlp
       # have forms are returned.
       def positions(category=nil)
         if category == nil
-          values_map = inflections.keys.map{|c| self.positions(c) }
-          values_map.inject([[]]) do |sum,values|
-            result = []
-            sum.each do |pvalues|
-              values.each do |value|
-                result << pvalues + [value]
-              end
-            end
-            result
-          end
+          return @positions if defined?(@positions)
+          @positions = inflections.map{|i| i.map{|v| Value.for_tag(v)}}
         else
-          inflections[category.to_sym].map{|v| Value.for_tag(v)}
+          values = []
+          inflections.each do |inflection|
+            values << inflection.find{|v| Value.for_tag(v).category == category}
+          end
+          values.uniq.compact.map{|v| Value.for_tag(v)}
         end
       end
 
