@@ -1,10 +1,11 @@
 # encoding: utf-8
-require File.join(File.dirname(__FILE__),"init")
+$:.unshift "steps"
+require 'init'
 
 ################################################################
 # When
 ################################################################
-When /^w słowniku występuje wartość kategorii fleksyjej '([^']+)'$/ do |name|
+When /^w słowniku występuje wartość kategorii gramatycznej '([^']+)'$/ do |name|
   @item = Rlp::Grammar::Value.for_name(name)
 end
 
@@ -16,7 +17,7 @@ end
 ################################################################
 # Then
 ################################################################
-Then /^należy ona do kategorii fleksyjnej '([^']*)'$/ do |name|
+Then /^należy ona do kategorii gramatycznej '([^']*)'$/ do |name|
   Rlp::Grammar::Category.for_name(name).values.include?(@item)
 end
 
