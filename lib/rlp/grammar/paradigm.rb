@@ -67,15 +67,20 @@ module Rlp
 
       # Returns the mapping between suffixes and flexemic positions.
       # Options:
-      # * +:type+ - +:short+ (default, suffix -> positions) or
-      #   +:long+ (position -> suffix)
+      # * +:type+ :
+      # ** +:short+     - suffix -> positions (default)
+      # ** +:long+      - position -> suffix
+      # ** +:canonical+ - like +:short+ but with tags sorted
       def mapping(options={:type => :short})
         case options[:type]
         when :long
           self.form_position.map.with_index do |findex,pindex|
             tags = self.flexeme_type.inflections[pindex]
-            [self.suffixes[findex], tags]
+            [findex && self.suffixes[findex], tags]
           end
+        when :canonical
+          # #1 use FlexemeType canonical order
+          mapping(:type => :short).map{|s,ts| [s,ts.map{|t| t && t.sort}]}
         else
           self.suffixes.map.with_index do |suffix,index|
             tags = self.flexemic_positions[index].
@@ -150,3 +155,4 @@ module Rlp
     end
   end
 end
+
