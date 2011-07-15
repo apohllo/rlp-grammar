@@ -1,9 +1,13 @@
+# external dependencies
+require 'string_cmp_pl'
+
 require 'rlp/grammar/constants'
 require 'rlp/grammar/exception'
 require 'rlp/grammar/client'
 require 'rlp/grammar/model'
 require 'rlp/grammar/category'
 require 'rlp/grammar/value'
+require 'rlp/grammar/compound_value'
 require 'rlp/grammar/word_form'
 require 'rlp/grammar/paradigm'
 require 'rlp/grammar/text_segment'

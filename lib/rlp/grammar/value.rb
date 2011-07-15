@@ -21,8 +21,16 @@ module Rlp
 
       # Returns grammar category value for given +tag+.
       def self.for_tag(tag)
-        value = self.find_by_tag(tag)
-        raise RlpException.new("There is no grammar category value for tag '#{tag}'.") if value.nil?
+        if tag.to_s =~ /\./
+          # TODO This will be removed when Rod fully supports inheritence.
+          value = self.find_by_tag(tag)
+          return value if value
+          values = tag.to_s.split(".").map{|v| self.for_tag(v.to_sym)}
+          value = CompoundValue.new(:values => values)
+        else
+          value = self.find_by_tag(tag)
+          raise RlpException.new("There is no grammar category value for tag '#{tag}'.") if value.nil?
+        end
         value
       end
 
