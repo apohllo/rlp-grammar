@@ -21,7 +21,7 @@ module Rlp
       # The name of the class implementing given flexeme type.
       field :class_name, :string, :index => true
 
-      # The iflections array, i.e. an array containing all the inflectional
+      # The inflections array, i.e. an array containing all the inflectional
       # positions (sets of grammatical categories' values) defined for the
       # flexeme type.
       field :inflections, :object
@@ -53,6 +53,11 @@ module Rlp
         rescue
           raise RlpException.new("Flexemic class '#{self.class_name}' not implemented yet.")
         end
+      end
+
+      # Returns symbol representation of the flexeme type.
+      def to_sym
+        self.tag
       end
 
       # String representation of the flexeme type.
