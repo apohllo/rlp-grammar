@@ -50,19 +50,10 @@ module Rlp
         "Flexeme[#{self.type.tag}]: #{self.lemma}"
       end
 
-      MISSING_MSG = "!MISSING!"
-
       # Flexeme with full inflectional paradigm.
       def pretty_to_s
-        max1 = self.word_forms.map{|f| f && f.value.size}.compact.max + 1
-        max1 = MISSING_MSG.size if MISSING_MSG.size > max1
-        max2 = self.paradigm.suffixes.map{|s| s.size}.max + 1
         "#{self.lemma}[#{self.rod_id}] : #{self.type.name} #{self.paradigm.code}\n" +
-          self.paradigm.mapping(:type => :long).map.with_index do |mapping,index|
-            form = self.word_forms[paradigm.form_position[index]]
-            form = form.nil? ? MISSING_MSG : form.value
-            sprintf("%-#{max1}s%#{max2}s  %s",form,mapping[0],mapping[1..-1].join(":"))
-          end.join("\n")
+          self.paradigm.pretty_to_s(self.word_forms.map{|f| f && f.value})
       end
     end
   end
