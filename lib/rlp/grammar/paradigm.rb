@@ -100,15 +100,28 @@ module Rlp
         @suffix_matcher = /(?:#{re})$/
       end
 
-      # Returns the forms sorted in the order of the suffixes.
-      def sort(forms)
+      # Returns the +forms+ sorted in the order of the suffixes.
+      # If +tags+ are given, the +forms+ are sorted against the
+      # +tags+, not against the paradigm suffixes.
+      def sort(forms,tags=nil)
+        # #7 this causes tags - forms mismatch
         forms = forms.uniq
         matcher = self.suffix_matcher
         result = []
-        forms.each do |form|
-          reverse_position = matcher.match(form).captures.each.
-            with_index{|m,i| break i if m}
-          result[forms.size-reverse_position-1] = form
+        if tags
+          tags = tags.map{|ts| ts.map{|t| t.sort}}
+        end
+        forms.each.with_index do |form,form_index|
+          if tags
+            index = self.tags_index(tags[form_index])
+            result[index] = form if index
+          else
+            matched = matcher.match(form)
+            next if matched.nil?
+            reverse_position = matched.captures.each.
+              with_index{|m,i| break i if m}
+            result[forms.size-reverse_position-1] = form
+          end
         end
         result
       end
@@ -155,4 +168,3 @@ module Rlp
     end
   end
 end
-
