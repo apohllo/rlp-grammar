@@ -80,6 +80,16 @@ module Rlp
         end
       end
 
+      # Returns true if the segment is a quote.
+      def quote?
+        self.form.value =~ /["'\p{Pi}\p{Pf}]/
+      end
+
+      # Returns ture if the first letter is capital.
+      def first_capital?
+        self.letter_case[0] == "M"
+      end
+
       protected
       def fixed_form
         # TODO #12 fix case in semantics export script!!!
@@ -91,6 +101,4 @@ module Rlp
       end
     end
   end
-end
-
 end
