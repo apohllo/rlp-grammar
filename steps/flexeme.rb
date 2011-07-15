@@ -1,39 +1,14 @@
 # encoding: utf-8
-require File.join(File.dirname(__FILE__),"init")
+$:.unshift "steps"
+require 'init'
+require 'utils'
 
-def get_category(name)
-  case name
-  when /przypad(ek|ki)/
-    :case
-  when /rodzaj(e)?/
-    :gender
-  when /liczb(y|a|ę)/
-    :number
-  when /osob(ę|y)/
-    :person
-  when /stop(ień|nie)/
-    :degree
-  when /aspekt/
-    :aspect
-  when /akcentowo/
-    :accent
-  when /poprzyimk/
-    :pospre
-  when /akomodacyj/
-    :accomm
-  when /aglutynacyj/
-    :agglut
-  when /wokaliczno/
-    :vocal
-  when /kasztowo/
-    :lcase
-  end
-end
 
 ################################################################
 # When
 ################################################################
 
+# Jeżeli w słowniku jest forma 'profesor'
 When /^w słowniku jest forma '([^']+)'$/ do |form|
   @form = form
 end
@@ -42,11 +17,14 @@ When /^szukam dla niej fleksemów$/ do
   @flexemes = Rlp::Grammar::Flexeme.find(@form)
 end
 
+# Jeżeli w słowniku jest fleksem typu 'rzeczownik'
 When /^w słowniku jest fleksem typu '([^']+)'$/ do |name|
   klass = Rlp::Grammar::FlexemeType.for_name(name).to_class
   @flexeme = klass.each{|f| break f}
+  raise "Flexeme type doesn't have forms: #{name}" if @flexeme == 0
 end
 
+# Jeżelie w słowniku występuje type fleksemu 'rzeczownik'
 When /^w słowniku występuje typ fleksemu '([^']*)'/ do |name|
   @item = Rlp::Grammar::FlexemeType.for_name(name)
 end
@@ -55,16 +33,19 @@ end
 # Then
 ################################################################
 
+# Wtedy znajduję fleksem typu 'rzeczownik'
 Then /^znajduję fleksem typu '([^']+)'$/ do |type|
   @flexemes.any?{|f| f.type.name == type}.should == true
 end
 
-Then /^posiada on ustalon(y|ą) ([[:lower:]]+)$/ do |ignore,name|
+# Wtedy posiada on ustalony rodzaj
+Then /^posiada on ustalon(?:y|ą) ([[:lower:]]+)$/ do |name|
   category = get_category(name)
   @flexeme.has?(category).should == true
   @flexeme.send(category).should_not == nil
 end
 
+# Wtedy odmienia się przez przypadki
 Then /^odmienia się przez ([[:lower:]]+)$/ do |name|
   category = get_category(name)
   @flexeme.inflects_for?(category).should == true
@@ -73,17 +54,21 @@ Then /^odmienia się przez ([[:lower:]]+)$/ do |name|
   end
 end
 
-Then /^posiada (\d+) pozycj(ę|i) fleksyjn(ą|ych)/ do |count,ignore1,ignore2|
+# Wtedy posiada on 7 pozycji fleksyjnych
+Then /^posiada (\d+) pozycj(?:ę|i|e) fleksyjn(?:ą|ych|e)/ do |count|
   @flexeme.positions.size.should == count.to_i
 end
 
+# Wtedy jest on nieodmienny
 Then /^jest on nieodmienny$/ do
   @flexeme.positions.size.should == 1
 end
 
-Then /^posiada on liczbę ([[:lower:]]+)$/ do |value|
-  value = (value == "pojedynczą" ? :sg : :pl)
-  @flexeme.number.should == value
+# Wtedy posiada liczbę mnogą
+Then /^posiada ([^o][[:lower:]]+) ([[:lower:]].+)$/ do |category,value|
+  category = get_category(category)
+  value = get_value(value)
+  @flexeme.send(category).should == value
 end
 
 Then /^odmienia się przez przypadki: (.*)$/ do |cases|
