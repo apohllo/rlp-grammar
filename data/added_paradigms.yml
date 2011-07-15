@@ -1,0 +1,35 @@
+---
+- :flexeme_type: :xxx
+  :gender: 
+  :suffixes: 
+  - ""
+  :form_position: 
+  - 0
+- :flexeme_type: :adja
+  :gender: 
+  :suffixes: 
+  - ""
+  :form_position: 
+  - 0
+- :flexeme_type: :ger
+  :gender: :n2
+  :suffixes: 
+  - "ia"
+  - "ie"
+  - "iem"
+  - "iu"
+  :form_position: 
+  - 1
+  - 0
+  - 3
+  - 1
+  - 2
+  - 3
+  - 1
+- :flexeme_type: :depr
+  :gender: :m2
+  :suffixes: 
+  - ""
+  :form_position: 
+  - 0
+  - 0

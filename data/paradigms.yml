@@ -1,0 +1,10430 @@
+--- 
+- :form_position: 
+  - 0
+  - 1
+  - 6
+  - 1
+  - 7
+  - 2
+  - 2
+  - 3
+  - 9
+  - 8
+  - 9
+  - 5
+  - 4
+  - 3
+  :suffixes: 
+  - ""
+  - a
+  - e
+  - owie
+  - ach
+  - ami
+  - owi
+  - em
+  - om
+  - "\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 0
+  - 1
+  - 8
+  - 1
+  - 6
+  - 8
+  - 2
+  - 3
+  - 9
+  - 7
+  - 9
+  - 5
+  - 4
+  - 3
+  :suffixes: 
+  - ""
+  - a
+  - e
+  - owie
+  - ach
+  - ami
+  - em
+  - om
+  - u
+  - "\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 0
+  - 1
+  - 5
+  - 1
+  - 6
+  - 8
+  - 8
+  - 2
+  - 9
+  - 7
+  - 9
+  - 4
+  - 3
+  - 2
+  :suffixes: 
+  - ""
+  - a
+  - owie
+  - ach
+  - ami
+  - owi
+  - em
+  - om
+  - u
+  - "\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 6
+  - 0
+  - 3
+  - 0
+  - 4
+  - 7
+  - 7
+  - 9
+  - 8
+  - 5
+  - 8
+  - 2
+  - 1
+  - 9
+  :suffixes: 
+  - syna
+  - synach
+  - synami
+  - synowi
+  - synem
+  - synom
+  - syn
+  - synu
+  - "syn\xC3\xB3w"
+  - syny
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 2
+  - 0
+  - 5
+  - 0
+  - 6
+  - 8
+  - 2
+  - 1
+  - 9
+  - 7
+  - 9
+  - 4
+  - 3
+  - 1
+  :suffixes: 
+  - a
+  - owie
+  - "\xC4\x87|g"
+  - ach
+  - ami
+  - owi
+  - em
+  - om
+  - u
+  - "\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 7
+  - 0
+  - 4
+  - 0
+  - 5
+  - 
+  - 7
+  - 1
+  - 8
+  - 6
+  - 8
+  - 3
+  - 2
+  - 1
+  :suffixes: 
+  - Murnaua
+  - Murnauowie
+  - Murnauach
+  - Murnauami
+  - Murnauowi
+  - Murnauem
+  - Murnauom
+  - Murnau
+  - "Murnau\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 8
+  - 0
+  - 5
+  - 0
+  - 6
+  - 1
+  - 8
+  - 2
+  - 9
+  - 7
+  - 9
+  - 4
+  - 3
+  - 2
+  :suffixes: 
+  - a
+  - e
+  - owie
+  - ach
+  - ami
+  - owi
+  - em
+  - om
+  - x|o
+  - "\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 7
+  - 0
+  - 4
+  - 0
+  - 5
+  - 7
+  - 7
+  - 1
+  - 8
+  - 6
+  - 8
+  - 3
+  - 2
+  - 1
+  :suffixes: 
+  - a
+  - owie
+  - ach
+  - ami
+  - owi
+  - em
+  - om
+  - e|u
+  - "\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 8
+  - 0
+  - 5
+  - 0
+  - 6
+  - 2
+  - 2
+  - 1
+  - 9
+  - 7
+  - 9
+  - 4
+  - 3
+  - 1
+  :suffixes: 
+  - anina
+  - anie
+  - aninie
+  - anach
+  - anami
+  - aninowi
+  - aninem
+  - anom
+  - anin
+  - "an\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 7
+  - 0
+  - 4
+  - 0
+  - 5
+  - 1
+  - 1
+  - 1
+  - 8
+  - 6
+  - 8
+  - 3
+  - 2
+  - 1
+  :suffixes: 
+  - ana
+  - anie
+  - anach
+  - anami
+  - anowi
+  - anem
+  - anom
+  - an
+  - "an\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 0
+  - 1
+  - 5
+  - 1
+  - 6
+  - 8
+  - 8
+  - 2
+  - 9
+  - 7
+  - 9
+  - 4
+  - 3
+  - 2
+  :suffixes: 
+  - ""
+  - a
+  - e
+  - ach
+  - ami
+  - owi
+  - em
+  - om
+  - u
+  - "\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 0
+  - 1
+  - 5
+  - 1
+  - 6
+  - 8
+  - 8
+  - 2
+  - 9
+  - 7
+  - 2
+  - 4
+  - 3
+  - 2
+  :suffixes: 
+  - ""
+  - a
+  - e
+  - ach
+  - ami
+  - owi
+  - em
+  - om
+  - u
+  - "\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :m2
+- :form_position: 
+  - 0
+  - 1
+  - 5
+  - 0
+  - 6
+  - 8
+  - 8
+  - 2
+  - 9
+  - 7
+  - 2
+  - 4
+  - 3
+  - 2
+  :suffixes: 
+  - ""
+  - a
+  - e
+  - ach
+  - ami
+  - owi
+  - em
+  - om
+  - u
+  - "\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :m3
+- :form_position: 
+  - 9
+  - 0
+  - 5
+  - 0
+  - 6
+  - 2
+  - 2
+  - 1
+  - 8
+  - 7
+  - 8
+  - 4
+  - 3
+  - 1
+  :suffixes: 
+  - anina
+  - anie
+  - aninie
+  - anach
+  - anami
+  - aninowi
+  - aninem
+  - anom
+  - an
+  - anin
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 5
+  - 0
+  - 4
+  - 0
+  - 7
+  - 9
+  - 9
+  - 1
+  - 6
+  - 8
+  - 6
+  - 3
+  - 2
+  - 1
+  :suffixes: 
+  - przyjaciela
+  - przyjaciele
+  - "przyjacio\xC5\x82ach"
+  - "przyjaci\xC3\xB3\xC5\x82mi"
+  - przyjacielowi
+  - przyjaciel
+  - "przyjaci\xC3\xB3\xC5\x82"
+  - przyjacielem
+  - "przyjacio\xC5\x82om"
+  - przyjacielu
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 0
+  - 1
+  - 6
+  - 1
+  - 7
+  - 9
+  - 9
+  - 2
+  - 4
+  - 8
+  - 4
+  - 5
+  - 3
+  - 2
+  :suffixes: 
+  - ""
+  - a
+  - e
+  - ach
+  - i
+  - ami
+  - owi
+  - em
+  - om
+  - u
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 0
+  - 1
+  - 6
+  - 1
+  - 7
+  - 9
+  - 9
+  - 2
+  - 4
+  - 8
+  - 2
+  - 5
+  - 3
+  - 2
+  :suffixes: 
+  - ""
+  - a
+  - e
+  - ach
+  - i
+  - ami
+  - owi
+  - em
+  - om
+  - u
+  :flexeme_type: :subst
+  :gender: :m2
+- :form_position: 
+  - 0
+  - 1
+  - 6
+  - 0
+  - 7
+  - 9
+  - 9
+  - 2
+  - 4
+  - 8
+  - 2
+  - 5
+  - 3
+  - 2
+  :suffixes: 
+  - ""
+  - a
+  - e
+  - ach
+  - i
+  - ami
+  - owi
+  - em
+  - om
+  - u
+  :flexeme_type: :subst
+  :gender: :m3
+- :form_position: 
+  - 2
+  - 0
+  - 1
+  - 0
+  - 3
+  - 4
+  - 4
+  :suffixes: 
+  - Zbawiciela
+  - Zbawicielowi
+  - Zbawiciel
+  - Zbawicielem
+  - Zbawicielu
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 1
+  - 0
+  - 6
+  - 0
+  - 7
+  - 9
+  - 9
+  - 2
+  - 4
+  - 8
+  - 4
+  - 5
+  - 3
+  - 2
+  :suffixes: 
+  - "go\xC5\x9Bcia"
+  - "go\xC5\x9B\xC4\x87"
+  - "go\xC5\x9Bcie"
+  - "go\xC5\x9Bciach"
+  - "go\xC5\x9Bci"
+  - "go\xC5\x9B\xC4\x87mi"
+  - "go\xC5\x9Bciowi"
+  - "go\xC5\x9Bciem"
+  - "go\xC5\x9Bciom"
+  - "go\xC5\x9Bciu"
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 0
+  - 1
+  - 5
+  - 1
+  - 6
+  - 8
+  - 8
+  - 2
+  - 9
+  - 7
+  - 9
+  - 4
+  - 3
+  - 2
+  :suffixes: 
+  - ""
+  - a
+  - e
+  - ach
+  - ami
+  - owi
+  - em
+  - om
+  - u
+  - y
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 0
+  - 1
+  - 5
+  - 1
+  - 6
+  - 8
+  - 8
+  - 2
+  - 9
+  - 7
+  - 2
+  - 4
+  - 3
+  - 2
+  :suffixes: 
+  - ""
+  - a
+  - e
+  - ach
+  - ami
+  - owi
+  - em
+  - om
+  - u
+  - y
+  :flexeme_type: :subst
+  :gender: :m2
+- :form_position: 
+  - 0
+  - 1
+  - 5
+  - 0
+  - 6
+  - 8
+  - 8
+  - 2
+  - 9
+  - 7
+  - 2
+  - 4
+  - 3
+  - 2
+  :suffixes: 
+  - ""
+  - a
+  - e
+  - ach
+  - ami
+  - owi
+  - em
+  - om
+  - u
+  - y
+  :flexeme_type: :subst
+  :gender: :m3
+- :form_position: 
+  - 1
+  - 0
+  - 5
+  - 0
+  - 6
+  - 8
+  - 2
+  - 10
+  - 9
+  - 7
+  - 9
+  - 4
+  - 3
+  - 10
+  :suffixes: 
+  - ca
+  - c
+  - cze
+  - cach
+  - cami
+  - cowi
+  - cem
+  - com
+  - cu
+  - "c\xC3\xB3w"
+  - cy
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 0
+  - 1
+  - 5
+  - 1
+  - 6
+  - 2
+  - 2
+  - 9
+  - 8
+  - 7
+  - 8
+  - 4
+  - 3
+  - 9
+  :suffixes: 
+  - ""
+  - a
+  - e
+  - ach
+  - ami
+  - owi
+  - em
+  - om
+  - "\xC3\xB3w"
+  - y
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 0
+  - 1
+  - 5
+  - 1
+  - 6
+  - 2
+  - 2
+  - 9
+  - 8
+  - 7
+  - 9
+  - 4
+  - 3
+  - 9
+  :suffixes: 
+  - ""
+  - a
+  - e
+  - ach
+  - ami
+  - owi
+  - em
+  - om
+  - "\xC3\xB3w"
+  - y
+  :flexeme_type: :subst
+  :gender: :m2
+- :form_position: 
+  - 0
+  - 1
+  - 5
+  - 0
+  - 6
+  - 2
+  - 2
+  - 9
+  - 8
+  - 7
+  - 9
+  - 4
+  - 3
+  - 9
+  :suffixes: 
+  - ""
+  - a
+  - e
+  - ach
+  - ami
+  - owi
+  - em
+  - om
+  - "\xC3\xB3w"
+  - y
+  :flexeme_type: :subst
+  :gender: :m3
+- :form_position: 
+  - 7
+  - 0
+  - 4
+  - 0
+  - 5
+  - 1
+  - 1
+  - 9
+  - 8
+  - 6
+  - 8
+  - 3
+  - 2
+  - 9
+  :suffixes: 
+  - ra
+  - rze
+  - rach
+  - rami
+  - rowi
+  - rem
+  - rom
+  - r
+  - "r\xC3\xB3w"
+  - ry
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 6
+  - 0
+  - 7
+  - 0
+  - 4
+  - 1
+  - 1
+  - 9
+  - 8
+  - 5
+  - 8
+  - 3
+  - 2
+  - 9
+  :suffixes: 
+  - "ch\xC5\x82opa"
+  - "ch\xC5\x82opie"
+  - "ch\xC5\x82opach"
+  - "ch\xC5\x82opami"
+  - "ch\xC5\x82opem"
+  - "ch\xC5\x82opom"
+  - "ch\xC5\x82op"
+  - "ch\xC5\x82opu"
+  - "ch\xC5\x82op\xC3\xB3w"
+  - "ch\xC5\x82opy"
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 7
+  - 0
+  - 4
+  - 0
+  - 5
+  - 1
+  - 1
+  - 9
+  - 8
+  - 6
+  - 9
+  - 3
+  - 2
+  - 9
+  :suffixes: 
+  - a
+  - e
+  - ach
+  - ami
+  - owi
+  - em
+  - om
+  - "\xC5\x82|t"
+  - "\xC3\xB3w"
+  - y
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 1
+  - 0
+  - 7
+  - 0
+  - 5
+  - 7
+  - 2
+  - 9
+  - 8
+  - 6
+  - 8
+  - 4
+  - 3
+  - 9
+  :suffixes: 
+  - "ch\xC5\x82opca"
+  - "ch\xC5\x82opiec"
+  - "ch\xC5\x82opcze"
+  - "ch\xC5\x82opcach"
+  - "ch\xC5\x82opcami"
+  - "ch\xC5\x82opcem"
+  - "ch\xC5\x82opcom"
+  - "ch\xC5\x82opcu"
+  - "ch\xC5\x82opc\xC3\xB3w"
+  - "ch\xC5\x82opcy"
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 0
+  - 1
+  - 4
+  - 1
+  - 5
+  - 7
+  - 7
+  - 9
+  - 8
+  - 6
+  - 8
+  - 3
+  - 2
+  - 9
+  :suffixes: 
+  - ""
+  - a
+  - ach
+  - ami
+  - owi
+  - em
+  - om
+  - u
+  - "\xC3\xB3w"
+  - y
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 2
+  - 0
+  - 4
+  - 0
+  - 5
+  - 7
+  - 7
+  - 9
+  - 8
+  - 6
+  - 9
+  - 3
+  - 1
+  - 9
+  :suffixes: 
+  - ucha
+  - uchach
+  - uch
+  - uchami
+  - uchowi
+  - uchem
+  - uchom
+  - uchu
+  - "uch\xC3\xB3w"
+  - uchy
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 1
+  - 0
+  - 5
+  - 0
+  - 6
+  - 2
+  - 8
+  - 10
+  - 9
+  - 7
+  - 10
+  - 4
+  - 3
+  - 10
+  :suffixes: 
+  - dziada
+  - dziad
+  - dziadzie
+  - dziadach
+  - dziadami
+  - dziadowi
+  - dziadem
+  - dziadom
+  - dziadu
+  - "dziad\xC3\xB3w"
+  - dziady
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 0
+  - 1
+  - 6
+  - 1
+  - 7
+  - 2
+  - 2
+  - 4
+  - 9
+  - 8
+  - 9
+  - 5
+  - 3
+  - 4
+  :suffixes: 
+  - ""
+  - a
+  - e
+  - ach
+  - i
+  - ami
+  - owi
+  - em
+  - om
+  - "\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 4
+  - 0
+  - 2
+  - 0
+  - 3
+  - 1
+  - 1
+  :suffixes: 
+  - Krezusa
+  - Krezusie
+  - Krezusowi
+  - Krezusem
+  - Krezus
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 0
+  - 1
+  - 8
+  - 1
+  - 6
+  - 2
+  - 2
+  - 4
+  - 9
+  - 7
+  - 9
+  - 5
+  - 3
+  - 4
+  :suffixes: 
+  - ""
+  - a
+  - e
+  - ach
+  - i
+  - ami
+  - em
+  - om
+  - u
+  - "\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 0
+  - 1
+  - 5
+  - 1
+  - 6
+  - 8
+  - 8
+  - 3
+  - 9
+  - 7
+  - 9
+  - 4
+  - 2
+  - 3
+  :suffixes: 
+  - ""
+  - a
+  - ach
+  - i
+  - ami
+  - owi
+  - em
+  - om
+  - u
+  - "\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 0
+  - 1
+  - 5
+  - 1
+  - 6
+  - 8
+  - 8
+  - 3
+  - 9
+  - 7
+  - 3
+  - 4
+  - 2
+  - 3
+  :suffixes: 
+  - ""
+  - a
+  - ach
+  - i
+  - ami
+  - owi
+  - iem
+  - om
+  - u
+  - "\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 0
+  - 1
+  - 5
+  - 1
+  - 6
+  - 8
+  - 8
+  - 3
+  - 9
+  - 7
+  - 3
+  - 4
+  - 2
+  - 3
+  :suffixes: 
+  - ""
+  - a
+  - ach
+  - i
+  - ami
+  - owi
+  - iem
+  - om
+  - u
+  - "\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :m2
+- :form_position: 
+  - 0
+  - 1
+  - 5
+  - 0
+  - 6
+  - 8
+  - 8
+  - 3
+  - 9
+  - 7
+  - 3
+  - 4
+  - 2
+  - 3
+  :suffixes: 
+  - ""
+  - a
+  - ach
+  - i
+  - ami
+  - owi
+  - iem
+  - om
+  - u
+  - "\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :m3
+- :form_position: 
+  - 8
+  - 1
+  - 9
+  - 1
+  - 6
+  - 2
+  - 2
+  - 0
+  - 4
+  - 7
+  - 4
+  - 5
+  - 3
+  - 0
+  :suffixes: 
+  - bracia
+  - brata
+  - bracie
+  - braciach
+  - braci
+  - "bra\xC4\x87mi"
+  - bratem
+  - braciom
+  - brat
+  - bratu
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 9
+  - 0
+  - 7
+  - 0
+  - 5
+  - 7
+  - 2
+  - 1
+  - 8
+  - 6
+  - 8
+  - 4
+  - 3
+  - 1
+  :suffixes: 
+  - "ksi\xC4\x99dza"
+  - "ksi\xC4\x99\xC5\xBCa"
+  - "ksi\xC4\x99\xC5\xBCe"
+  - "ksi\xC4\x99\xC5\xBCach"
+  - "ksi\xC4\x99\xC5\xBCmi"
+  - "ksi\xC4\x99dzem"
+  - "ksi\xC4\x99\xC5\xBCom"
+  - "ksi\xC4\x99dzu"
+  - "ksi\xC4\x99\xC5\xBCy"
+  - "ksi\xC4\x85dz"
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 3
+  - 1
+  - 2
+  - 1
+  - 0
+  - 0
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  :suffixes: 
+  - rym
+  - ryego
+  - ryemu
+  - ry
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 0
+  - 7
+  - 9
+  - 7
+  - 1
+  - 5
+  - 8
+  - 2
+  - 10
+  - 6
+  - 10
+  - 4
+  - 3
+  - 2
+  :suffixes: 
+  - ia
+  - "i\xC4\x85"
+  - iowie
+  - iach
+  - iami
+  - im
+  - iom
+  - iego
+  - io
+  - iemu
+  - "i\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 0
+  - 10
+  - 2
+  - 4
+  - 1
+  - 2
+  - 8
+  - 3
+  - 9
+  - 7
+  - 9
+  - 6
+  - 5
+  - 3
+  :suffixes: 
+  - a
+  - "\xC4\x85"
+  - e
+  - owie
+  - "\xC4\x99"
+  - ach
+  - ami
+  - om
+  - o
+  - "\xC3\xB3w"
+  - y
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 0
+  - 9
+  - 9
+  - 3
+  - 1
+  - 9
+  - 7
+  - 2
+  - 8
+  - 6
+  - 8
+  - 5
+  - 4
+  - 2
+  :suffixes: 
+  - a
+  - "\xC4\x85"
+  - owie
+  - "\xC4\x99"
+  - ach
+  - ami
+  - om
+  - o
+  - "\xC3\xB3w"
+  - y
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 0
+  - 9
+  - 2
+  - 4
+  - 1
+  - 2
+  - 0
+  - 3
+  - 8
+  - 7
+  - 8
+  - 6
+  - 5
+  - 3
+  :suffixes: 
+  - a
+  - "\xC4\x85"
+  - e
+  - owie
+  - "\xC4\x99"
+  - ach
+  - ami
+  - om
+  - "\xC3\xB3w"
+  - y
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 0
+  - 8
+  - 8
+  - 3
+  - 1
+  - 8
+  - 0
+  - 2
+  - 7
+  - 6
+  - 7
+  - 5
+  - 4
+  - 2
+  :suffixes: 
+  - a
+  - "\xC4\x85"
+  - owie
+  - "\xC4\x99"
+  - ach
+  - ami
+  - om
+  - "\xC3\xB3w"
+  - y
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 0
+  - 6
+  - 2
+  - 4
+  - 1
+  - 2
+  - 9
+  - 3
+  - 10
+  - 8
+  - 10
+  - 7
+  - 5
+  - 3
+  :suffixes: 
+  - a
+  - "\xC4\x85"
+  - e
+  - owie
+  - "\xC4\x99"
+  - ach
+  - i
+  - ami
+  - om
+  - o
+  - "\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 0
+  - 5
+  - 5
+  - 3
+  - 1
+  - 5
+  - 8
+  - 2
+  - 9
+  - 7
+  - 9
+  - 6
+  - 4
+  - 2
+  :suffixes: 
+  - ia
+  - "i\xC4\x85"
+  - iowie
+  - "i\xC4\x99"
+  - iach
+  - i
+  - iami
+  - iom
+  - io
+  - "i\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 0
+  - 5
+  - 5
+  - 3
+  - 1
+  - 5
+  - 8
+  - 2
+  - 9
+  - 7
+  - 9
+  - 6
+  - 4
+  - 2
+  :suffixes: 
+  - a
+  - "\xC4\x85"
+  - owie
+  - "\xC4\x99"
+  - ach
+  - i
+  - ami
+  - om
+  - o
+  - "\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 0
+  - 6
+  - 2
+  - 4
+  - 1
+  - 2
+  - 0
+  - 3
+  - 9
+  - 8
+  - 9
+  - 7
+  - 5
+  - 3
+  :suffixes: 
+  - a
+  - "\xC4\x85"
+  - e
+  - owie
+  - "\xC4\x99"
+  - ach
+  - i
+  - ami
+  - om
+  - "\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 0
+  - 5
+  - 5
+  - 3
+  - 1
+  - 5
+  - 0
+  - 2
+  - 8
+  - 7
+  - 8
+  - 6
+  - 4
+  - 2
+  :suffixes: 
+  - a
+  - "\xC4\x85"
+  - owie
+  - "\xC4\x99"
+  - ach
+  - i
+  - ami
+  - om
+  - "\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 0
+  - 9
+  - 9
+  - 3
+  - 1
+  - 9
+  - 7
+  - 2
+  - 8
+  - 6
+  - 8
+  - 5
+  - 4
+  - 2
+  :suffixes: 
+  - a
+  - "\xC4\x85"
+  - e
+  - "\xC4\x99"
+  - ach
+  - ami
+  - om
+  - o
+  - "\xC3\xB3w"
+  - y
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 0
+  - 9
+  - 2
+  - 3
+  - 1
+  - 2
+  - 7
+  - 9
+  - 8
+  - 6
+  - 9
+  - 5
+  - 4
+  - 9
+  :suffixes: 
+  - a
+  - "\xC4\x85"
+  - e
+  - "\xC4\x99"
+  - ach
+  - ami
+  - om
+  - o
+  - "\xC3\xB3w"
+  - y
+  :flexeme_type: :subst
+  :gender: :m2
+- :form_position: 
+  - 0
+  - 5
+  - 5
+  - 3
+  - 1
+  - 5
+  - 8
+  - 2
+  - 9
+  - 7
+  - 9
+  - 6
+  - 4
+  - 2
+  :suffixes: 
+  - a
+  - "\xC4\x85"
+  - e
+  - "\xC4\x99"
+  - ach
+  - i
+  - ami
+  - om
+  - o
+  - "\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 0
+  - 5
+  - 5
+  - 3
+  - 1
+  - 5
+  - 8
+  - 2
+  - 5
+  - 7
+  - 9
+  - 6
+  - 4
+  - 2
+  :suffixes: 
+  - "cie\xC5\x9Bla"
+  - "cie\xC5\x9Bl\xC4\x85"
+  - "cie\xC5\x9Ble"
+  - "cie\xC5\x9Bl\xC4\x99"
+  - "cie\xC5\x9Blach"
+  - "cie\xC5\x9Bli"
+  - "cie\xC5\x9Blami"
+  - "cie\xC5\x9Blom"
+  - "cie\xC5\x9Blo"
+  - "cie\xC5\x9Bl\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 0
+  - 5
+  - 5
+  - 3
+  - 1
+  - 5
+  - 8
+  - 2
+  - 5
+  - 7
+  - 2
+  - 6
+  - 4
+  - 2
+  :suffixes: 
+  - encja
+  - "encj\xC4\x85"
+  - encje
+  - "encj\xC4\x99"
+  - encjach
+  - encji
+  - encjami
+  - encjom
+  - encjo
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 0
+  - 5
+  - 2
+  - 3
+  - 1
+  - 2
+  - 8
+  - 10
+  - 9
+  - 7
+  - 9
+  - 6
+  - 4
+  - 10
+  :suffixes: 
+  - a
+  - "\xC4\x85"
+  - e
+  - "\xC4\x99"
+  - ach
+  - i
+  - ami
+  - om
+  - o
+  - "\xC3\xB3w"
+  - y
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 1
+  - 9
+  - 3
+  - 4
+  - 2
+  - 3
+  - 8
+  - 9
+  - 0
+  - 7
+  - 9
+  - 6
+  - 5
+  - 9
+  :suffixes: 
+  - ""
+  - a
+  - "\xC4\x85"
+  - e
+  - "\xC4\x99"
+  - ach
+  - ami
+  - om
+  - o
+  - y
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 1
+  - 9
+  - 3
+  - 4
+  - 2
+  - 3
+  - 8
+  - 9
+  - 0
+  - 7
+  - 9
+  - 6
+  - 5
+  - 9
+  :suffixes: 
+  - ""
+  - a
+  - "\xC4\x85"
+  - e
+  - "\xC4\x99"
+  - ach
+  - ami
+  - om
+  - o
+  - y
+  :flexeme_type: :subst
+  :gender: :f
+- :form_position: 
+  - 0
+  - 9
+  - 2
+  - 3
+  - 1
+  - 2
+  - 7
+  - 10
+  - 8
+  - 6
+  - 8
+  - 5
+  - 4
+  - 10
+  :suffixes: 
+  - tra
+  - "tr\xC4\x85"
+  - trze
+  - "tr\xC4\x99"
+  - trach
+  - trami
+  - trom
+  - tro
+  - "tr\xC3\xB3w"
+  - try
+  - trzy
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 0
+  - 8
+  - 8
+  - 2
+  - 1
+  - 8
+  - 6
+  - 8
+  - 7
+  - 5
+  - 7
+  - 4
+  - 3
+  - 8
+  :suffixes: 
+  - ca
+  - "c\xC4\x85"
+  - "c\xC4\x99"
+  - cach
+  - cami
+  - com
+  - co
+  - "c\xC3\xB3w"
+  - cy
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 0
+  - 10
+  - 2
+  - 3
+  - 1
+  - 2
+  - 9
+  - 6
+  - 8
+  - 7
+  - 8
+  - 5
+  - 4
+  - 6
+  :suffixes: 
+  - "m\xC4\x99\xC5\xBCczyzna"
+  - "m\xC4\x99\xC5\xBCczyzn\xC4\x85"
+  - "m\xC4\x99\xC5\xBCczy\xC5\xBAnie"
+  - "m\xC4\x99\xC5\xBCczyzn\xC4\x99"
+  - "m\xC4\x99\xC5\xBCczyznach"
+  - "m\xC4\x99\xC5\xBCczyznami"
+  - "m\xC4\x99\xC5\xBCczy\xC5\xBAni"
+  - "m\xC4\x99\xC5\xBCczyznom"
+  - "m\xC4\x99\xC5\xBCczyzn"
+  - "m\xC4\x99\xC5\xBCczyzno"
+  - "m\xC4\x99\xC5\xBCczyzny"
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 0
+  - 5
+  - 2
+  - 3
+  - 1
+  - 2
+  - 8
+  - 5
+  - 9
+  - 7
+  - 9
+  - 6
+  - 4
+  - 5
+  :suffixes: 
+  - ka
+  - "k\xC4\x85"
+  - ce
+  - "k\xC4\x99"
+  - kach
+  - ki
+  - kami
+  - kom
+  - ko
+  - "k\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 0
+  - 5
+  - 2
+  - 3
+  - 1
+  - 2
+  - 9
+  - 5
+  - 7
+  - 8
+  - 5
+  - 6
+  - 4
+  - 5
+  :suffixes: 
+  - kaleka
+  - "kalek\xC4\x85"
+  - kalece
+  - "kalek\xC4\x99"
+  - kalekach
+  - kaleki
+  - kalekami
+  - kalek
+  - kalekom
+  - kaleko
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 7
+  - 9
+  - 1
+  - 3
+  - 0
+  - 1
+  - 7
+  - 2
+  - 8
+  - 6
+  - 8
+  - 5
+  - 4
+  - 2
+  :suffixes: 
+  - "\xC4\x85"
+  - e
+  - owie
+  - "\xC4\x99"
+  - ach
+  - ami
+  - om
+  - o
+  - "\xC3\xB3w"
+  - y
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 6
+  - 8
+  - 8
+  - 2
+  - 0
+  - 8
+  - 6
+  - 1
+  - 7
+  - 5
+  - 7
+  - 4
+  - 3
+  - 1
+  :suffixes: 
+  - "\xC4\x85"
+  - owie
+  - "\xC4\x99"
+  - ach
+  - ami
+  - om
+  - o
+  - "\xC3\xB3w"
+  - y
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 7
+  - 9
+  - 1
+  - 3
+  - 0
+  - 1
+  - 7
+  - 2
+  - 8
+  - 6
+  - 8
+  - 5
+  - 4
+  - 2
+  :suffixes: 
+  - "tat\xC4\x85"
+  - tacie
+  - tatowie
+  - "tat\xC4\x99"
+  - tatach
+  - tatami
+  - tatom
+  - tato
+  - "tat\xC3\xB3w"
+  - taty
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 8
+  - 5
+  - 1
+  - 3
+  - 0
+  - 1
+  - 8
+  - 2
+  - 9
+  - 7
+  - 9
+  - 6
+  - 4
+  - 2
+  :suffixes: 
+  - "\xC4\x85"
+  - e
+  - owie
+  - "\xC4\x99"
+  - ach
+  - i
+  - ami
+  - om
+  - o
+  - "\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 7
+  - 4
+  - 4
+  - 2
+  - 0
+  - 4
+  - 7
+  - 1
+  - 8
+  - 6
+  - 8
+  - 5
+  - 3
+  - 1
+  :suffixes: 
+  - "\xC4\x85"
+  - owie
+  - "\xC4\x99"
+  - ach
+  - i
+  - ami
+  - om
+  - o
+  - "\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 7
+  - 0
+  - 4
+  - 0
+  - 5
+  - 8
+  - 7
+  - 1
+  - 9
+  - 6
+  - 9
+  - 3
+  - 2
+  - 1
+  :suffixes: 
+  - a
+  - owie
+  - ach
+  - ami
+  - owi
+  - em
+  - om
+  - o
+  - u
+  - "\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 8
+  - 0
+  - 5
+  - 0
+  - 6
+  - 1
+  - 8
+  - 2
+  - 9
+  - 7
+  - 9
+  - 4
+  - 3
+  - 2
+  :suffixes: 
+  - a
+  - e
+  - owie
+  - ach
+  - ami
+  - owi
+  - em
+  - om
+  - o
+  - "\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 7
+  - 0
+  - 4
+  - 0
+  - 5
+  - 7
+  - 7
+  - 1
+  - 8
+  - 6
+  - 8
+  - 3
+  - 2
+  - 1
+  :suffixes: 
+  - ea
+  - eowie
+  - each
+  - eami
+  - eowi
+  - eem
+  - eom
+  - eo
+  - "e\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 7
+  - 0
+  - 4
+  - 0
+  - 5
+  - 8
+  - 8
+  - 1
+  - 9
+  - 6
+  - 9
+  - 3
+  - 2
+  - 1
+  :suffixes: 
+  - a
+  - owie
+  - ach
+  - ami
+  - owi
+  - iem
+  - om
+  - o
+  - u
+  - "\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 5
+  - 0
+  - 6
+  - 5
+  - 3
+  - 6
+  - 5
+  - 0
+  - 7
+  - 4
+  - 7
+  - 2
+  - 1
+  - 0
+  :suffixes: 
+  - ska
+  - skach
+  - skami
+  - skiem
+  - skom
+  - sko
+  - sku
+  - "sk\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 0
+  - 6
+  - 7
+  - 6
+  - 4
+  - 4
+  - 0
+  - 1
+  - 8
+  - 5
+  - 8
+  - 3
+  - 2
+  - 1
+  :suffixes: 
+  - e
+  - owie
+  - ach
+  - ami
+  - em
+  - om
+  - ego
+  - emu
+  - "\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 0
+  - 5
+  - 6
+  - 5
+  - 3
+  - 3
+  - 0
+  - 0
+  - 1
+  - 4
+  - 1
+  - 2
+  - 1
+  - 0
+  :suffixes: 
+  - e
+  - ych
+  - ymi
+  - em
+  - ym
+  - ego
+  - emu
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 0
+  - 5
+  - 6
+  - 5
+  - 3
+  - 3
+  - 0
+  - 0
+  - 1
+  - 4
+  - 1
+  - 2
+  - 1
+  - 0
+  :suffixes: 
+  - e
+  - ich
+  - imi
+  - em
+  - im
+  - ego
+  - emu
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 2
+  - 1
+  - 3
+  - 1
+  - 0
+  - 0
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  :suffixes: 
+  - aism
+  - aisgo
+  - ais
+  - aismu
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 0
+  - 2
+  - 3
+  - 2
+  - 1
+  - 1
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  :suffixes: 
+  - e
+  - em
+  - ego
+  - emu
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 6
+  - 4
+  - 5
+  - 4
+  - 3
+  - 3
+  - 6
+  - 0
+  - 1
+  - 3
+  - 1
+  - 2
+  - 1
+  - 0
+  :suffixes: 
+  - owie
+  - ych
+  - ymi
+  - ym
+  - ego
+  - emu
+  - y
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 5
+  - 3
+  - 4
+  - 3
+  - 2
+  - 2
+  - 5
+  - 5
+  - 0
+  - 2
+  - 0
+  - 1
+  - 0
+  - 5
+  :suffixes: 
+  - ych
+  - ymi
+  - ym
+  - ego
+  - emu
+  - y
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 5
+  - 3
+  - 4
+  - 3
+  - 2
+  - 2
+  - 5
+  - 6
+  - 0
+  - 2
+  - 0
+  - 1
+  - 0
+  - 6
+  :suffixes: 
+  - rych
+  - rymi
+  - rym
+  - rego
+  - remu
+  - ry
+  - rzy
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 3
+  - 0
+  - 2
+  - 0
+  - 1
+  - 0
+  - 3
+  :suffixes: 
+  - "niekt\xC3\xB3rych"
+  - "niekt\xC3\xB3rymi"
+  - "niekt\xC3\xB3rym"
+  - "niekt\xC3\xB3rzy"
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 6
+  - 4
+  - 5
+  - 4
+  - 3
+  - 3
+  - 6
+  - 1
+  - 0
+  - 3
+  - 0
+  - 2
+  - 0
+  - 1
+  :suffixes: 
+  - ych
+  - i
+  - ymi
+  - ym
+  - ego
+  - emu
+  - y
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 3
+  - 1
+  - 2
+  - 1
+  - 0
+  - 0
+  - 3
+  :suffixes: 
+  - ym
+  - ego
+  - emu
+  - y
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 2
+  - 5
+  - 6
+  - 5
+  - 4
+  - 4
+  - 2
+  - 0
+  - 1
+  - 4
+  - 1
+  - 3
+  - 1
+  - 0
+  :suffixes: 
+  - owie
+  - ich
+  - i
+  - imi
+  - im
+  - ego
+  - emu
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 1
+  - 4
+  - 5
+  - 4
+  - 3
+  - 3
+  - 1
+  - 6
+  - 0
+  - 3
+  - 0
+  - 2
+  - 0
+  - 6
+  :suffixes: 
+  - ich
+  - i
+  - imi
+  - im
+  - iego
+  - iemu
+  - y
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 1
+  - 4
+  - 5
+  - 4
+  - 3
+  - 3
+  - 1
+  - 1
+  - 0
+  - 3
+  - 0
+  - 2
+  - 0
+  - 1
+  :suffixes: 
+  - ich
+  - i
+  - imi
+  - im
+  - ego
+  - emu
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 2
+  - 5
+  - 6
+  - 5
+  - 4
+  - 4
+  - 2
+  - 2
+  - 0
+  - 3
+  - 0
+  - 1
+  - 0
+  - 2
+  :suffixes: 
+  - Mazziniich
+  - Mazziniimi
+  - Mazzini
+  - Mazziniim
+  - Mazzinim
+  - Mazziniego
+  - Mazziniemu
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 2
+  - 0
+  - 8
+  - 0
+  - 5
+  - 8
+  - 2
+  - 1
+  - 7
+  - 6
+  - 7
+  - 4
+  - 3
+  - 1
+  :suffixes: 
+  - "ksi\xC4\x99cia"
+  - "ksi\xC4\x85\xC5\xBC\xC4\x99ta"
+  - "ksi\xC4\x85\xC5\xBC\xC4\x99"
+  - "ksi\xC4\x85\xC5\xBC\xC4\x99tach"
+  - "ksi\xC4\x85\xC5\xBC\xC4\x99tami"
+  - "ksi\xC4\x99ciem"
+  - "ksi\xC4\x85\xC5\xBC\xC4\x99tom"
+  - "ksi\xC4\x85\xC5\xBC\xC4\x85t"
+  - "ksi\xC4\x99ciu"
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 7
+  - 0
+  - 5
+  - 0
+  - 8
+  - 10
+  - 2
+  - 1
+  - 6
+  - 9
+  - 6
+  - 4
+  - 3
+  - 1
+  :suffixes: 
+  - "cz\xC5\x82owieka"
+  - ludzie
+  - "cz\xC5\x82owiecze"
+  - ludziach
+  - "lud\xC5\xBAmi"
+  - "cz\xC5\x82owiekowi"
+  - ludzi
+  - "cz\xC5\x82owiek"
+  - "cz\xC5\x82owiekiem"
+  - ludziom
+  - "cz\xC5\x82owieku"
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 6
+  - 0
+  - 4
+  - 0
+  - 7
+  - 9
+  - 9
+  - 1
+  - 5
+  - 8
+  - 5
+  - 3
+  - 2
+  - 1
+  :suffixes: 
+  - "cz\xC5\x82owieka"
+  - ludzie
+  - ludziach
+  - "lud\xC5\xBAmi"
+  - "cz\xC5\x82owiekowi"
+  - ludzi
+  - "cz\xC5\x82owiek"
+  - "cz\xC5\x82owiekiem"
+  - ludziom
+  - "cz\xC5\x82owieku"
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  :suffixes: 
+  - ""
+  :flexeme_type: :subst
+  :gender: :m1
+- :form_position: 
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  :suffixes: 
+  - ""
+  :flexeme_type: :subst
+  :gender: :m2
+- :form_position: 
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  :suffixes: 
+  - ""
+  :flexeme_type: :subst
+  :gender: :m3
+- :form_position: 
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  :suffixes: 
+  - ""
+  :flexeme_type: :subst
+  :gender: :f
+- :form_position: 
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  :suffixes: 
+  - ""
+  :flexeme_type: :subst
+  :gender: :n2
+- :form_position: 
+  - 0
+  :suffixes: 
+  - ""
+  :flexeme_type: :anl
+  :gender: 
+- :form_position: 
+  - 8
+  - 0
+  - 5
+  - 0
+  - 6
+  - 1
+  - 1
+  - 2
+  - 9
+  - 7
+  - 2
+  - 4
+  - 3
+  - 2
+  :suffixes: 
+  - ansa
+  - ansie
+  - anse
+  - ansach
+  - ansami
+  - ansowi
+  - ansem
+  - ansom
+  - ans
+  - "ans\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :m2
+- :form_position: 
+  - 8
+  - 0
+  - 5
+  - 0
+  - 6
+  - 9
+  - 9
+  - 1
+  - 4
+  - 7
+  - 1
+  - 3
+  - 2
+  - 1
+  :suffixes: 
+  - konia
+  - konie
+  - koniach
+  - "ko\xC5\x84mi"
+  - koni
+  - koniowi
+  - koniem
+  - koniom
+  - "ko\xC5\x84"
+  - koniu
+  :flexeme_type: :subst
+  :gender: :m2
+- :form_position: 
+  - 1
+  - 0
+  - 4
+  - 0
+  - 5
+  - 7
+  - 7
+  - 9
+  - 8
+  - 6
+  - 9
+  - 3
+  - 2
+  - 9
+  :suffixes: 
+  - cha
+  - ch
+  - chach
+  - chami
+  - chowi
+  - chem
+  - chom
+  - chu
+  - "ch\xC3\xB3w"
+  - chy
+  :flexeme_type: :subst
+  :gender: :m2
+- :form_position: 
+  - 1
+  - 0
+  - 4
+  - 1
+  - 5
+  - 7
+  - 7
+  - 9
+  - 8
+  - 6
+  - 9
+  - 3
+  - 2
+  - 9
+  :suffixes: 
+  - cha
+  - ch
+  - chach
+  - chami
+  - chowi
+  - chem
+  - chom
+  - chu
+  - "ch\xC3\xB3w"
+  - chy
+  :flexeme_type: :subst
+  :gender: :m3
+- :form_position: 
+  - 0
+  - 1
+  - 7
+  - 1
+  - 5
+  - 2
+  - 2
+  - 9
+  - 8
+  - 6
+  - 9
+  - 4
+  - 3
+  - 9
+  :suffixes: 
+  - ""
+  - a
+  - e
+  - ach
+  - ami
+  - em
+  - om
+  - u
+  - "\xC3\xB3w"
+  - y
+  :flexeme_type: :subst
+  :gender: :m2
+- :form_position: 
+  - 4
+  - 7
+  - 3
+  - 7
+  - 5
+  - 0
+  - 0
+  - 9
+  - 8
+  - 6
+  - 9
+  - 2
+  - 1
+  - 9
+  :suffixes: 
+  - wole
+  - "wo\xC5\x82ach"
+  - "wo\xC5\x82ami"
+  - "wo\xC5\x82owi"
+  - "w\xC3\xB3\xC5\x82"
+  - "wo\xC5\x82em"
+  - "wo\xC5\x82om"
+  - "wo\xC5\x82u"
+  - "wo\xC5\x82\xC3\xB3w"
+  - "wo\xC5\x82y"
+  :flexeme_type: :subst
+  :gender: :m2
+- :form_position: 
+  - 2
+  - 0
+  - 1
+  - 0
+  - 3
+  - 4
+  - 4
+  :suffixes: 
+  - "chi\xC5\x84czyka"
+  - "chi\xC5\x84czykowi"
+  - "chi\xC5\x84czyk"
+  - "chi\xC5\x84czykiem"
+  - "chi\xC5\x84czyku"
+  :flexeme_type: :subst
+  :gender: :m2
+- :form_position: 
+  - 7
+  - 0
+  - 4
+  - 0
+  - 5
+  - 8
+  - 7
+  - 1
+  - 9
+  - 6
+  - 1
+  - 3
+  - 2
+  - 1
+  :suffixes: 
+  - ia
+  - ie
+  - iach
+  - iami
+  - iowi
+  - iem
+  - iom
+  - io
+  - iu
+  - "i\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :m2
+- :form_position: 
+  - 6
+  - 4
+  - 5
+  - 4
+  - 3
+  - 3
+  - 6
+  - 0
+  - 1
+  - 3
+  - 0
+  - 2
+  - 1
+  - 0
+  :suffixes: 
+  - e
+  - ych
+  - ymi
+  - ym
+  - ego
+  - emu
+  - y
+  :flexeme_type: :subst
+  :gender: :m2
+- :form_position: 
+  - 6
+  - 4
+  - 5
+  - 6
+  - 3
+  - 3
+  - 6
+  - 0
+  - 1
+  - 3
+  - 0
+  - 2
+  - 1
+  - 0
+  :suffixes: 
+  - e
+  - ych
+  - ymi
+  - ym
+  - ego
+  - emu
+  - y
+  :flexeme_type: :subst
+  :gender: :m3
+- :form_position: 
+  - 2
+  - 5
+  - 6
+  - 5
+  - 4
+  - 4
+  - 2
+  - 0
+  - 1
+  - 4
+  - 0
+  - 3
+  - 1
+  - 0
+  :suffixes: 
+  - kie
+  - kich
+  - ki
+  - kimi
+  - kim
+  - kiego
+  - kiemu
+  :flexeme_type: :subst
+  :gender: :m2
+- :form_position: 
+  - 2
+  - 5
+  - 6
+  - 2
+  - 4
+  - 4
+  - 2
+  - 0
+  - 1
+  - 4
+  - 0
+  - 3
+  - 1
+  - 0
+  :suffixes: 
+  - kie
+  - kich
+  - ki
+  - kimi
+  - kim
+  - kiego
+  - kiemu
+  :flexeme_type: :subst
+  :gender: :m3
+- :form_position: 
+  - 0
+  - 7
+  - 4
+  - 0
+  - 5
+  - 1
+  - 1
+  - 9
+  - 8
+  - 6
+  - 9
+  - 3
+  - 2
+  - 9
+  :suffixes: 
+  - ""
+  - e
+  - ach
+  - ami
+  - owi
+  - em
+  - om
+  - u
+  - "\xC3\xB3w"
+  - y
+  :flexeme_type: :subst
+  :gender: :m3
+- :form_position: 
+  - 0
+  - 7
+  - 4
+  - 0
+  - 5
+  - 1
+  - 1
+  - 9
+  - 8
+  - 6
+  - 9
+  - 3
+  - 2
+  - 9
+  :suffixes: 
+  - r|d
+  - e
+  - ach
+  - ami
+  - owi
+  - em
+  - om
+  - u
+  - "\xC3\xB3w"
+  - y
+  :flexeme_type: :subst
+  :gender: :m3
+- :form_position: 
+  - 0
+  - 7
+  - 4
+  - 0
+  - 5
+  - 1
+  - 7
+  - 9
+  - 8
+  - 6
+  - 9
+  - 3
+  - 2
+  - 9
+  :suffixes: 
+  - lud
+  - ludzie
+  - ludach
+  - ludami
+  - ludowi
+  - ludem
+  - ludom
+  - ludu
+  - "lud\xC3\xB3w"
+  - ludy
+  :flexeme_type: :subst
+  :gender: :m3
+- :form_position: 
+  - 0
+  - 6
+  - 3
+  - 0
+  - 4
+  - 6
+  - 6
+  - 8
+  - 7
+  - 5
+  - 8
+  - 2
+  - 1
+  - 8
+  :suffixes: 
+  - ""
+  - ach
+  - ami
+  - owi
+  - em
+  - om
+  - u
+  - "\xC3\xB3w"
+  - y
+  :flexeme_type: :subst
+  :gender: :m3
+- :form_position: 
+  - 0
+  - 1
+  - 7
+  - 0
+  - 5
+  - 2
+  - 2
+  - 9
+  - 8
+  - 6
+  - 9
+  - 4
+  - 3
+  - 9
+  :suffixes: 
+  - ""
+  - a
+  - ie
+  - ach
+  - ami
+  - em
+  - om
+  - u
+  - "\xC3\xB3w"
+  - y
+  :flexeme_type: :subst
+  :gender: :m3
+- :form_position: 
+  - 0
+  - 7
+  - 4
+  - 0
+  - 5
+  - 7
+  - 7
+  - 2
+  - 8
+  - 6
+  - 2
+  - 3
+  - 1
+  - 2
+  :suffixes: 
+  - ""
+  - ach
+  - i
+  - ami
+  - owi
+  - em
+  - om
+  - u
+  - "\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :m3
+- :form_position: 
+  - 1
+  - 3
+  - 0
+  - 1
+  - 2
+  - 3
+  - 3
+  :suffixes: 
+  - bezlikowi
+  - bezlik
+  - bezlikiem
+  - bezliku
+  :flexeme_type: :subst
+  :gender: :m3
+- :form_position: 
+  - 4
+  - 7
+  - 3
+  - 4
+  - 5
+  - 7
+  - 7
+  - 1
+  - 8
+  - 6
+  - 1
+  - 2
+  - 0
+  - 1
+  :suffixes: 
+  - ekach
+  - eki
+  - ekami
+  - ekowi
+  - ek
+  - ekiem
+  - ekom
+  - eku
+  - "ek\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :m3
+- :form_position: 
+  - 0
+  - 1
+  - 5
+  - 0
+  - 6
+  - 8
+  - 8
+  - 3
+  - 3
+  - 7
+  - 3
+  - 4
+  - 2
+  - 3
+  :suffixes: 
+  - ""
+  - ia
+  - iach
+  - i
+  - iami
+  - iowi
+  - iem
+  - iom
+  - iu
+  :flexeme_type: :subst
+  :gender: :m3
+- :form_position: 
+  - 0
+  - 8
+  - 5
+  - 0
+  - 6
+  - 8
+  - 8
+  - 1
+  - 3
+  - 7
+  - 1
+  - 4
+  - 2
+  - 1
+  :suffixes: 
+  - ""
+  - e
+  - ach
+  - i
+  - ami
+  - owi
+  - em
+  - om
+  - u
+  :flexeme_type: :subst
+  :gender: :m3
+- :form_position: 
+  - 0
+  - 7
+  - 4
+  - 0
+  - 5
+  - 7
+  - 7
+  - 1
+  - 8
+  - 6
+  - 1
+  - 3
+  - 2
+  - 1
+  :suffixes: 
+  - ""
+  - e
+  - ach
+  - ami
+  - owi
+  - em
+  - om
+  - u
+  - y
+  :flexeme_type: :subst
+  :gender: :m3
+- :form_position: 
+  - 7
+  - 8
+  - 4
+  - 7
+  - 5
+  - 0
+  - 0
+  - 1
+  - 9
+  - 6
+  - 1
+  - 3
+  - 2
+  - 1
+  :suffixes: 
+  - ansie
+  - anse
+  - ansach
+  - ansami
+  - ansowi
+  - ansem
+  - ansom
+  - ans
+  - ansu
+  - "ans\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :m3
+- :form_position: 
+  - 8
+  - 0
+  - 5
+  - 8
+  - 6
+  - 1
+  - 1
+  - 2
+  - 9
+  - 7
+  - 2
+  - 4
+  - 3
+  - 2
+  :suffixes: 
+  - kwadransa
+  - kwadransie
+  - kwadranse
+  - kwadransach
+  - kwadransami
+  - kwadransowi
+  - kwadransem
+  - kwadransom
+  - kwadrans
+  - "kwadrans\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :m3
+- :form_position: 
+  - 0
+  - 7
+  - 4
+  - 0
+  - 5
+  - 7
+  - 7
+  - 1
+  - 8
+  - 6
+  - 1
+  - 3
+  - 2
+  - 1
+  :suffixes: 
+  - ""
+  - e
+  - ach
+  - ami
+  - owi
+  - em
+  - om
+  - u
+  - "\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :m3
+- :form_position: 
+  - 0
+  - 3
+  - 1
+  - 0
+  - 2
+  - 3
+  - 3
+  :suffixes: 
+  - "dr\xC3\xB3b"
+  - drobiowi
+  - drobiem
+  - drobiu
+  :flexeme_type: :subst
+  :gender: :m3
+- :form_position: 
+  - 0
+  - 1
+  - 6
+  - 0
+  - 7
+  - 9
+  - 9
+  - 2
+  - 4
+  - 8
+  - 2
+  - 5
+  - 3
+  - 2
+  :suffixes: 
+  - ""
+  - ia
+  - ie
+  - iach
+  - i
+  - mi
+  - iowi
+  - iem
+  - iom
+  - iu
+  :flexeme_type: :subst
+  :gender: :m3
+- :form_position: 
+  - 9
+  - 0
+  - 4
+  - 9
+  - 5
+  - 7
+  - 7
+  - 1
+  - 8
+  - 6
+  - 1
+  - 3
+  - 2
+  - 1
+  :suffixes: 
+  - "pieni\xC4\x85dza"
+  - "pieni\xC4\x85dze"
+  - "pieni\xC4\x85dzach"
+  - "pieni\xC4\x99dzmi"
+  - "pieni\xC4\x85dzowi"
+  - "pieni\xC4\x85dzem"
+  - "pieni\xC4\x85dzom"
+  - "pieni\xC4\x85dzu"
+  - "pieni\xC4\x99dzy"
+  - "pieni\xC4\x85dz"
+  :flexeme_type: :subst
+  :gender: :m3
+- :form_position: 
+  - 0
+  - 8
+  - 5
+  - 0
+  - 6
+  - 2
+  - 2
+  - 1
+  - 9
+  - 7
+  - 1
+  - 4
+  - 3
+  - 1
+  :suffixes: 
+  - ""
+  - a
+  - ie
+  - ach
+  - ami
+  - owi
+  - em
+  - om
+  - u
+  - "\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :m3
+- :form_position: 
+  - 7
+  - 0
+  - 4
+  - 7
+  - 5
+  - 8
+  - 8
+  - 1
+  - 9
+  - 6
+  - 1
+  - 3
+  - 2
+  - 1
+  :suffixes: 
+  - pysia
+  - pysie
+  - pysiach
+  - pysiami
+  - pysiowi
+  - pysiem
+  - pysiom
+  - pysio
+  - pysiu
+  - "pysi\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :m3
+- :form_position: 
+  - 4
+  - 8
+  - 3
+  - 4
+  - 5
+  - 8
+  - 8
+  - 0
+  - 7
+  - 6
+  - 0
+  - 2
+  - 1
+  - 0
+  :suffixes: 
+  - lata
+  - latach
+  - latami
+  - rokowi
+  - rok
+  - rokiem
+  - latom
+  - lat
+  - roku
+  :flexeme_type: :subst
+  :gender: :m3
+- :form_position: 
+  - 3
+  - 7
+  - 2
+  - 3
+  - 4
+  - 7
+  - 7
+  - 0
+  - 6
+  - 5
+  - 0
+  - 8
+  - 1
+  - 0
+  :suffixes: 
+  - lata
+  - latach
+  - rokowi
+  - rok
+  - rokiem
+  - latom
+  - lat
+  - roku
+  - laty
+  :flexeme_type: :subst
+  :gender: :m3
+- :form_position: 
+  - 0
+  - 9
+  - 2
+  - 3
+  - 1
+  - 2
+  - 7
+  - 9
+  - 8
+  - 6
+  - 9
+  - 5
+  - 4
+  - 9
+  :suffixes: 
+  - satelita
+  - "satelit\xC4\x85"
+  - satelicie
+  - "satelit\xC4\x99"
+  - satelitach
+  - satelitami
+  - satelitom
+  - satelito
+  - "satelit\xC3\xB3w"
+  - satelity
+  :flexeme_type: :subst
+  :gender: :m3
+- :form_position: 
+  - 0
+  - 10
+  - 3
+  - 4
+  - 1
+  - 2
+  - 9
+  - 10
+  - 7
+  - 8
+  - 10
+  - 6
+  - 5
+  - 10
+  :suffixes: 
+  - "Ludmi\xC5\x82a"
+  - "Ludmi\xC5\x82\xC4\x85"
+  - Ludmile
+  - "Ludmi\xC5\x82e"
+  - "Ludmi\xC5\x82\xC4\x99"
+  - "Ludmi\xC5\x82ach"
+  - "Ludmi\xC5\x82ami"
+  - "Ludmi\xC5\x82"
+  - "Ludmi\xC5\x82om"
+  - "Ludmi\xC5\x82o"
+  - "Ludmi\xC5\x82y"
+  :flexeme_type: :subst
+  :gender: :f
+- :form_position: 
+  - 0
+  - 9
+  - 2
+  - 3
+  - 1
+  - 2
+  - 8
+  - 9
+  - 6
+  - 7
+  - 9
+  - 5
+  - 4
+  - 9
+  :suffixes: 
+  - ua
+  - "u\xC4\x85"
+  - ule
+  - "u\xC4\x99"
+  - uach
+  - uami
+  - ui
+  - uom
+  - uo
+  - uy
+  :flexeme_type: :subst
+  :gender: :f
+- :form_position: 
+  - 0
+  - 5
+  - 5
+  - 2
+  - 1
+  - 5
+  - 7
+  - 8
+  - 5
+  - 6
+  - 8
+  - 4
+  - 3
+  - 8
+  :suffixes: 
+  - ua
+  - "u\xC4\x85"
+  - "u\xC4\x99"
+  - uach
+  - uami
+  - ui
+  - uom
+  - uo
+  - uy
+  :flexeme_type: :subst
+  :gender: :f
+- :form_position: 
+  - 0
+  - 9
+  - 2
+  - 3
+  - 1
+  - 2
+  - 7
+  - 9
+  - 8
+  - 6
+  - 9
+  - 5
+  - 4
+  - 9
+  :suffixes: 
+  - koksa
+  - "koks\xC4\x85"
+  - koksie
+  - "koks\xC4\x99"
+  - koksach
+  - koksami
+  - koksom
+  - kokso
+  - "koks\xC3\xB3w"
+  - koksy
+  :flexeme_type: :subst
+  :gender: :f
+- :form_position: 
+  - 1
+  - 6
+  - 3
+  - 4
+  - 2
+  - 3
+  - 9
+  - 6
+  - 0
+  - 8
+  - 6
+  - 7
+  - 5
+  - 6
+  :suffixes: 
+  - ""
+  - a
+  - "\xC4\x85"
+  - e
+  - "\xC4\x99"
+  - ach
+  - i
+  - ami
+  - om
+  - o
+  :flexeme_type: :subst
+  :gender: :f
+- :form_position: 
+  - 0
+  - 5
+  - 2
+  - 3
+  - 1
+  - 2
+  - 9
+  - 5
+  - 7
+  - 8
+  - 5
+  - 6
+  - 4
+  - 5
+  :suffixes: 
+  - ka
+  - "k\xC4\x85"
+  - ce
+  - "k\xC4\x99"
+  - kach
+  - ki
+  - kami
+  - k
+  - kom
+  - ko
+  :flexeme_type: :subst
+  :gender: :f
+- :form_position: 
+  - 0
+  - 8
+  - 8
+  - 3
+  - 1
+  - 8
+  - 7
+  - 2
+  - 8
+  - 6
+  - 2
+  - 5
+  - 4
+  - 2
+  :suffixes: 
+  - a
+  - "\xC4\x85"
+  - e
+  - "\xC4\x99"
+  - ach
+  - ami
+  - om
+  - o
+  - y
+  :flexeme_type: :subst
+  :gender: :f
+- :form_position: 
+  - 0
+  - 10
+  - 2
+  - 4
+  - 1
+  - 2
+  - 8
+  - 3
+  - 9
+  - 7
+  - 3
+  - 6
+  - 5
+  - 3
+  :suffixes: 
+  - szansa
+  - "szans\xC4\x85"
+  - szansie
+  - szanse
+  - "szans\xC4\x99"
+  - szansach
+  - szansami
+  - szansom
+  - szanso
+  - szans
+  - szansy
+  :flexeme_type: :subst
+  :gender: :f
+- :form_position: 
+  - 0
+  - 8
+  - 8
+  - 3
+  - 1
+  - 8
+  - 7
+  - 2
+  - 9
+  - 6
+  - 2
+  - 5
+  - 4
+  - 2
+  :suffixes: 
+  - a
+  - "\xC4\x85"
+  - e
+  - "\xC4\x99"
+  - ach
+  - ami
+  - om
+  - o
+  - y
+  - c|z
+  :flexeme_type: :subst
+  :gender: :f
+- :form_position: 
+  - 0
+  - 8
+  - 8
+  - 3
+  - 1
+  - 8
+  - 7
+  - 2
+  - 8
+  - 6
+  - 2
+  - 5
+  - 4
+  - 2
+  :suffixes: 
+  - Libusza
+  - "Libusz\xC4\x85"
+  - Libusze
+  - "Libusz\xC4\x99"
+  - Libuszach
+  - Libuszami
+  - Libuszom
+  - Libuszo
+  - Libuszy
+  :flexeme_type: :subst
+  :gender: :f
+- :form_position: 
+  - 0
+  - 9
+  - 2
+  - 4
+  - 1
+  - 2
+  - 8
+  - 3
+  - 5
+  - 7
+  - 3
+  - 6
+  - 5
+  - 3
+  :suffixes: 
+  - "ksi\xC4\x99\xC5\xBCna"
+  - "ksi\xC4\x99\xC5\xBCn\xC4\x85"
+  - "ksi\xC4\x99\xC5\xBCnie"
+  - "ksi\xC4\x99\xC5\xBCne"
+  - "ksi\xC4\x99\xC5\xBCn\xC4\x99"
+  - "ksi\xC4\x99\xC5\xBCnych"
+  - "ksi\xC4\x99\xC5\xBCnymi"
+  - "ksi\xC4\x99\xC5\xBCnom"
+  - "ksi\xC4\x99\xC5\xBCno"
+  - "ksi\xC4\x99\xC5\xBCny"
+  :flexeme_type: :subst
+  :gender: :f
+- :form_position: 
+  - 0
+  - 5
+  - 5
+  - 3
+  - 1
+  - 5
+  - 8
+  - 2
+  - 5
+  - 7
+  - 2
+  - 6
+  - 4
+  - 2
+  :suffixes: 
+  - a
+  - "\xC4\x85"
+  - e
+  - "\xC4\x99"
+  - ach
+  - i
+  - ami
+  - om
+  - o
+  :flexeme_type: :subst
+  :gender: :f
+- :form_position: 
+  - 0
+  - 5
+  - 5
+  - 3
+  - 1
+  - 5
+  - 9
+  - 2
+  - 7
+  - 8
+  - 2
+  - 6
+  - 4
+  - 2
+  :suffixes: 
+  - a
+  - "\xC4\x85"
+  - e
+  - "\xC4\x99"
+  - ach
+  - i
+  - ami
+  - "\xC5\x84|l"
+  - om
+  - o
+  :flexeme_type: :subst
+  :gender: :f
+- :form_position: 
+  - 0
+  - 6
+  - 6
+  - 3
+  - 1
+  - 6
+  - 8
+  - 2
+  - 7
+  - 2
+  - 5
+  - 4
+  - 2
+  :suffixes: 
+  - ziemia
+  - "ziemi\xC4\x85"
+  - ziemie
+  - "ziemi\xC4\x99"
+  - ziemiach
+  - ziemiami
+  - ziemi
+  - ziemiom
+  - ziemio
+  :flexeme_type: :subst
+  :gender: :f
+- :form_position: 
+  - 0
+  - 5
+  - 2
+  - 3
+  - 1
+  - 2
+  - 9
+  - 2
+  - 7
+  - 8
+  - 2
+  - 6
+  - 4
+  - 2
+  :suffixes: 
+  - "r\xC4\x99ka"
+  - "r\xC4\x99k\xC4\x85"
+  - "r\xC4\x99ce"
+  - "r\xC4\x99k\xC4\x99"
+  - "r\xC4\x99kach"
+  - "r\xC4\x99ki"
+  - "r\xC4\x99kami"
+  - "r\xC4\x85k"
+  - "r\xC4\x99kom"
+  - "r\xC4\x99ko"
+  :flexeme_type: :subst
+  :gender: :f
+- :form_position: 
+  - 0
+  - 6
+  - 3
+  - 4
+  - 2
+  - 10
+  - 9
+  - 3
+  - 7
+  - 8
+  - 3
+  - 1
+  - 5
+  - 3
+  :suffixes: 
+  - "r\xC4\x99ka"
+  - "r\xC4\x99koma"
+  - "r\xC4\x99k\xC4\x85"
+  - "r\xC4\x99ce"
+  - "r\xC4\x99k\xC4\x99"
+  - "r\xC4\x99kach"
+  - "r\xC4\x99ki"
+  - "r\xC4\x85k"
+  - "r\xC4\x99kom"
+  - "r\xC4\x99ko"
+  - "r\xC4\x99ku"
+  :flexeme_type: :subst
+  :gender: :f
+- :form_position: 
+  - 0
+  - 5
+  - 5
+  - 3
+  - 1
+  - 5
+  - 8
+  - 2
+  - 5
+  - 7
+  - 2
+  - 6
+  - 4
+  - 2
+  :suffixes: 
+  - a
+  - "\xC4\x85"
+  - e
+  - "\xC4\x99"
+  - ach
+  - i
+  - ami
+  - om
+  - u
+  :flexeme_type: :subst
+  :gender: :f
+- :form_position: 
+  - 1
+  - 6
+  - 6
+  - 4
+  - 2
+  - 6
+  - 9
+  - 3
+  - 0
+  - 8
+  - 3
+  - 7
+  - 5
+  - 3
+  :suffixes: 
+  - ""
+  - a
+  - "\xC4\x85"
+  - e
+  - "\xC4\x99"
+  - ach
+  - i
+  - ami
+  - om
+  - u
+  :flexeme_type: :subst
+  :gender: :f
+- :form_position: 
+  - 0
+  - 5
+  - 5
+  - 1
+  - 1
+  - 5
+  - 7
+  - 2
+  - 3
+  - 6
+  - 2
+  - 4
+  - 3
+  - 2
+  :suffixes: 
+  - a
+  - "\xC4\x85"
+  - e
+  - ych
+  - ymi
+  - ej
+  - ym
+  - o
+  :flexeme_type: :subst
+  :gender: :f
+- :form_position: 
+  - 0
+  - 5
+  - 5
+  - 1
+  - 1
+  - 5
+  - 0
+  - 2
+  - 3
+  - 6
+  - 2
+  - 4
+  - 3
+  - 2
+  :suffixes: 
+  - a
+  - "\xC4\x85"
+  - e
+  - ych
+  - ymi
+  - ej
+  - ym
+  :flexeme_type: :subst
+  :gender: :f
+- :form_position: 
+  - 0
+  - 2
+  - 5
+  - 3
+  - 5
+  - 6
+  - 1
+  - 2
+  - 1
+  - 4
+  - 5
+  - 3
+  - 0
+  - 2
+  :suffixes: 
+  - a
+  - "\xC4\x85"
+  - e
+  - ych
+  - ymi
+  - ej
+  - ym
+  :flexeme_type: :ppron3
+  :gender: :f
+- :form_position: 
+  - 0
+  - 3
+  - 3
+  - 2
+  - 1
+  - 3
+  - 0
+  :suffixes: 
+  - rzeczpospolita
+  - "rzecz\xC4\x85pospolit\xC4\x85"
+  - "rzeczpospolit\xC4\x85"
+  - rzeczypospolitej
+  :flexeme_type: :subst
+  :gender: :f
+- :form_position: 
+  - 0
+  - 5
+  - 5
+  - 1
+  - 1
+  - 5
+  - 0
+  - 2
+  - 3
+  - 6
+  - 2
+  - 4
+  - 3
+  - 2
+  :suffixes: 
+  - a
+  - "\xC4\x85"
+  - ie
+  - ich
+  - imi
+  - iej
+  - im
+  :flexeme_type: :subst
+  :gender: :f
+- :form_position: 
+  - 4
+  - 4
+  - 4
+  - 0
+  - 0
+  - 4
+  - 4
+  - 1
+  - 6
+  - 5
+  - 1
+  - 3
+  - 2
+  - 1
+  :suffixes: 
+  - "pani\xC4\x85"
+  - panie
+  - paniach
+  - paniami
+  - pani
+  - paniom
+  - "pa\xC5\x84"
+  :flexeme_type: :subst
+  :gender: :f
+- :form_position: 
+  - 5
+  - 5
+  - 5
+  - 2
+  - 0
+  - 5
+  - 5
+  - 1
+  - 7
+  - 6
+  - 1
+  - 4
+  - 3
+  - 1
+  :suffixes: 
+  - "ni\xC4\x85"
+  - nie
+  - "ni\xC4\x99"
+  - niach
+  - niami
+  - ni
+  - niom
+  - "\xC5\x84"
+  :flexeme_type: :subst
+  :gender: :f
+- :form_position: 
+  - 0
+  - 4
+  - 4
+  - 0
+  - 1
+  - 4
+  - 4
+  - 2
+  - 4
+  - 6
+  - 2
+  - 5
+  - 3
+  - 2
+  :suffixes: 
+  - ""
+  - "\xC4\x85"
+  - e
+  - ach
+  - i
+  - ami
+  - om
+  :flexeme_type: :subst
+  :gender: :f
+- :form_position: 
+  - 1
+  - 2
+  - 2
+  - 1
+  - 0
+  - 2
+  - 2
+  :suffixes: 
+  - "braci\xC4\x85"
+  - "bra\xC4\x87"
+  - braci
+  :flexeme_type: :subst
+  :gender: :f
+- :form_position: 
+  - 0
+  - 4
+  - 4
+  - 0
+  - 1
+  - 4
+  - 4
+  - 2
+  - 4
+  - 6
+  - 2
+  - 5
+  - 3
+  - 2
+  :suffixes: 
+  - ""
+  - "i\xC4\x85"
+  - ie
+  - iach
+  - i
+  - mi
+  - iom
+  :flexeme_type: :subst
+  :gender: :f
+- :form_position: 
+  - 0
+  - 6
+  - 6
+  - 0
+  - 1
+  - 6
+  - 6
+  - 2
+  - 6
+  - 5
+  - 2
+  - 4
+  - 3
+  - 2
+  :suffixes: 
+  - ""
+  - "\xC4\x85"
+  - e
+  - ach
+  - ami
+  - om
+  - y
+  :flexeme_type: :subst
+  :gender: :f
+- :form_position: 
+  - 2
+  - 1
+  - 1
+  - 2
+  - 0
+  - 1
+  - 1
+  :suffixes: 
+  - "m\xC5\x82odzie\xC5\xBC\xC4\x85"
+  - "m\xC5\x82odzie\xC5\xBCy"
+  - "m\xC5\x82odzie\xC5\xBC"
+  :flexeme_type: :subst
+  :gender: :f
+- :form_position: 
+  - 5
+  - 4
+  - 4
+  - 5
+  - 0
+  - 4
+  - 4
+  - 4
+  - 4
+  - 3
+  - 4
+  - 2
+  - 1
+  - 4
+  :suffixes: 
+  - "z\xC4\x85"
+  - zach
+  - zami
+  - zom
+  - zy
+  - z
+  :flexeme_type: :subst
+  :gender: :f
+- :form_position: 
+  - 0
+  - 3
+  - 3
+  - 0
+  - 1
+  - 3
+  - 3
+  - 3
+  - 3
+  - 5
+  - 3
+  - 4
+  - 2
+  - 3
+  :suffixes: 
+  - ""
+  - "\xC4\x85"
+  - ach
+  - i
+  - ami
+  - om
+  :flexeme_type: :subst
+  :gender: :f
+- :form_position: 
+  - 1
+  - 3
+  - 3
+  - 1
+  - 0
+  - 3
+  - 3
+  - 3
+  - 3
+  - 5
+  - 3
+  - 4
+  - 2
+  - 3
+  :suffixes: 
+  - "ci\xC4\x85"
+  - "\xC4\x87"
+  - ciach
+  - ci
+  - "\xC4\x87mi"
+  - ciom
+  :flexeme_type: :subst
+  :gender: :f
+- :form_position: 
+  - 0
+  - 7
+  - 2
+  - 3
+  - 1
+  - 2
+  - 0
+  - 7
+  - 4
+  - 6
+  - 7
+  - 5
+  - 4
+  - 7
+  :suffixes: 
+  - "\xC3\xB3wna"
+  - "\xC3\xB3wn\xC4\x85"
+  - "\xC3\xB3wnie"
+  - "\xC3\xB3wn\xC4\x99"
+  - "\xC3\xB3wnych"
+  - "\xC3\xB3wnymi"
+  - "\xC3\xB3wnym"
+  - "\xC3\xB3wny"
+  :flexeme_type: :subst
+  :gender: :f
+- :form_position: 
+  - 1
+  - 6
+  - 3
+  - 4
+  - 2
+  - 3
+  - 1
+  - 6
+  - 0
+  - 8
+  - 6
+  - 7
+  - 5
+  - 6
+  :suffixes: 
+  - ""
+  - a
+  - "\xC4\x85"
+  - e
+  - "\xC4\x99"
+  - ach
+  - i
+  - ami
+  - om
+  :flexeme_type: :subst
+  :gender: :f
+- :form_position: 
+  - 1
+  - 8
+  - 3
+  - 4
+  - 2
+  - 3
+  - 1
+  - 8
+  - 0
+  - 7
+  - 8
+  - 6
+  - 5
+  - 8
+  :suffixes: 
+  - ""
+  - a
+  - "\xC4\x85"
+  - e
+  - "\xC4\x99"
+  - ach
+  - ami
+  - om
+  - y
+  :flexeme_type: :subst
+  :gender: :f
+- :form_position: 
+  - 0
+  - 7
+  - 7
+  - 3
+  - 1
+  - 7
+  - 0
+  - 2
+  - 8
+  - 6
+  - 2
+  - 5
+  - 4
+  - 2
+  :suffixes: 
+  - Zawisza
+  - "Zawisz\xC4\x85"
+  - Zawisze
+  - "Zawisz\xC4\x99"
+  - Zawiszach
+  - Zawiszami
+  - Zawiszom
+  - Zawiszy
+  - Zawisz
+  :flexeme_type: :subst
+  :gender: :f
+- :form_position: 
+  - 0
+  - 5
+  - 5
+  - 3
+  - 1
+  - 5
+  - 0
+  - 2
+  - 8
+  - 7
+  - 2
+  - 6
+  - 4
+  - 2
+  :suffixes: 
+  - a
+  - "\xC4\x85"
+  - e
+  - "\xC4\x99"
+  - ach
+  - i
+  - ami
+  - om
+  - "j|\xC5\x84"
+  :flexeme_type: :subst
+  :gender: :f
+- :form_position: 
+  - 6
+  - 1
+  - 7
+  - 6
+  - 4
+  - 7
+  - 6
+  - 1
+  - 0
+  - 5
+  - 1
+  - 3
+  - 2
+  - 1
+  :suffixes: 
+  - ""
+  - a
+  - ach
+  - ami
+  - em
+  - om
+  - o
+  - u
+  :flexeme_type: :subst
+  :gender: :n2
+- :form_position: 
+  - 7
+  - 1
+  - 8
+  - 7
+  - 5
+  - 2
+  - 7
+  - 1
+  - 0
+  - 6
+  - 1
+  - 4
+  - 3
+  - 1
+  :suffixes: 
+  - ""
+  - a
+  - e
+  - ach
+  - ami
+  - em
+  - om
+  - o
+  - u
+  :flexeme_type: :subst
+  :gender: :n2
+- :form_position: 
+  - 3
+  - 0
+  - 4
+  - 3
+  - 2
+  - 1
+  - 3
+  :suffixes: 
+  - a
+  - e
+  - em
+  - o
+  - u
+  :flexeme_type: :subst
+  :gender: :n2
+- :form_position: 
+  - 5
+  - 0
+  - 6
+  - 5
+  - 3
+  - 6
+  - 5
+  - 0
+  - 7
+  - 4
+  - 0
+  - 2
+  - 1
+  - 0
+  :suffixes: 
+  - a
+  - ach
+  - ami
+  - em
+  - om
+  - o
+  - u
+  - "\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :n2
+- :form_position: 
+  - 6
+  - 0
+  - 7
+  - 6
+  - 4
+  - 1
+  - 6
+  - 0
+  - 8
+  - 5
+  - 0
+  - 3
+  - 2
+  - 0
+  :suffixes: 
+  - a
+  - e
+  - ach
+  - ami
+  - em
+  - om
+  - o
+  - u
+  - "\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :n2
+- :form_position: 
+  - 6
+  - 0
+  - 7
+  - 6
+  - 4
+  - 7
+  - 6
+  - 0
+  - 3
+  - 5
+  - 0
+  - 2
+  - 1
+  - 0
+  :suffixes: 
+  - radia
+  - radiach
+  - radiami
+  - radyj
+  - radiem
+  - radiom
+  - radio
+  - radiu
+  :flexeme_type: :subst
+  :gender: :n2
+- :form_position: 
+  - 6
+  - 0
+  - 7
+  - 6
+  - 4
+  - 7
+  - 6
+  - 0
+  - 2
+  - 5
+  - 0
+  - 3
+  - 1
+  - 0
+  :suffixes: 
+  - ola
+  - olach
+  - oli
+  - olami
+  - olem
+  - olom
+  - olo
+  - olu
+  :flexeme_type: :subst
+  :gender: :n2
+- :form_position: 
+  - 2
+  - 1
+  - 3
+  - 2
+  - 0
+  - 0
+  - 2
+  :suffixes: 
+  - wszystkim
+  - wszystkiego
+  - wszystko
+  - wszystkiemu
+  :flexeme_type: :subst
+  :gender: :n2
+- :form_position: 
+  - 5
+  - 0
+  - 6
+  - 5
+  - 3
+  - 6
+  - 5
+  - 8
+  - 7
+  - 4
+  - 8
+  - 2
+  - 1
+  - 8
+  :suffixes: 
+  - a
+  - zach
+  - zami
+  - em
+  - zom
+  - o
+  - u
+  - zu
+  - zy
+  :flexeme_type: :subst
+  :gender: :n2
+- :form_position: 
+  - 5
+  - 0
+  - 6
+  - 5
+  - 3
+  - 6
+  - 5
+  - 8
+  - 7
+  - 4
+  - 8
+  - 1
+  - 2
+  - 8
+  :suffixes: 
+  - a
+  - zyma
+  - zach
+  - em
+  - zom
+  - o
+  - u
+  - zu
+  - zy
+  :flexeme_type: :subst
+  :gender: :n2
+- :form_position: 
+  - 7
+  - 0
+  - 8
+  - 7
+  - 5
+  - 8
+  - 7
+  - 2
+  - 4
+  - 6
+  - 2
+  - 3
+  - 1
+  - 2
+  :suffixes: 
+  - zka
+  - zkach
+  - zki
+  - zkami
+  - zek
+  - zkiem
+  - zkom
+  - zko
+  - zku
+  :flexeme_type: :subst
+  :gender: :n2
+- :form_position: 
+  - 6
+  - 0
+  - 7
+  - 6
+  - 4
+  - 7
+  - 6
+  - 2
+  - 2
+  - 5
+  - 2
+  - 3
+  - 1
+  - 2
+  :suffixes: 
+  - dziecka
+  - dzieciach
+  - dzieci
+  - "dzie\xC4\x87mi"
+  - dzieckiem
+  - dzieciom
+  - dziecko
+  - dziecku
+  :flexeme_type: :subst
+  :gender: :n2
+- :form_position: 
+  - 2
+  - 0
+  - 7
+  - 2
+  - 5
+  - 7
+  - 2
+  - 0
+  - 1
+  - 6
+  - 0
+  - 4
+  - 3
+  - 0
+  :suffixes: 
+  - a
+  - "\xC5\x84|\xC4\x87"
+  - e
+  - ach
+  - ami
+  - em
+  - om
+  - u
+  :flexeme_type: :subst
+  :gender: :n2
+- :form_position: 
+  - 1
+  - 0
+  - 7
+  - 1
+  - 5
+  - 7
+  - 1
+  - 0
+  - 4
+  - 6
+  - 0
+  - 3
+  - 2
+  - 0
+  :suffixes: 
+  - a
+  - e
+  - ach
+  - ami
+  - "n|\xC5\x82"
+  - em
+  - om
+  - u
+  :flexeme_type: :subst
+  :gender: :n2
+- :form_position: 
+  - 1
+  - 0
+  - 6
+  - 1
+  - 4
+  - 6
+  - 1
+  - 0
+  - 7
+  - 5
+  - 0
+  - 3
+  - 2
+  - 0
+  :suffixes: 
+  - a
+  - e
+  - ach
+  - ami
+  - em
+  - om
+  - u
+  - y
+  :flexeme_type: :subst
+  :gender: :n2
+- :form_position: 
+  - 1
+  - 0
+  - 7
+  - 1
+  - 5
+  - 7
+  - 1
+  - 0
+  - 3
+  - 6
+  - 0
+  - 4
+  - 2
+  - 0
+  :suffixes: 
+  - a
+  - e
+  - ach
+  - i
+  - ami
+  - em
+  - om
+  - u
+  :flexeme_type: :subst
+  :gender: :n2
+- :form_position: 
+  - 1
+  - 0
+  - 3
+  - 1
+  - 2
+  - 3
+  - 1
+  :suffixes: 
+  - ia
+  - ie
+  - iem
+  - iu
+  :flexeme_type: :subst
+  :gender: :n2
+- :form_position: 
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 0
+  - 5
+  - 4
+  - 0
+  - 3
+  - 2
+  - 0
+  :suffixes: 
+  - faksymilia
+  - faksymile
+  - faksymiliach
+  - faksymiliami
+  - faksymiliom
+  - "faksymili\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :n2
+- :form_position: 
+  - 0
+  - 4
+  - 5
+  - 0
+  - 3
+  - 3
+  - 0
+  - 0
+  - 1
+  - 3
+  - 0
+  - 2
+  - 1
+  - 0
+  :suffixes: 
+  - e
+  - ych
+  - ymi
+  - ym
+  - ego
+  - emu
+  :flexeme_type: :subst
+  :gender: :n2
+- :form_position: 
+  - 0
+  - 0
+  - 4
+  - 1
+  - 5
+  - 3
+  - 0
+  - 0
+  - 3
+  - 2
+  - 3
+  - 1
+  - 0
+  - 0
+  :suffixes: 
+  - e
+  - ych
+  - ymi
+  - ym
+  - ego
+  - emu
+  :flexeme_type: :ppron3
+  :gender: :n1
+- :form_position: 
+  - 0
+  - 4
+  - 5
+  - 0
+  - 3
+  - 3
+  - 0
+  - 0
+  - 1
+  - 3
+  - 0
+  - 2
+  - 1
+  - 0
+  :suffixes: 
+  - oje
+  - oich
+  - oimi
+  - oim
+  - ojego
+  - ojemu
+  :flexeme_type: :subst
+  :gender: :n2
+- :form_position: 
+  - 2
+  - 0
+  - 8
+  - 2
+  - 5
+  - 8
+  - 2
+  - 1
+  - 7
+  - 6
+  - 1
+  - 4
+  - 3
+  - 1
+  :suffixes: 
+  - "\xC4\x99cia"
+  - "\xC4\x99ta"
+  - "\xC4\x99"
+  - "\xC4\x99tach"
+  - "\xC4\x99tami"
+  - "\xC4\x99ciem"
+  - "\xC4\x99tom"
+  - "\xC4\x85t"
+  - "\xC4\x99ciu"
+  :flexeme_type: :subst
+  :gender: :n2
+- :form_position: 
+  - 2
+  - 0
+  - 8
+  - 2
+  - 5
+  - 8
+  - 2
+  - 1
+  - 7
+  - 6
+  - 1
+  - 4
+  - 3
+  - 1
+  :suffixes: 
+  - mienia
+  - miona
+  - "mi\xC4\x99"
+  - mionach
+  - mionami
+  - mieniem
+  - mionom
+  - mion
+  - mieniu
+  :flexeme_type: :subst
+  :gender: :n2
+- :form_position: 
+  - 4
+  - 4
+  - 4
+  - 4
+  - 4
+  - 4
+  - 4
+  - 0
+  - 5
+  - 3
+  - 0
+  - 2
+  - 1
+  - 0
+  :suffixes: 
+  - a
+  - ach
+  - ami
+  - om
+  - um
+  - "\xC3\xB3w"
+  :flexeme_type: :subst
+  :gender: :n2
+- :form_position: 
+  - 2
+  - 0
+  - 3
+  - 0
+  - 1
+  - 3
+  - 2
+  :suffixes: 
+  - stwa
+  - stwem
+  - stwo
+  - stwu
+  :flexeme_type: :sdef
+  :gender: :p1
+- :form_position: 
+  - 0
+  - 4
+  - 3
+  - 4
+  - 2
+  - 1
+  - 0
+  :suffixes: 
+  - owie
+  - ach
+  - ami
+  - om
+  - "\xC3\xB3w"
+  :flexeme_type: :sdef
+  :gender: :p1
+- :form_position: 
+  - 0
+  - 4
+  - 3
+  - 4
+  - 2
+  - 1
+  - 0
+  :suffixes: 
+  - rodzice
+  - rodzicach
+  - rodzicami
+  - rodzicom
+  - "rodzic\xC3\xB3w"
+  :flexeme_type: :sdef
+  :gender: :p1
+- :form_position: 
+  - 0
+  - 3
+  - 4
+  - 3
+  - 2
+  - 1
+  - 0
+  :suffixes: 
+  - ludzie
+  - ludziach
+  - "lud\xC5\xBAmi"
+  - ludzi
+  - ludziom
+  :flexeme_type: :sdef
+  :gender: :p1
+- :form_position: 
+  - 0
+  - 2
+  - 4
+  - 2
+  - 3
+  - 1
+  - 0
+  :suffixes: 
+  - notable
+  - notablach
+  - notabli
+  - notablami
+  - notablom
+  :flexeme_type: :sdef
+  :gender: :p1
+- :form_position: 
+  - 0
+  - 4
+  - 3
+  - 0
+  - 2
+  - 1
+  - 0
+  :suffixes: 
+  - iska
+  - iskach
+  - iskami
+  - iskom
+  - "isk\xC3\xB3w"
+  :flexeme_type: :sdef
+  :gender: :p1
+- :form_position: 
+  - 4
+  - 3
+  - 2
+  - 3
+  - 1
+  - 0
+  - 4
+  :suffixes: 
+  - "e\xC5\x84cach"
+  - "e\xC5\x84cami"
+  - "e\xC5\x84com"
+  - "e\xC5\x84c\xC3\xB3w"
+  - "e\xC5\x84cy"
+  :flexeme_type: :sdef
+  :gender: :p1
+- :form_position: 
+  - 3
+  - 0
+  - 2
+  - 0
+  - 1
+  - 0
+  - 3
+  :suffixes: 
+  - kich
+  - kimi
+  - kim
+  - cy
+  :flexeme_type: :sdef
+  :gender: :p1
+- :form_position: 
+  - 1
+  - 4
+  - 3
+  - 4
+  - 2
+  - 0
+  - 1
+  :suffixes: 
+  - ach
+  - i
+  - ami
+  - om
+  - "\xC3\xB3w"
+  :flexeme_type: :sdef
+  :gender: :p1
+- :form_position: 
+  - 1
+  - 4
+  - 3
+  - 1
+  - 2
+  - 0
+  - 1
+  :suffixes: 
+  - ach
+  - i
+  - ami
+  - om
+  - "\xC3\xB3w"
+  :flexeme_type: :sdef
+  :gender: :p2
+- :form_position: 
+  - 1
+  - 0
+  - 3
+  - 0
+  - 2
+  - 0
+  - 1
+  :suffixes: 
+  - ych
+  - i
+  - ymi
+  - ym
+  :flexeme_type: :sdef
+  :gender: :p1
+- :form_position: 
+  - 2
+  - 0
+  - 3
+  - 0
+  - 1
+  - 0
+  - 2
+  :suffixes: 
+  - oich
+  - oimi
+  - oi
+  - oim
+  :flexeme_type: :sdef
+  :gender: :p1
+- :form_position: 
+  - 1
+  - 4
+  - 3
+  - 1
+  - 2
+  - 0
+  - 1
+  :suffixes: 
+  - aczkach
+  - aczki
+  - aczkami
+  - aczkom
+  - "aczk\xC3\xB3w"
+  :flexeme_type: :sdef
+  :gender: :p1
+- :form_position: 
+  - 4
+  - 0
+  - 3
+  - 4
+  - 2
+  - 1
+  - 4
+  :suffixes: 
+  - ""
+  - ach
+  - ami
+  - om
+  - y
+  :flexeme_type: :sdef
+  :gender: :p2
+- :form_position: 
+  - 4
+  - 3
+  - 2
+  - 4
+  - 1
+  - 0
+  - 4
+  :suffixes: 
+  - ach
+  - ami
+  - om
+  - "\xC3\xB3w"
+  - y
+  :flexeme_type: :sdef
+  :gender: :p2
+- :form_position: 
+  - 2
+  - 0
+  - 4
+  - 2
+  - 3
+  - 1
+  - 2
+  :suffixes: 
+  - ""
+  - ach
+  - i
+  - ami
+  - om
+  :flexeme_type: :sdef
+  :gender: :p2
+- :form_position: 
+  - 0
+  - 
+  - 
+  - 0
+  - 
+  - 
+  - 0
+  :suffixes: 
+  - "dzi\xC4\x99ki"
+  :flexeme_type: :sdef
+  :gender: :p2
+- :form_position: 
+  - 1
+  - 1
+  - 3
+  - 1
+  - 2
+  - 0
+  - 1
+  :suffixes: 
+  - iach
+  - i
+  - iami
+  - iom
+  :flexeme_type: :sdef
+  :gender: :p2
+- :form_position: 
+  - 1
+  - 0
+  - 4
+  - 1
+  - 3
+  - 2
+  - 1
+  :suffixes: 
+  - ""
+  - e
+  - ach
+  - ami
+  - om
+  :flexeme_type: :sdef
+  :gender: :p2
+- :form_position: 
+  - 0
+  - 4
+  - 3
+  - 0
+  - 2
+  - 1
+  - 0
+  :suffixes: 
+  - e
+  - ach
+  - ami
+  - om
+  - "\xC3\xB3w"
+  :flexeme_type: :sdef
+  :gender: :p2
+- :form_position: 
+  - 0
+  - 2
+  - 4
+  - 0
+  - 3
+  - 1
+  - 0
+  :suffixes: 
+  - e
+  - ach
+  - i
+  - ami
+  - om
+  :flexeme_type: :sdef
+  :gender: :p2
+- :form_position: 
+  - 0
+  - 1
+  - 3
+  - 0
+  - 2
+  - 1
+  - 0
+  :suffixes: 
+  - e
+  - ych
+  - ymi
+  - ym
+  :flexeme_type: :sdef
+  :gender: :p2
+- :form_position: 
+  - 0
+  - 4
+  - 3
+  - 0
+  - 2
+  - 1
+  - 0
+  :suffixes: 
+  - e
+  - ach
+  - ami
+  - om
+  - y
+  :flexeme_type: :sdef
+  :gender: :p2
+- :form_position: 
+  - 0
+  - 1
+  - 3
+  - 0
+  - 2
+  - 1
+  - 0
+  :suffixes: 
+  - ogie
+  - ogich
+  - ogimi
+  - ogim
+  :flexeme_type: :sdef
+  :gender: :p2
+- :form_position: 
+  - 1
+  - 0
+  - 4
+  - 1
+  - 3
+  - 2
+  - 1
+  :suffixes: 
+  - ""
+  - a
+  - ach
+  - ami
+  - om
+  :flexeme_type: :sdef
+  :gender: :p2
+- :form_position: 
+  - 0
+  - 4
+  - 3
+  - 0
+  - 2
+  - 1
+  - 0
+  :suffixes: 
+  - a
+  - ach
+  - ami
+  - om
+  - "\xC3\xB3w"
+  :flexeme_type: :sdef
+  :gender: :p2
+- :form_position: 
+  - 0
+  - 2
+  - 4
+  - 0
+  - 3
+  - 1
+  - 0
+  :suffixes: 
+  - a
+  - ach
+  - i
+  - ami
+  - om
+  :flexeme_type: :sdef
+  :gender: :p2
+- :form_position: 
+  - 0
+  - 4
+  - 3
+  - 0
+  - 2
+  - 1
+  - 0
+  :suffixes: 
+  - a
+  - ach
+  - ami
+  - om
+  - y
+  :flexeme_type: :sdef
+  :gender: :p2
+- :form_position: 
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  :suffixes: 
+  - nazi
+  :flexeme_type: :sdef
+  :gender: :p2
+- :form_position: 
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  :suffixes: 
+  - Clermont
+  :flexeme_type: :xxs
+  :gender: 
+- :form_position: 
+  - 2
+  - 0
+  - 3
+  - 1
+  - 4
+  :suffixes: 
+  - "owa\xC5\x82a"
+  - owali
+  - "owa\xC5\x82"
+  - "owa\xC5\x82o"
+  - "owa\xC5\x82y"
+  :flexeme_type: :praet
+  :gender: 
+- :form_position: 
+  - 3
+  - 4
+  - 5
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - "uj\xC4\x85"
+  - ujecie
+  - uje
+  - "uj\xC4\x99"
+  - ujemy
+  - ujesz
+  :flexeme_type: :fin
+  :gender: 
+- :form_position: 
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - ujcie
+  - uj
+  - ujmy
+  :flexeme_type: :impt
+  :gender: 
+- :form_position: 
+  - 
+  - 
+  - 
+  - 
+  - 0
+  :suffixes: 
+  - brakuje
+  :flexeme_type: :fin
+  :gender: 
+- :form_position: 
+  - 
+  - 
+  - 0
+  :suffixes: 
+  - "brakowa\xC5\x82o"
+  :flexeme_type: :praet
+  :gender: 
+- :form_position: 
+  - 2
+  - 0
+  - 3
+  - 1
+  - 4
+  :suffixes: 
+  - "ywa\xC5\x82a"
+  - ywali
+  - "ywa\xC5\x82"
+  - "ywa\xC5\x82o"
+  - "ywa\xC5\x82y"
+  :flexeme_type: :praet
+  :gender: 
+- :form_position: 
+  - 2
+  - 0
+  - 3
+  - 1
+  - 4
+  :suffixes: 
+  - "iwa\xC5\x82a"
+  - iwali
+  - "iwa\xC5\x82"
+  - "iwa\xC5\x82o"
+  - "iwa\xC5\x82y"
+  :flexeme_type: :praet
+  :gender: 
+- :form_position: 
+  - 2
+  - 0
+  - 3
+  - 1
+  - 4
+  :suffixes: 
+  - "liwa\xC5\x82a"
+  - liwali
+  - "liwa\xC5\x82"
+  - "liwa\xC5\x82o"
+  - "liwa\xC5\x82y"
+  :flexeme_type: :praet
+  :gender: 
+- :form_position: 
+  - 3
+  - 4
+  - 5
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - "liwuj\xC4\x85"
+  - liwujecie
+  - liwuje
+  - "liwuj\xC4\x99"
+  - liwujemy
+  - liwujesz
+  :flexeme_type: :fin
+  :gender: 
+- :form_position: 
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - liwujcie
+  - liwuj
+  - liwujmy
+  :flexeme_type: :impt
+  :gender: 
+- :form_position: 
+  - 2
+  - 0
+  - 3
+  - 1
+  - 4
+  :suffixes: 
+  - "awa\xC5\x82a"
+  - awali
+  - "awa\xC5\x82"
+  - "awa\xC5\x82o"
+  - "awa\xC5\x82y"
+  :flexeme_type: :praet
+  :gender: 
+- :form_position: 
+  - 3
+  - 4
+  - 5
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - "aj\xC4\x85"
+  - ajecie
+  - aje
+  - "aj\xC4\x99"
+  - ajemy
+  - ajesz
+  :flexeme_type: :fin
+  :gender: 
+- :form_position: 
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - awajcie
+  - awaj
+  - awajmy
+  :flexeme_type: :impt
+  :gender: 
+- :form_position: 
+  - 0
+  - 2
+  - 1
+  :suffixes: 
+  - ""
+  - cie
+  - my
+  :flexeme_type: :impt
+  :gender: 
+- :form_position: 
+  - 2
+  - 0
+  - 3
+  - 1
+  - 4
+  :suffixes: 
+  - "a\xC5\x82a"
+  - ali
+  - "a\xC5\x82"
+  - "a\xC5\x82o"
+  - "a\xC5\x82y"
+  :flexeme_type: :praet
+  :gender: 
+- :form_position: 
+  - 3
+  - 4
+  - 5
+  - 2
+  - 1
+  - 0
+  :suffixes: 
+  - "\xC4\x85"
+  - e
+  - ecie
+  - "\xC4\x99"
+  - emy
+  - esz
+  :flexeme_type: :fin
+  :gender: 
+- :form_position: 
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - ijcie
+  - ij
+  - ijmy
+  :flexeme_type: :impt
+  :gender: 
+- :form_position: 
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - ajcie
+  - aj
+  - ajmy
+  :flexeme_type: :impt
+  :gender: 
+- :form_position: 
+  - 2
+  - 0
+  - 3
+  - 1
+  - 4
+  :suffixes: 
+  - "\xC5\x82ga\xC5\x82a"
+  - "\xC5\x82gali"
+  - "\xC5\x82ga\xC5\x82"
+  - "\xC5\x82ga\xC5\x82o"
+  - "\xC5\x82ga\xC5\x82y"
+  :flexeme_type: :praet
+  :gender: 
+- :form_position: 
+  - 3
+  - 4
+  - 5
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - "\xC5\x82\xC5\xBC\xC4\x85"
+  - "\xC5\x82\xC5\xBCecie"
+  - "\xC5\x82\xC5\xBCe"
+  - "\xC5\x82\xC5\xBC\xC4\x99"
+  - "\xC5\x82\xC5\xBCemy"
+  - "\xC5\x82\xC5\xBCesz"
+  :flexeme_type: :fin
+  :gender: 
+- :form_position: 
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - "\xC5\x82\xC5\xBCyjcie"
+  - "\xC5\x82\xC5\xBCyj"
+  - "\xC5\x82\xC5\xBCyjmy"
+  :flexeme_type: :impt
+  :gender: 
+- :form_position: 
+  - 2
+  - 0
+  - 3
+  - 1
+  - 4
+  :suffixes: 
+  - "ar\xC5\x82a"
+  - arli
+  - "ar\xC5\x82"
+  - "ar\xC5\x82o"
+  - "ar\xC5\x82y"
+  :flexeme_type: :praet
+  :gender: 
+- :form_position: 
+  - 3
+  - 4
+  - 5
+  - 2
+  - 1
+  - 0
+  :suffixes: 
+  - "r\xC4\x85"
+  - e
+  - ecie
+  - "r\xC4\x99"
+  - emy
+  - esz
+  :flexeme_type: :fin
+  :gender: 
+- :form_position: 
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - yjcie
+  - yj
+  - yjmy
+  :flexeme_type: :impt
+  :gender: 
+- :form_position: 
+  - 2
+  - 0
+  - 3
+  - 1
+  - 4
+  :suffixes: 
+  - "chcia\xC5\x82a"
+  - chcieli
+  - "chcia\xC5\x82"
+  - "chcia\xC5\x82o"
+  - "chcia\xC5\x82y"
+  :flexeme_type: :praet
+  :gender: 
+- :form_position: 
+  - 3
+  - 4
+  - 5
+  - 2
+  - 1
+  - 0
+  :suffixes: 
+  - "chc\xC4\x85"
+  - chce
+  - chcecie
+  - "chc\xC4\x99"
+  - chcemy
+  - chcesz
+  :flexeme_type: :fin
+  :gender: 
+- :form_position: 
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - chciejcie
+  - chciej
+  - chciejmy
+  :flexeme_type: :impt
+  :gender: 
+- :form_position: 
+  - 2
+  - 0
+  - 3
+  - 1
+  - 4
+  :suffixes: 
+  - "la\xC5\x82a"
+  - leli
+  - "la\xC5\x82"
+  - "la\xC5\x82o"
+  - "la\xC5\x82y"
+  :flexeme_type: :praet
+  :gender: 
+- :form_position: 
+  - 3
+  - 4
+  - 5
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - "l\xC4\x85"
+  - lecie
+  - le
+  - "l\xC4\x99"
+  - lemy
+  - lesz
+  :flexeme_type: :fin
+  :gender: 
+- :form_position: 
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - lcie
+  - l
+  - lmy
+  :flexeme_type: :impt
+  :gender: 
+- :form_position: 
+  - 2
+  - 0
+  - 3
+  - 1
+  - 4
+  :suffixes: 
+  - "pachnia\xC5\x82a"
+  - pachnieli
+  - "pachnia\xC5\x82"
+  - "pachnia\xC5\x82o"
+  - "pachnia\xC5\x82y"
+  :flexeme_type: :praet
+  :gender: 
+- :form_position: 
+  - 3
+  - 4
+  - 5
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - "pachn\xC4\x85"
+  - pachniecie
+  - pachnie
+  - "pachn\xC4\x99"
+  - pachniemy
+  - pachniesz
+  :flexeme_type: :fin
+  :gender: 
+- :form_position: 
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - pachnijcie
+  - pachnij
+  - pachnijmy
+  :flexeme_type: :impt
+  :gender: 
+- :form_position: 
+  - 2
+  - 0
+  - 3
+  - 1
+  - 4
+  :suffixes: 
+  - "wrza\xC5\x82a"
+  - wrzeli
+  - "wrza\xC5\x82"
+  - "wrza\xC5\x82o"
+  - "wrza\xC5\x82y"
+  :flexeme_type: :praet
+  :gender: 
+- :form_position: 
+  - 3
+  - 4
+  - 5
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - "wr\xC4\x85"
+  - wrzecie
+  - wrze
+  - "wr\xC4\x99"
+  - wrzemy
+  - wrzesz
+  :flexeme_type: :fin
+  :gender: 
+- :form_position: 
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - wrzyjcie
+  - wrzyj
+  - wrzyjmy
+  :flexeme_type: :impt
+  :gender: 
+- :form_position: 
+  - 2
+  - 0
+  - 3
+  - 1
+  - 4
+  :suffixes: 
+  - "a\xC5\x82a"
+  - eli
+  - "a\xC5\x82"
+  - "a\xC5\x82o"
+  - "a\xC5\x82y"
+  :flexeme_type: :praet
+  :gender: 
+- :form_position: 
+  - 3
+  - 4
+  - 5
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - "ej\xC4\x85"
+  - ejecie
+  - eje
+  - "ej\xC4\x99"
+  - ejemy
+  - ejesz
+  :flexeme_type: :fin
+  :gender: 
+- :form_position: 
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - ejcie
+  - ej
+  - ejmy
+  :flexeme_type: :impt
+  :gender: 
+- :form_position: 
+  - 2
+  - 0
+  - 3
+  - 1
+  - 4
+  :suffixes: 
+  - "n\xC4\x99\xC5\x82a"
+  - "n\xC4\x99li"
+  - "n\xC4\x85\xC5\x82"
+  - "n\xC4\x99\xC5\x82o"
+  - "n\xC4\x99\xC5\x82y"
+  :flexeme_type: :praet
+  :gender: 
+- :form_position: 
+  - 3
+  - 4
+  - 5
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - "n\xC4\x85"
+  - niecie
+  - nie
+  - "n\xC4\x99"
+  - niemy
+  - niesz
+  :flexeme_type: :fin
+  :gender: 
+- :form_position: 
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - nijcie
+  - nij
+  - nijmy
+  :flexeme_type: :impt
+  :gender: 
+- :form_position: 
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - "\xC5\x84cie"
+  - "\xC5\x84"
+  - "\xC5\x84my"
+  :flexeme_type: :impt
+  :gender: 
+- :form_position: 
+  - 2
+  - 0
+  - 3
+  - 1
+  - 4
+  :suffixes: 
+  - "\xC5\x82a"
+  - li
+  - "\xC5\x82"
+  - "\xC5\x82o"
+  - "\xC5\x82y"
+  :flexeme_type: :praet
+  :gender: 
+- :form_position: 
+  - 2
+  - 0
+  - 3
+  - 1
+  - 4
+  :suffixes: 
+  - "wnik\xC5\x82a"
+  - wnikli
+  - "wnik\xC5\x82"
+  - "wnik\xC5\x82o"
+  - "wnik\xC5\x82y"
+  :flexeme_type: :praet
+  :gender: 
+- :form_position: 
+  - 3
+  - 4
+  - 5
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - "wnikn\xC4\x85"
+  - wnikniecie
+  - wniknie
+  - "wnikn\xC4\x99"
+  - wnikniemy
+  - wnikniesz
+  :flexeme_type: :fin
+  :gender: 
+- :form_position: 
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - wniknijcie
+  - wniknij
+  - wniknijmy
+  :flexeme_type: :impt
+  :gender: 
+- :form_position: 
+  - 2
+  - 0
+  - 3
+  - 1
+  - 4
+  :suffixes: 
+  - "pe\xC5\x82z\xC5\x82a"
+  - "pe\xC5\x82zli"
+  - "pe\xC5\x82z\xC5\x82"
+  - "pe\xC5\x82z\xC5\x82o"
+  - "pe\xC5\x82z\xC5\x82y"
+  :flexeme_type: :praet
+  :gender: 
+- :form_position: 
+  - 3
+  - 4
+  - 5
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - "pe\xC5\x82zn\xC4\x85"
+  - "pe\xC5\x82zniecie"
+  - "pe\xC5\x82znie"
+  - "pe\xC5\x82zn\xC4\x99"
+  - "pe\xC5\x82zniemy"
+  - "pe\xC5\x82zniesz"
+  :flexeme_type: :fin
+  :gender: 
+- :form_position: 
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - "pe\xC5\x82znijcie"
+  - "pe\xC5\x82znij"
+  - "pe\xC5\x82znijmy"
+  :flexeme_type: :impt
+  :gender: 
+- :form_position: 
+  - 2
+  - 0
+  - 3
+  - 1
+  - 4
+  :suffixes: 
+  - "krad\xC5\x82a"
+  - kradli
+  - "krad\xC5\x82"
+  - "krad\xC5\x82o"
+  - "krad\xC5\x82y"
+  :flexeme_type: :praet
+  :gender: 
+- :form_position: 
+  - 3
+  - 4
+  - 5
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - "kradn\xC4\x85"
+  - kradniecie
+  - kradnie
+  - "kradn\xC4\x99"
+  - kradniemy
+  - kradniesz
+  :flexeme_type: :fin
+  :gender: 
+- :form_position: 
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - kradnijcie
+  - kradnij
+  - kradnijmy
+  :flexeme_type: :impt
+  :gender: 
+- :form_position: 
+  - 2
+  - 0
+  - 3
+  - 1
+  - 4
+  :suffixes: 
+  - "rzek\xC5\x82a"
+  - rzekli
+  - "rzek\xC5\x82"
+  - "rzek\xC5\x82o"
+  - "rzek\xC5\x82y"
+  :flexeme_type: :praet
+  :gender: 
+- :form_position: 
+  - 3
+  - 4
+  - 5
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - "rzekn\xC4\x85"
+  - rzekniecie
+  - rzeknie
+  - "rzekn\xC4\x99"
+  - rzekniemy
+  - rzekniesz
+  :flexeme_type: :fin
+  :gender: 
+- :form_position: 
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - rzeknijcie
+  - rzeknij
+  - rzeknijmy
+  :flexeme_type: :impt
+  :gender: 
+- :form_position: 
+  - 2
+  - 0
+  - 3
+  - 1
+  - 4
+  :suffixes: 
+  - "l\xC4\x99g\xC5\x82a"
+  - "l\xC4\x99gli"
+  - "l\xC4\x85g\xC5\x82"
+  - "l\xC4\x99g\xC5\x82o"
+  - "l\xC4\x99g\xC5\x82y"
+  :flexeme_type: :praet
+  :gender: 
+- :form_position: 
+  - 3
+  - 4
+  - 5
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - "l\xC4\x99gn\xC4\x85"
+  - "l\xC4\x99gniecie"
+  - "l\xC4\x99gnie"
+  - "l\xC4\x99gn\xC4\x99"
+  - "l\xC4\x99gniemy"
+  - "l\xC4\x99gniesz"
+  :flexeme_type: :fin
+  :gender: 
+- :form_position: 
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - "l\xC4\x99gnijcie"
+  - "l\xC4\x99gnij"
+  - "l\xC4\x99gnijmy"
+  :flexeme_type: :impt
+  :gender: 
+- :form_position: 
+  - 2
+  - 0
+  - 3
+  - 1
+  - 4
+  :suffixes: 
+  - "sta\xC5\x82a"
+  - stali
+  - "sta\xC5\x82"
+  - "sta\xC5\x82o"
+  - "sta\xC5\x82y"
+  :flexeme_type: :praet
+  :gender: 
+- :form_position: 
+  - 3
+  - 4
+  - 5
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - "stan\xC4\x85"
+  - staniecie
+  - stanie
+  - "stan\xC4\x99"
+  - staniemy
+  - staniesz
+  :flexeme_type: :fin
+  :gender: 
+- :form_position: 
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - "sta\xC5\x84cie"
+  - "sta\xC5\x84"
+  - "sta\xC5\x84my"
+  :flexeme_type: :impt
+  :gender: 
+- :form_position: 
+  - 3
+  - 4
+  - 5
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - "j\xC4\x85"
+  - jecie
+  - je
+  - "j\xC4\x99"
+  - jemy
+  - jesz
+  :flexeme_type: :fin
+  :gender: 
+- :form_position: 
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - jcie
+  - j
+  - jmy
+  :flexeme_type: :impt
+  :gender: 
+- :form_position: 
+  - 2
+  - 0
+  - 3
+  - 1
+  - 4
+  :suffixes: 
+  - "gni\xC5\x82a"
+  - gnili
+  - "gni\xC5\x82"
+  - "gni\xC5\x82o"
+  - "gni\xC5\x82y"
+  :flexeme_type: :praet
+  :gender: 
+- :form_position: 
+  - 3
+  - 4
+  - 5
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - "gnij\xC4\x85"
+  - gnijecie
+  - gnije
+  - "gnij\xC4\x99"
+  - gnijemy
+  - gnijesz
+  :flexeme_type: :fin
+  :gender: 
+- :form_position: 
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - gnijcie
+  - gnij
+  - gnijmy
+  :flexeme_type: :impt
+  :gender: 
+- :form_position: 
+  - 2
+  - 0
+  - 3
+  - 1
+  - 4
+  :suffixes: 
+  - "mog\xC5\x82a"
+  - mogli
+  - "m\xC3\xB3g\xC5\x82"
+  - "mog\xC5\x82o"
+  - "mog\xC5\x82y"
+  :flexeme_type: :praet
+  :gender: 
+- :form_position: 
+  - 3
+  - 4
+  - 5
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - "mog\xC4\x85"
+  - "mo\xC5\xBCecie"
+  - "mo\xC5\xBCe"
+  - "mog\xC4\x99"
+  - "mo\xC5\xBCemy"
+  - "mo\xC5\xBCesz"
+  :flexeme_type: :fin
+  :gender: 
+- :form_position: 
+  - 2
+  - 0
+  - 3
+  - 1
+  - 4
+  :suffixes: 
+  - "wzi\xC4\x99\xC5\x82a"
+  - "wzi\xC4\x99li"
+  - "wzi\xC4\x85\xC5\x82"
+  - "wzi\xC4\x99\xC5\x82o"
+  - "wzi\xC4\x99\xC5\x82y"
+  :flexeme_type: :praet
+  :gender: 
+- :form_position: 
+  - 3
+  - 4
+  - 5
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - "wezm\xC4\x85"
+  - "we\xC5\xBAmiecie"
+  - "we\xC5\xBAmie"
+  - "wezm\xC4\x99"
+  - "we\xC5\xBAmiemy"
+  - "we\xC5\xBAmiesz"
+  :flexeme_type: :fin
+  :gender: 
+- :form_position: 
+  - 2
+  - 1
+  - 0
+  :suffixes: 
+  - "we\xC5\xBAcie"
+  - "we\xC5\xBAmy"
+  - "we\xC5\xBA"
+  :flexeme_type: :impt
+  :gender: 
+- :form_position: 
+  - 2
+  - 0
+  - 3
+  - 1
+  - 4
+  :suffixes: 
+  - "\xC4\x99\xC5\x82a"
+  - "\xC4\x99li"
+  - "\xC4\x85\xC5\x82"
+  - "\xC4\x99\xC5\x82o"
+  - "\xC4\x99\xC5\x82y"
+  :flexeme_type: :praet
+  :gender: 
+- :form_position: 
+  - 3
+  - 4
+  - 5
+  - 2
+  - 1
+  - 0
+  :suffixes: 
+  - "\xC4\x85"
+  - ie
+  - iecie
+  - "\xC4\x99"
+  - iemy
+  - iesz
+  :flexeme_type: :fin
+  :gender: 
+- :form_position: 
+  - 2
+  - 0
+  - 3
+  - 1
+  - 4
+  :suffixes: 
+  - "wy\xC5\xBC\xC4\x99\xC5\x82a"
+  - "wy\xC5\xBC\xC4\x99li"
+  - "wy\xC5\xBC\xC4\x85\xC5\x82"
+  - "wy\xC5\xBC\xC4\x99\xC5\x82o"
+  - "wy\xC5\xBC\xC4\x99\xC5\x82y"
+  :flexeme_type: :praet
+  :gender: 
+- :form_position: 
+  - 3
+  - 4
+  - 5
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - "wy\xC5\xBCm\xC4\x85"
+  - "wy\xC5\xBCmiecie"
+  - "wy\xC5\xBCmie"
+  - "wy\xC5\xBCm\xC4\x99"
+  - "wy\xC5\xBCmiemy"
+  - "wy\xC5\xBCmiesz"
+  :flexeme_type: :fin
+  :gender: 
+- :form_position: 
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - "wy\xC5\xBCmijcie"
+  - "wy\xC5\xBCmij"
+  - "wy\xC5\xBCmijmy"
+  :flexeme_type: :impt
+  :gender: 
+- :form_position: 
+  - 2
+  - 0
+  - 3
+  - 1
+  - 4
+  :suffixes: 
+  - "spa\xC5\x82a"
+  - spali
+  - "spa\xC5\x82"
+  - "spa\xC5\x82o"
+  - "spa\xC5\x82y"
+  :flexeme_type: :praet
+  :gender: 
+- :form_position: 
+  - 2
+  - 4
+  - 5
+  - 1
+  - 3
+  - 0
+  :suffixes: 
+  - "\xC5\x9Bpi\xC4\x85"
+  - "\xC5\x9Bpicie"
+  - "\xC5\x9Bpi\xC4\x99"
+  - "\xC5\x9Bpi"
+  - "\xC5\x9Bpimy"
+  - "\xC5\x9Bpisz"
+  :flexeme_type: :fin
+  :gender: 
+- :form_position: 
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - "\xC5\x9Bpijcie"
+  - "\xC5\x9Bpij"
+  - "\xC5\x9Bpijmy"
+  :flexeme_type: :impt
+  :gender: 
+- :form_position: 
+  - 2
+  - 0
+  - 3
+  - 1
+  - 4
+  :suffixes: 
+  - "bola\xC5\x82a"
+  - boleli
+  - "bola\xC5\x82"
+  - "bola\xC5\x82o"
+  - "bola\xC5\x82y"
+  :flexeme_type: :praet
+  :gender: 
+- :form_position: 
+  - 2
+  - 4
+  - 5
+  - 1
+  - 3
+  - 0
+  :suffixes: 
+  - "bol\xC4\x85"
+  - bolicie
+  - "bol\xC4\x99"
+  - boli
+  - bolimy
+  - bolisz
+  :flexeme_type: :fin
+  :gender: 
+- :form_position: 
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - "b\xC3\xB3lcie"
+  - "b\xC3\xB3l"
+  - "b\xC3\xB3lmy"
+  :flexeme_type: :impt
+  :gender: 
+- :form_position: 
+  - 2
+  - 4
+  - 5
+  - 1
+  - 3
+  - 0
+  :suffixes: 
+  - "\xC4\x85"
+  - icie
+  - "\xC4\x99"
+  - i
+  - imy
+  - isz
+  :flexeme_type: :fin
+  :gender: 
+- :form_position: 
+  - 2
+  - 0
+  - 3
+  - 1
+  - 4
+  :suffixes: 
+  - "ia\xC5\x82a"
+  - ieli
+  - "ia\xC5\x82"
+  - "ia\xC5\x82o"
+  - "ia\xC5\x82y"
+  :flexeme_type: :praet
+  :gender: 
+- :form_position: 
+  - 2
+  - 4
+  - 5
+  - 1
+  - 3
+  - 0
+  :suffixes: 
+  - "z\xC4\x85"
+  - icie
+  - "z\xC4\x99"
+  - i
+  - imy
+  - isz
+  :flexeme_type: :fin
+  :gender: 
+- :form_position: 
+  - 2
+  - 0
+  - 3
+  - 1
+  - 4
+  :suffixes: 
+  - "i\xC5\x82a"
+  - ili
+  - "i\xC5\x82"
+  - "i\xC5\x82o"
+  - "i\xC5\x82y"
+  :flexeme_type: :praet
+  :gender: 
+- :form_position: 
+  - 1
+  - 0
+  - 2
+  - 4
+  - 3
+  :suffixes: 
+  - "i\xC5\x82a"
+  - "i\xC5\x82"
+  - "i\xC5\x82o"
+  - "i\xC5\x82y"
+  - "ili\xC5\x9Bmy"
+  :flexeme_type: :praet
+  :gender: 
+- :form_position: 
+  - 2
+  - 4
+  - 5
+  - 1
+  - 3
+  - 0
+  :suffixes: 
+  - "oj\xC4\x85"
+  - oicie
+  - "oj\xC4\x99"
+  - oi
+  - oimy
+  - oisz
+  :flexeme_type: :fin
+  :gender: 
+- :form_position: 
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - "\xC3\xB3jcie"
+  - "\xC3\xB3j"
+  - "\xC3\xB3jmy"
+  :flexeme_type: :impt
+  :gender: 
+- :form_position: 
+  - 2
+  - 0
+  - 3
+  - 1
+  - 4
+  :suffixes: 
+  - "szcza\xC5\x82a"
+  - szczali
+  - "szcza\xC5\x82"
+  - "szcza\xC5\x82o"
+  - "szcza\xC5\x82y"
+  :flexeme_type: :praet
+  :gender: 
+- :form_position: 
+  - 2
+  - 3
+  - 5
+  - 1
+  - 4
+  - 0
+  :suffixes: 
+  - "szcz\xC4\x85"
+  - szczycie
+  - "szcz\xC4\x99"
+  - szczymy
+  - szczy
+  - szczysz
+  :flexeme_type: :fin
+  :gender: 
+- :form_position: 
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - szczyjcie
+  - szczyj
+  - szczyjmy
+  :flexeme_type: :impt
+  :gender: 
+- :form_position: 
+  - 2
+  - 4
+  - 5
+  - 1
+  - 3
+  - 0
+  :suffixes: 
+  - "\xC4\x85"
+  - ycie
+  - "\xC4\x99"
+  - y
+  - ymy
+  - ysz
+  :flexeme_type: :fin
+  :gender: 
+- :form_position: 
+  - 
+  - 
+  - 0
+  :suffixes: 
+  - "zale\xC5\xBCa\xC5\x82o"
+  :flexeme_type: :praet
+  :gender: 
+- :form_position: 
+  - 
+  - 
+  - 
+  - 
+  - 0
+  :suffixes: 
+  - "zale\xC5\xBCy"
+  :flexeme_type: :fin
+  :gender: 
+- :form_position: 
+  - 2
+  - 0
+  - 3
+  - 1
+  - 4
+  :suffixes: 
+  - "y\xC5\x82a"
+  - yli
+  - "y\xC5\x82"
+  - "y\xC5\x82o"
+  - "y\xC5\x82y"
+  :flexeme_type: :praet
+  :gender: 
+- :form_position: 
+  - 3
+  - 4
+  - 5
+  - 2
+  - 0
+  - 1
+  :suffixes: 
+  - a
+  - "aj\xC4\x85"
+  - acie
+  - am
+  - amy
+  - asz
+  :flexeme_type: :fin
+  :gender: 
+- :form_position: 
+  - 
+  - 
+  - 
+  - 
+  - 0
+  :suffixes: 
+  - zachciewa
+  :flexeme_type: :fin
+  :gender: 
+- :form_position: 
+  - 
+  - 
+  - 0
+  :suffixes: 
+  - "zachciewa\xC5\x82o"
+  :flexeme_type: :praet
+  :gender: 
+- :form_position: 
+  - 2
+  - 0
+  - 3
+  - 1
+  - 4
+  :suffixes: 
+  - "mia\xC5\x82a"
+  - mieli
+  - "mia\xC5\x82"
+  - "mia\xC5\x82o"
+  - "mia\xC5\x82y"
+  :flexeme_type: :praet
+  :gender: 
+- :form_position: 
+  - 3
+  - 4
+  - 5
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - "miej\xC4\x85"
+  - miecie
+  - mie
+  - miem
+  - miemy
+  - miesz
+  :flexeme_type: :fin
+  :gender: 
+- :form_position: 
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - miejcie
+  - miej
+  - miejmy
+  :flexeme_type: :impt
+  :gender: 
+- :form_position: 
+  - 3
+  - 4
+  - 5
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - "mi\xC4\x85"
+  - miecie
+  - mie
+  - miem
+  - miemy
+  - miesz
+  :flexeme_type: :fin
+  :gender: 
+- :form_position: 
+  - 3
+  - 4
+  - 5
+  - 2
+  - 0
+  - 1
+  :suffixes: 
+  - ""
+  - "\xC4\x85"
+  - cie
+  - m
+  - my
+  - sz
+  :flexeme_type: :fin
+  :gender: 
+- :form_position: 
+  - 2
+  - 0
+  - 3
+  - 1
+  - 4
+  :suffixes: 
+  - "a\xC5\x82a"
+  - li
+  - "a\xC5\x82"
+  - "a\xC5\x82o"
+  - "a\xC5\x82y"
+  :flexeme_type: :praet
+  :gender: 
+- :form_position: 
+  - 2
+  - 0
+  - 3
+  - 1
+  - 4
+  :suffixes: 
+  - "jad\xC5\x82a"
+  - jedli
+  - "jad\xC5\x82"
+  - "jad\xC5\x82o"
+  - "jad\xC5\x82y"
+  :flexeme_type: :praet
+  :gender: 
+- :form_position: 
+  - 3
+  - 4
+  - 5
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - "jedz\xC4\x85"
+  - jecie
+  - je
+  - jem
+  - jemy
+  - jesz
+  :flexeme_type: :fin
+  :gender: 
+- :form_position: 
+  - 2
+  - 1
+  - 0
+  :suffixes: 
+  - jedzcie
+  - jedzmy
+  - jedz
+  :flexeme_type: :impt
+  :gender: 
+- :form_position: 
+  - 2
+  - 0
+  - 3
+  - 1
+  - 4
+  :suffixes: 
+  - "by\xC5\x82a"
+  - byli
+  - "by\xC5\x82"
+  - "by\xC5\x82o"
+  - "by\xC5\x82y"
+  :flexeme_type: :praet
+  :gender: 
+- :form_position: 
+  - 3
+  - 4
+  - 5
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - "b\xC4\x99d\xC4\x85"
+  - "b\xC4\x99dziecie"
+  - "b\xC4\x99dzie"
+  - "b\xC4\x99d\xC4\x99"
+  - "b\xC4\x99dziemy"
+  - "b\xC4\x99dziesz"
+  :flexeme_type: :bedzie
+  :gender: 
+- :form_position: 
+  - 2
+  - 5
+  - 3
+  - 1
+  - 4
+  - 0
+  :suffixes: 
+  - "s\xC4\x85"
+  - "jeste\xC5\x9Bcie"
+  - jestem
+  - "jeste\xC5\x9B"
+  - jest
+  - "jeste\xC5\x9Bmy"
+  :flexeme_type: :fin
+  :gender: 
+- :form_position: 
+  - 2
+  - 1
+  - 0
+  :suffixes: 
+  - "b\xC4\x85d\xC5\xBAcie"
+  - "b\xC4\x85d\xC5\xBAmy"
+  - "b\xC4\x85d\xC5\xBA"
+  :flexeme_type: :impt
+  :gender: 
+- :form_position: 
+  - 3
+  - 4
+  - 5
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - "b\xC4\x99d\xC4\x85"
+  - "b\xC4\x99dziecie"
+  - "b\xC4\x99dzie"
+  - "b\xC4\x99d\xC4\x99"
+  - "b\xC4\x99dziemy"
+  - "b\xC4\x99dziesz"
+  :flexeme_type: :fin
+  :gender: 
+- :form_position: 
+  - 1
+  - 
+  - 
+  - 0
+  :suffixes: 
+  - winni
+  - winien
+  :flexeme_type: :imptdef
+  :gender: :"m1.m2.m3"
+- :form_position: 
+  - 
+  - 0
+  - 
+  - 
+  - 1
+  :suffixes: 
+  - winna
+  - winny
+  :flexeme_type: :imptdef
+  :gender: :f
+- :form_position: 
+  - 
+  - 
+  - 0
+  - 
+  - 1
+  :suffixes: 
+  - winno
+  - winny
+  :flexeme_type: :imptdef
+  :gender: :"n1.n2"
+- :form_position: 
+  - 9
+  - 9
+  - 0
+  - 2
+  - 7
+  - 7
+  - 5
+  - 7
+  - 8
+  - 8
+  - 5
+  - 8
+  - 7
+  - 9
+  - 1
+  - 2
+  - 6
+  - 6
+  - 1
+  - 6
+  - 6
+  - 6
+  - 5
+  - 6
+  - 9
+  - 9
+  - 0
+  - 2
+  - 9
+  - 2
+  - 3
+  - 3
+  - 6
+  - 6
+  - 3
+  - 2
+  - 4
+  - 4
+  - 3
+  - 3
+  - 9
+  - 2
+  :suffixes: 
+  - a
+  - "\xC4\x85"
+  - e
+  - ych
+  - ymi
+  - ej
+  - ym
+  - ego
+  - emu
+  - y
+  :flexeme_type: :adj
+  :gender: 
+- :form_position: 
+  - 9
+  - 9
+  - 0
+  - 2
+  - 7
+  - 7
+  - 5
+  - 7
+  - 8
+  - 8
+  - 5
+  - 8
+  - 7
+  - 9
+  - 1
+  - 2
+  - 6
+  - 6
+  - 1
+  - 6
+  - 6
+  - 6
+  - 5
+  - 6
+  - 9
+  - 9
+  - 0
+  - 2
+  - 10
+  - 2
+  - 3
+  - 3
+  - 6
+  - 6
+  - 3
+  - 2
+  - 4
+  - 4
+  - 3
+  - 3
+  - 10
+  - 2
+  :suffixes: 
+  - ra
+  - "r\xC4\x85"
+  - re
+  - rych
+  - rymi
+  - rej
+  - rym
+  - rego
+  - remu
+  - ry
+  - rzy
+  :flexeme_type: :adj
+  :gender: 
+- :form_position: 
+  - 10
+  - 10
+  - 0
+  - 2
+  - 8
+  - 8
+  - 6
+  - 8
+  - 9
+  - 9
+  - 6
+  - 9
+  - 8
+  - 10
+  - 1
+  - 2
+  - 7
+  - 7
+  - 1
+  - 7
+  - 7
+  - 7
+  - 6
+  - 7
+  - 10
+  - 10
+  - 0
+  - 2
+  - 4
+  - 2
+  - 3
+  - 3
+  - 7
+  - 7
+  - 3
+  - 2
+  - 5
+  - 5
+  - 3
+  - 3
+  - 4
+  - 2
+  :suffixes: 
+  - a
+  - "\xC4\x85"
+  - e
+  - ych
+  - i
+  - ymi
+  - ej
+  - ym
+  - ego
+  - emu
+  - y
+  :flexeme_type: :adj
+  :gender: 
+- :form_position: 
+  - 4
+  - 4
+  - 0
+  - 2
+  - 8
+  - 8
+  - 6
+  - 8
+  - 9
+  - 9
+  - 6
+  - 9
+  - 8
+  - 4
+  - 1
+  - 2
+  - 7
+  - 7
+  - 1
+  - 7
+  - 7
+  - 7
+  - 6
+  - 7
+  - 4
+  - 4
+  - 0
+  - 2
+  - 10
+  - 2
+  - 3
+  - 3
+  - 7
+  - 7
+  - 3
+  - 2
+  - 5
+  - 5
+  - 3
+  - 3
+  - 10
+  - 2
+  :suffixes: 
+  - a
+  - "\xC4\x85"
+  - ie
+  - ich
+  - i
+  - imi
+  - iej
+  - im
+  - iego
+  - iemu
+  - y
+  :flexeme_type: :adj
+  :gender: 
+- :form_position: 
+  - 4
+  - 4
+  - 0
+  - 2
+  - 8
+  - 8
+  - 6
+  - 8
+  - 9
+  - 9
+  - 6
+  - 9
+  - 8
+  - 4
+  - 1
+  - 2
+  - 7
+  - 7
+  - 1
+  - 7
+  - 7
+  - 7
+  - 6
+  - 7
+  - 4
+  - 4
+  - 0
+  - 2
+  - 4
+  - 2
+  - 3
+  - 3
+  - 7
+  - 7
+  - 3
+  - 2
+  - 5
+  - 5
+  - 3
+  - 3
+  - 4
+  - 2
+  :suffixes: 
+  - a
+  - "\xC4\x85"
+  - e
+  - ich
+  - i
+  - imi
+  - ej
+  - im
+  - ego
+  - emu
+  :flexeme_type: :adj
+  :gender: 
+- :form_position: 
+  - 6
+  - 6
+  - 0
+  - 9
+  - 8
+  - 8
+  - 5
+  - 8
+  - 10
+  - 10
+  - 5
+  - 10
+  - 8
+  - 6
+  - 1
+  - 9
+  - 7
+  - 7
+  - 1
+  - 7
+  - 7
+  - 7
+  - 5
+  - 7
+  - 6
+  - 6
+  - 0
+  - 9
+  - 11
+  - 2
+  - 3
+  - 3
+  - 7
+  - 7
+  - 3
+  - 2
+  - 4
+  - 4
+  - 3
+  - 3
+  - 11
+  - 2
+  :suffixes: 
+  - wszystka
+  - "wszystk\xC4\x85"
+  - wszystkie
+  - wszystkich
+  - wszystkimi
+  - wszystkiej
+  - wszystek
+  - wszystkim
+  - wszystkiego
+  - wszystko
+  - wszystkiemu
+  - wszyscy
+  :flexeme_type: :adj
+  :gender: 
+- :form_position: 
+  - 8
+  - 8
+  - 0
+  - 10
+  - 9
+  - 9
+  - 6
+  - 9
+  - 11
+  - 11
+  - 6
+  - 11
+  - 9
+  - 8
+  - 1
+  - 10
+  - 7
+  - 7
+  - 1
+  - 7
+  - 7
+  - 7
+  - 6
+  - 7
+  - 8
+  - 8
+  - 0
+  - 10
+  - 5
+  - 2
+  - 3
+  - 3
+  - 7
+  - 7
+  - 3
+  - 2
+  - 4
+  - 4
+  - 3
+  - 3
+  - 5
+  - 2
+  :suffixes: 
+  - jedna
+  - "jedn\xC4\x85"
+  - jedne
+  - jednych
+  - jednymi
+  - jedni
+  - jednej
+  - jednym
+  - jeden
+  - jednego
+  - jedno
+  - jednemu
+  :flexeme_type: :adj
+  :gender: 
+- :form_position: 
+  - 7
+  - 7
+  - 7
+  - 0
+  - 8
+  - 8
+  - 8
+  - 5
+  - 10
+  - 10
+  - 10
+  - 5
+  - 8
+  - 8
+  - 7
+  - 1
+  - 6
+  - 6
+  - 6
+  - 1
+  - 6
+  - 6
+  - 6
+  - 5
+  - 7
+  - 7
+  - 7
+  - 0
+  - 9
+  - 4
+  - 8
+  - 2
+  - 10
+  - 6
+  - 9
+  - 2
+  - 6
+  - 3
+  - 6
+  - 2
+  - 9
+  - 4
+  :suffixes: 
+  - jedna
+  - "jedn\xC4\x85"
+  - jednych
+  - jednymi
+  - jedni
+  - jednej
+  - jednym
+  - jeden
+  - jednego
+  - jedno
+  - jednemu
+  :flexeme_type: :adj
+  :gender: 
+- :form_position: 
+  - 4
+  - 4
+  - 0
+  - 6
+  - 5
+  - 5
+  - 2
+  - 5
+  - 7
+  - 7
+  - 2
+  - 7
+  - 5
+  - 4
+  - 1
+  - 6
+  - 3
+  - 3
+  - 1
+  - 3
+  - 3
+  - 3
+  - 2
+  - 3
+  - 4
+  - 4
+  - 0
+  - 6
+  :suffixes: 
+  - niejedna
+  - "niejedn\xC4\x85"
+  - niejednej
+  - niejednym
+  - niejeden
+  - niejednego
+  - niejedno
+  - niejednemu
+  :flexeme_type: :adj
+  :gender: 
+- :form_position: 
+  - 0
+  - 0
+  - 1
+  - 3
+  - 9
+  - 9
+  - 7
+  - 9
+  - 10
+  - 10
+  - 7
+  - 10
+  - 9
+  - 0
+  - 2
+  - 3
+  - 8
+  - 8
+  - 2
+  - 8
+  - 8
+  - 8
+  - 7
+  - 8
+  - 0
+  - 0
+  - 1
+  - 3
+  - 5
+  - 3
+  - 4
+  - 4
+  - 8
+  - 8
+  - 4
+  - 3
+  - 6
+  - 6
+  - 4
+  - 4
+  - 5
+  - 3
+  :suffixes: 
+  - ""
+  - a
+  - "\xC4\x85"
+  - e
+  - ych
+  - i
+  - ymi
+  - ej
+  - ym
+  - ego
+  - emu
+  :flexeme_type: :adj
+  :gender: 
+- :form_position: 
+  - 0
+  - 
+  - 
+  - 
+  - 2
+  - 
+  - 
+  - 
+  - 3
+  - 
+  - 
+  - 
+  - 2
+  - 
+  - 
+  - 
+  - 1
+  - 
+  - 
+  - 
+  - 1
+  - 
+  - 
+  - 
+  - 0
+  :suffixes: 
+  - ""
+  - ym
+  - ego
+  - emu
+  :flexeme_type: :adj
+  :gender: 
+- :form_position: 
+  - 7
+  - 7
+  - 0
+  - 2
+  - 9
+  - 9
+  - 6
+  - 9
+  - 10
+  - 10
+  - 6
+  - 10
+  - 9
+  - 7
+  - 1
+  - 2
+  - 8
+  - 8
+  - 1
+  - 8
+  - 8
+  - 8
+  - 6
+  - 8
+  - 7
+  - 7
+  - 0
+  - 2
+  - 5
+  - 2
+  - 3
+  - 3
+  - 8
+  - 8
+  - 3
+  - 2
+  - 4
+  - 4
+  - 3
+  - 3
+  - 5
+  - 2
+  :suffixes: 
+  - nieswoja
+  - "nieswoj\xC4\x85"
+  - nieswoje
+  - nieswoich
+  - nieswoimi
+  - nieswoi
+  - nieswojej
+  - "niesw\xC3\xB3j"
+  - nieswoim
+  - nieswojego
+  - nieswojemu
+  :flexeme_type: :adj
+  :gender: 
+- :form_position: 
+  - 4
+  - 0
+  - 3
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+  - 0
+  - 3
+  - 2
+  - 2
+  - 1
+  - 5
+  - 5
+  - 5
+  - 4
+  - 0
+  - 3
+  :suffixes: 
+  - a
+  - iema
+  - oma
+  - ie
+  - aj
+  - u
+  :flexeme_type: :nummgen
+  :gender: 
+- :form_position: 
+  - 1
+  - 0
+  - 
+  - 2
+  - 2
+  - 
+  - 2
+  - 2
+  - 
+  - 2
+  - 0
+  - 
+  - 2
+  - 2
+  - 
+  - 2
+  - 2
+  - 
+  - 1
+  - 0
+  :suffixes: 
+  - a
+  - aj
+  - u
+  :flexeme_type: :nummgen
+  :gender: 
+- :form_position: 
+  - 4
+  - 1
+  - 2
+  - 3
+  - 3
+  - 3
+  - 5
+  - 5
+  - 5
+  - 3
+  - 3
+  - 2
+  - 0
+  - 0
+  - 0
+  - 3
+  - 3
+  - 3
+  - 4
+  - 1
+  - 2
+  :suffixes: 
+  - dwoma
+  - dwa
+  - dwie
+  - "dw\xC3\xB3ch"
+  - dwaj
+  - dwom
+  :flexeme_type: :nummgen
+  :gender: 
+- :form_position: 
+  - 2
+  - 4
+  - 1
+  - 1
+  - 3
+  - 3
+  - 1
+  - 4
+  - 0
+  - 0
+  - 1
+  - 1
+  - 2
+  - 4
+  :suffixes: 
+  - ema
+  - ech
+  - ej
+  - em
+  - y
+  :flexeme_type: :num
+  :gender: 
+- :form_position: 
+  - 1
+  - 3
+  - 1
+  - 1
+  - 2
+  - 2
+  - 1
+  - 3
+  - 0
+  - 0
+  - 1
+  - 1
+  - 1
+  - 3
+  :suffixes: 
+  - ema
+  - ech
+  - em
+  - y
+  :flexeme_type: :num
+  :gender: 
+- :form_position: 
+  - 1
+  - 0
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 0
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 0
+  :suffixes: 
+  - ""
+  - iu
+  :flexeme_type: :num
+  :gender: 
+- :form_position: 
+  - 2
+  - 0
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 0
+  - 1
+  - 1
+  - 2
+  - 2
+  - 2
+  - 0
+  :suffixes: 
+  - ""
+  - ioma
+  - iu
+  :flexeme_type: :num
+  :gender: 
+- :form_position: 
+  - 1
+  - 0
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 0
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 0
+  :suffixes: 
+  - "na\xC5\x9Bcie"
+  - nastu
+  :flexeme_type: :num
+  :gender: 
+- :form_position: 
+  - 2
+  - 1
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 1
+  - 0
+  - 0
+  - 2
+  - 2
+  - 2
+  - 1
+  :suffixes: 
+  - nastoma
+  - "na\xC5\x9Bcie"
+  - nastu
+  :flexeme_type: :num
+  :gender: 
+- :form_position: 
+  - 1
+  - 0
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 0
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 0
+  :suffixes: 
+  - "dwadzie\xC5\x9Bcia"
+  - dwudziestu
+  :flexeme_type: :num
+  :gender: 
+- :form_position: 
+  - 2
+  - 0
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 0
+  - 1
+  - 1
+  - 2
+  - 2
+  - 2
+  - 0
+  :suffixes: 
+  - "dwadzie\xC5\x9Bcia"
+  - dwudziestoma
+  - dwudziestu
+  :flexeme_type: :num
+  :gender: 
+- :form_position: 
+  - 1
+  - 0
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 0
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 0
+  :suffixes: 
+  - "dzie\xC5\x9Bci"
+  - dziestu
+  :flexeme_type: :num
+  :gender: 
+- :form_position: 
+  - 2
+  - 1
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 1
+  - 0
+  - 0
+  - 2
+  - 2
+  - 2
+  - 1
+  :suffixes: 
+  - dziestoma
+  - "dzie\xC5\x9Bci"
+  - dziestu
+  :flexeme_type: :num
+  :gender: 
+- :form_position: 
+  - 1
+  - 0
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 0
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 0
+  :suffixes: 
+  - "dziesi\xC4\x85t"
+  - "dziesi\xC4\x99ciu"
+  :flexeme_type: :num
+  :gender: 
+- :form_position: 
+  - 2
+  - 1
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 1
+  - 0
+  - 0
+  - 2
+  - 2
+  - 2
+  - 1
+  :suffixes: 
+  - "dziesi\xC4\x99cioma"
+  - "dziesi\xC4\x85t"
+  - "dziesi\xC4\x99ciu"
+  :flexeme_type: :num
+  :gender: 
+- :form_position: 
+  - 1
+  - 0
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 0
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 0
+  :suffixes: 
+  - sto
+  - stu
+  :flexeme_type: :num
+  :gender: 
+- :form_position: 
+  - 2
+  - 1
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 1
+  - 0
+  - 0
+  - 2
+  - 2
+  - 2
+  - 1
+  :suffixes: 
+  - stoma
+  - sto
+  - stu
+  :flexeme_type: :num
+  :gender: 
+- :form_position: 
+  - 1
+  - 0
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 0
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 0
+  :suffixes: 
+  - "dwie\xC5\x9Bcie"
+  - dwustu
+  :flexeme_type: :num
+  :gender: 
+- :form_position: 
+  - 2
+  - 1
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 1
+  - 0
+  - 0
+  - 2
+  - 2
+  - 2
+  - 1
+  :suffixes: 
+  - dwustoma
+  - "dwie\xC5\x9Bcie"
+  - dwustu
+  :flexeme_type: :num
+  :gender: 
+- :form_position: 
+  - 1
+  - 0
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 0
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 0
+  :suffixes: 
+  - ysta
+  - ystu
+  :flexeme_type: :num
+  :gender: 
+- :form_position: 
+  - 2
+  - 1
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 1
+  - 0
+  - 0
+  - 2
+  - 2
+  - 2
+  - 1
+  :suffixes: 
+  - ystoma
+  - ysta
+  - ystu
+  :flexeme_type: :num
+  :gender: 
+- :form_position: 
+  - 1
+  - 0
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 0
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 0
+  :suffixes: 
+  - set
+  - uset
+  :flexeme_type: :num
+  :gender: 
+- :form_position: 
+  - 1
+  - 2
+  - 0
+  - 9
+  - 5
+  - 7
+  - 1
+  - 2
+  - 6
+  - 4
+  - 8
+  - 3
+  - 1
+  - 2
+  :suffixes: 
+  - "tysi\xC4\x85ca"
+  - "tysi\xC4\x85c"
+  - "tysi\xC4\x85ce"
+  - "tysi\xC4\x85cach"
+  - "tysi\xC4\x85cami"
+  - "tysi\xC4\x85cowi"
+  - "tysi\xC4\x85cem"
+  - "tysi\xC4\x85com"
+  - "tysi\xC4\x85cu"
+  - "tysi\xC4\x99cy"
+  :flexeme_type: :numsgen
+  :gender: 
+- :form_position: 
+  - 0
+  - 9
+  - 1
+  - 8
+  - 5
+  - 7
+  - 0
+  - 9
+  - 6
+  - 4
+  - 2
+  - 3
+  - 2
+  - 9
+  :suffixes: 
+  - ""
+  - a
+  - ie
+  - ach
+  - ami
+  - owi
+  - em
+  - om
+  - "\xC3\xB3w"
+  - y
+  :flexeme_type: :numsgen
+  :gender: 
+- :form_position: 
+  - 1
+  - 0
+  - 3
+  - 1
+  - 2
+  - 3
+  - 1
+  :suffixes: 
+  - ojga
+  - oje
+  - ojgiem
+  - ojgu
+  :flexeme_type: :numcol
+  :gender: 
+- :form_position: 
+  - 2
+  - 0
+  - 3
+  - 2
+  - 1
+  - 3
+  - 2
+  :suffixes: 
+  - orga
+  - orgiem
+  - oro
+  - orgu
+  :flexeme_type: :numcol
+  :gender: 
+- :form_position: 
+  - 1
+  - 0
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 0
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 0
+  :suffixes: 
+  - kilka
+  - kilku
+  :flexeme_type: :numind
+  :gender: 
+- :form_position: 
+  - 2
+  - 0
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 0
+  - 1
+  - 1
+  - 2
+  - 2
+  - 2
+  - 0
+  :suffixes: 
+  - kilka
+  - kilkoma
+  - kilku
+  :flexeme_type: :numind
+  :gender: 
+- :form_position: 
+  - 1
+  - 0
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 0
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 0
+  :suffixes: 
+  - wiele
+  - wielu
+  :flexeme_type: :numind
+  :gender: 
+- :form_position: 
+  - 2
+  - 1
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 1
+  - 0
+  - 0
+  - 2
+  - 2
+  - 2
+  - 1
+  :suffixes: 
+  - wieloma
+  - wiele
+  - wielu
+  :flexeme_type: :numind
+  :gender: 
+- :form_position: 
+  - 1
+  - 0
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 0
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 0
+  :suffixes: 
+  - "par\xC4\x99"
+  - paru
+  :flexeme_type: :numind
+  :gender: 
+- :form_position: 
+  - 2
+  - 1
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 1
+  - 0
+  - 0
+  - 2
+  - 2
+  - 2
+  - 1
+  :suffixes: 
+  - paroma
+  - "par\xC4\x99"
+  - paru
+  :flexeme_type: :numind
+  :gender: 
+- :form_position: 
+  - 5
+  - 3
+  - 6
+  - 0
+  - 7
+  - 
+  - 6
+  - 0
+  - 4
+  - 2
+  - 4
+  - 1
+  - 5
+  - 3
+  :suffixes: 
+  - ich
+  - nich
+  - nimi
+  - oni
+  - nim
+  - "on"
+  - go
+  - mu
+  :flexeme_type: :ppron3
+  :gender: :m1
+- :form_position: 
+  - 0
+  - 2
+  - 5
+  - 1
+  - 6
+  - 4
+  - 5
+  - 1
+  - 4
+  - 3
+  - 4
+  - 1
+  - 0
+  - 2
+  :suffixes: 
+  - ""
+  - ych
+  - i
+  - ymi
+  - ym
+  - ego
+  - emu
+  :flexeme_type: :ppron3
+  :gender: :m1
+- :form_position: 
+  - 3
+  - 1
+  - 5
+  - 0
+  - 6
+  - 4
+  - 5
+  - 0
+  - 4
+  - 2
+  - 4
+  - 0
+  - 3
+  - 1
+  :suffixes: 
+  - ich
+  - i
+  - imi
+  - j
+  - im
+  - jego
+  - jemu
+  :flexeme_type: :ppron3
+  :gender: :m1
+- :form_position: 
+  - 5
+  - 3
+  - 6
+  - 0
+  - 7
+  - 
+  - 6
+  - 0
+  - 4
+  - 2
+  - 4
+  - 1
+  - 5
+  - 3
+  :suffixes: 
+  - ich
+  - nich
+  - nimi
+  - oni
+  - nim
+  - "on"
+  - jego
+  - jemu
+  :flexeme_type: :ppron3
+  :gender: :m1
+- :form_position: 
+  - 4
+  - 2
+  - 5
+  - 0
+  - 6
+  - 3
+  - 5
+  - 0
+  - 3
+  - 1
+  - 3
+  - 0
+  - 4
+  - 2
+  :suffixes: 
+  - nich
+  - nimi
+  - oni
+  - nim
+  - "on"
+  - niego
+  - niemu
+  :flexeme_type: :ppron3
+  :gender: :m1
+- :form_position: 
+  - 5
+  - 6
+  - 3
+  - 0
+  - 4
+  - 2
+  - 3
+  - 0
+  - 2
+  - 1
+  - 2
+  - 0
+  - 5
+  - 6
+  :suffixes: 
+  - "kt\xC3\xB3rych"
+  - "kt\xC3\xB3rymi"
+  - "kt\xC3\xB3rym"
+  - "kt\xC3\xB3rego"
+  - "kt\xC3\xB3remu"
+  - "kt\xC3\xB3ry"
+  - "kt\xC3\xB3rzy"
+  :flexeme_type: :ppron3
+  :gender: :m1
+- :form_position: 
+  - 1
+  - 6
+  - 4
+  - 0
+  - 5
+  - 3
+  - 4
+  - 0
+  - 3
+  - 2
+  - 3
+  - 0
+  - 1
+  - 6
+  :suffixes: 
+  - akich
+  - aki
+  - akimi
+  - akim
+  - akiego
+  - akiemu
+  - acy
+  :flexeme_type: :ppron3
+  :gender: :m1
+- :form_position: 
+  - 3
+  - 2
+  - 5
+  - 0
+  - 6
+  - 4
+  - 5
+  - 0
+  - 4
+  - 1
+  - 4
+  - 0
+  - 3
+  - 2
+  :suffixes: 
+  - "czyich\xC5\x9B"
+  - "czyimi\xC5\x9B"
+  - "czyi\xC5\x9B"
+  - "czyj\xC5\x9B"
+  - "czyim\xC5\x9B"
+  - "czyjego\xC5\x9B"
+  - "czyjemu\xC5\x9B"
+  :flexeme_type: :ppron3
+  :gender: :m1
+- :form_position: 
+  - 5
+  - 6
+  - 3
+  - 0
+  - 4
+  - 2
+  - 3
+  - 0
+  - 2
+  - 1
+  - 2
+  - 0
+  - 5
+  - 6
+  :suffixes: 
+  - "kt\xC3\xB3rych\xC5\x9B"
+  - "kt\xC3\xB3rymi\xC5\x9B"
+  - "kt\xC3\xB3rym\xC5\x9B"
+  - "kt\xC3\xB3rego\xC5\x9B"
+  - "kt\xC3\xB3remu\xC5\x9B"
+  - "kt\xC3\xB3ry\xC5\x9B"
+  - "kt\xC3\xB3rzy\xC5\x9B"
+  :flexeme_type: :ppron3
+  :gender: :m1
+- :form_position: 
+  - 1
+  - 6
+  - 4
+  - 0
+  - 5
+  - 3
+  - 4
+  - 0
+  - 3
+  - 2
+  - 3
+  - 0
+  - 1
+  - 6
+  :suffixes: 
+  - "jakich\xC5\x9B"
+  - "jaki\xC5\x9B"
+  - "jakimi\xC5\x9B"
+  - "jakim\xC5\x9B"
+  - "jakiego\xC5\x9B"
+  - "jakiemu\xC5\x9B"
+  - "jacy\xC5\x9B"
+  :flexeme_type: :ppron3
+  :gender: :m1
+- :form_position: 
+  - 2
+  - 3
+  - 5
+  - 0
+  - 6
+  - 1
+  - 5
+  - 0
+  - 1
+  - 4
+  - 1
+  - 0
+  - 2
+  - 3
+  :suffixes: 
+  - "tych\xC5\xBCe"
+  - "tym\xC5\xBCe"
+  - "ten\xC5\xBCe"
+  - "ci\xC5\xBC"
+  - "tymi\xC5\xBC"
+  - "tego\xC5\xBC"
+  - "temu\xC5\xBC"
+  :flexeme_type: :ppron3
+  :gender: :m1
+- :form_position: 
+  - 5
+  - 6
+  - 3
+  - 0
+  - 4
+  - 1
+  - 3
+  - 0
+  - 1
+  - 2
+  - 1
+  - 0
+  - 5
+  - 6
+  :suffixes: 
+  - "kt\xC3\xB3rych\xC5\xBCe"
+  - "kt\xC3\xB3rym\xC5\xBCe"
+  - "kt\xC3\xB3rymi\xC5\xBC"
+  - "kt\xC3\xB3rego\xC5\xBC"
+  - "kt\xC3\xB3remu\xC5\xBC"
+  - "kt\xC3\xB3ry\xC5\xBC"
+  - "kt\xC3\xB3rzy\xC5\xBC"
+  :flexeme_type: :ppron3
+  :gender: :m1
+- :form_position: 
+  - 2
+  - 6
+  - 4
+  - 0
+  - 5
+  - 1
+  - 4
+  - 0
+  - 1
+  - 3
+  - 1
+  - 0
+  - 2
+  - 6
+  :suffixes: 
+  - "akich\xC5\xBCe"
+  - "akim\xC5\xBCe"
+  - "aki\xC5\xBC"
+  - "akimi\xC5\xBC"
+  - "akiego\xC5\xBC"
+  - "akiemu\xC5\xBC"
+  - "acy\xC5\xBC"
+  :flexeme_type: :ppron3
+  :gender: :m1
+- :form_position: 
+  - 3
+  - 2
+  - 5
+  - 0
+  - 6
+  - 4
+  - 5
+  - 0
+  - 4
+  - 1
+  - 4
+  - 0
+  - 3
+  - 2
+  :suffixes: 
+  - czyichkolwiek
+  - czyimikolwiek
+  - czyikolwiek
+  - czyjkolwiek
+  - czyimkolwiek
+  - czyjegokolwiek
+  - czyjemukolwiek
+  :flexeme_type: :ppron3
+  :gender: :m1
+- :form_position: 
+  - 5
+  - 6
+  - 3
+  - 0
+  - 4
+  - 2
+  - 3
+  - 0
+  - 2
+  - 1
+  - 2
+  - 0
+  - 5
+  - 6
+  :suffixes: 
+  - "kt\xC3\xB3rychkolwiek"
+  - "kt\xC3\xB3rymikolwiek"
+  - "kt\xC3\xB3rymkolwiek"
+  - "kt\xC3\xB3regokolwiek"
+  - "kt\xC3\xB3remukolwiek"
+  - "kt\xC3\xB3rykolwiek"
+  - "kt\xC3\xB3rzykolwiek"
+  :flexeme_type: :ppron3
+  :gender: :m1
+- :form_position: 
+  - 1
+  - 6
+  - 4
+  - 0
+  - 5
+  - 3
+  - 4
+  - 0
+  - 3
+  - 2
+  - 3
+  - 0
+  - 1
+  - 6
+  :suffixes: 
+  - jakichkolwiek
+  - jakikolwiek
+  - jakimikolwiek
+  - jakimkolwiek
+  - jakiegokolwiek
+  - jakiemukolwiek
+  - jacykolwiek
+  :flexeme_type: :ppron3
+  :gender: :m1
+- :form_position: 
+  - 6
+  - 1
+  - 7
+  - 2
+  - 8
+  - 
+  - 7
+  - 0
+  - 5
+  - 4
+  - 5
+  - 3
+  - 6
+  - 1
+  :suffixes: 
+  - je
+  - one
+  - ich
+  - nich
+  - nimi
+  - nim
+  - "on"
+  - go
+  - mu
+  :flexeme_type: :ppron3
+  :gender: :m2
+- :form_position: 
+  - 0
+  - 1
+  - 5
+  - 2
+  - 6
+  - 4
+  - 5
+  - 1
+  - 4
+  - 3
+  - 4
+  - 2
+  - 0
+  - 1
+  :suffixes: 
+  - ""
+  - e
+  - ych
+  - ymi
+  - ym
+  - ego
+  - emu
+  :flexeme_type: :ppron3
+  :gender: :m2
+- :form_position: 
+  - 0
+  - 1
+  - 5
+  - 2
+  - 6
+  - 4
+  - 0
+  - 1
+  - 4
+  - 3
+  - 4
+  - 2
+  - 0
+  - 1
+  :suffixes: 
+  - ""
+  - e
+  - ych
+  - ymi
+  - ym
+  - ego
+  - emu
+  :flexeme_type: :ppron3
+  :gender: :m3
+- :form_position: 
+  - 3
+  - 0
+  - 5
+  - 1
+  - 6
+  - 4
+  - 5
+  - 0
+  - 4
+  - 2
+  - 4
+  - 1
+  - 3
+  - 0
+  :suffixes: 
+  - je
+  - ich
+  - imi
+  - j
+  - im
+  - jego
+  - jemu
+  :flexeme_type: :ppron3
+  :gender: :m2
+- :form_position: 
+  - 3
+  - 0
+  - 5
+  - 1
+  - 6
+  - 4
+  - 3
+  - 0
+  - 4
+  - 2
+  - 4
+  - 1
+  - 3
+  - 0
+  :suffixes: 
+  - je
+  - ich
+  - imi
+  - j
+  - im
+  - jego
+  - jemu
+  :flexeme_type: :ppron3
+  :gender: :m3
+- :form_position: 
+  - 6
+  - 1
+  - 7
+  - 2
+  - 8
+  - 
+  - 7
+  - 0
+  - 5
+  - 4
+  - 5
+  - 3
+  - 6
+  - 1
+  :suffixes: 
+  - je
+  - one
+  - ich
+  - nich
+  - nimi
+  - nim
+  - "on"
+  - jego
+  - jemu
+  :flexeme_type: :ppron3
+  :gender: :m2
+- :form_position: 
+  - 5
+  - 1
+  - 6
+  - 2
+  - 7
+  - 4
+  - 6
+  - 0
+  - 4
+  - 3
+  - 4
+  - 2
+  - 5
+  - 1
+  :suffixes: 
+  - nie
+  - one
+  - nich
+  - nimi
+  - nim
+  - "on"
+  - niego
+  - niemu
+  :flexeme_type: :ppron3
+  :gender: :m2
+- :form_position: 
+  - 6
+  - 0
+  - 4
+  - 1
+  - 5
+  - 3
+  - 4
+  - 0
+  - 3
+  - 2
+  - 3
+  - 1
+  - 6
+  - 0
+  :suffixes: 
+  - "kt\xC3\xB3re"
+  - "kt\xC3\xB3rych"
+  - "kt\xC3\xB3rymi"
+  - "kt\xC3\xB3rym"
+  - "kt\xC3\xB3rego"
+  - "kt\xC3\xB3remu"
+  - "kt\xC3\xB3ry"
+  :flexeme_type: :ppron3
+  :gender: :m2
+- :form_position: 
+  - 6
+  - 0
+  - 4
+  - 1
+  - 5
+  - 3
+  - 6
+  - 0
+  - 3
+  - 2
+  - 3
+  - 1
+  - 6
+  - 0
+  :suffixes: 
+  - "kt\xC3\xB3re"
+  - "kt\xC3\xB3rych"
+  - "kt\xC3\xB3rymi"
+  - "kt\xC3\xB3rym"
+  - "kt\xC3\xB3rego"
+  - "kt\xC3\xB3remu"
+  - "kt\xC3\xB3ry"
+  :flexeme_type: :ppron3
+  :gender: :m3
+- :form_position: 
+  - 2
+  - 0
+  - 5
+  - 1
+  - 6
+  - 4
+  - 5
+  - 0
+  - 4
+  - 3
+  - 4
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - akie
+  - akich
+  - aki
+  - akimi
+  - akim
+  - akiego
+  - akiemu
+  :flexeme_type: :ppron3
+  :gender: :m2
+- :form_position: 
+  - 2
+  - 0
+  - 5
+  - 1
+  - 6
+  - 4
+  - 2
+  - 0
+  - 4
+  - 3
+  - 4
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - akie
+  - akich
+  - aki
+  - akimi
+  - akim
+  - akiego
+  - akiemu
+  :flexeme_type: :ppron3
+  :gender: :m3
+- :form_position: 
+  - 3
+  - 0
+  - 5
+  - 1
+  - 6
+  - 4
+  - 5
+  - 0
+  - 4
+  - 2
+  - 4
+  - 1
+  - 3
+  - 0
+  :suffixes: 
+  - "czyje\xC5\x9B"
+  - "czyich\xC5\x9B"
+  - "czyimi\xC5\x9B"
+  - "czyj\xC5\x9B"
+  - "czyim\xC5\x9B"
+  - "czyjego\xC5\x9B"
+  - "czyjemu\xC5\x9B"
+  :flexeme_type: :ppron3
+  :gender: :m2
+- :form_position: 
+  - 3
+  - 0
+  - 5
+  - 1
+  - 6
+  - 4
+  - 3
+  - 0
+  - 4
+  - 2
+  - 4
+  - 1
+  - 3
+  - 0
+  :suffixes: 
+  - "czyje\xC5\x9B"
+  - "czyich\xC5\x9B"
+  - "czyimi\xC5\x9B"
+  - "czyj\xC5\x9B"
+  - "czyim\xC5\x9B"
+  - "czyjego\xC5\x9B"
+  - "czyjemu\xC5\x9B"
+  :flexeme_type: :ppron3
+  :gender: :m3
+- :form_position: 
+  - 6
+  - 0
+  - 4
+  - 1
+  - 5
+  - 3
+  - 4
+  - 0
+  - 3
+  - 2
+  - 3
+  - 1
+  - 6
+  - 0
+  :suffixes: 
+  - "kt\xC3\xB3re\xC5\x9B"
+  - "kt\xC3\xB3rych\xC5\x9B"
+  - "kt\xC3\xB3rymi\xC5\x9B"
+  - "kt\xC3\xB3rym\xC5\x9B"
+  - "kt\xC3\xB3rego\xC5\x9B"
+  - "kt\xC3\xB3remu\xC5\x9B"
+  - "kt\xC3\xB3ry\xC5\x9B"
+  :flexeme_type: :ppron3
+  :gender: :m2
+- :form_position: 
+  - 6
+  - 0
+  - 4
+  - 1
+  - 5
+  - 3
+  - 6
+  - 0
+  - 3
+  - 2
+  - 3
+  - 1
+  - 6
+  - 0
+  :suffixes: 
+  - "kt\xC3\xB3re\xC5\x9B"
+  - "kt\xC3\xB3rych\xC5\x9B"
+  - "kt\xC3\xB3rymi\xC5\x9B"
+  - "kt\xC3\xB3rym\xC5\x9B"
+  - "kt\xC3\xB3rego\xC5\x9B"
+  - "kt\xC3\xB3remu\xC5\x9B"
+  - "kt\xC3\xB3ry\xC5\x9B"
+  :flexeme_type: :ppron3
+  :gender: :m3
+- :form_position: 
+  - 2
+  - 0
+  - 5
+  - 1
+  - 6
+  - 4
+  - 5
+  - 0
+  - 4
+  - 3
+  - 4
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - "jakie\xC5\x9B"
+  - "jakich\xC5\x9B"
+  - "jaki\xC5\x9B"
+  - "jakimi\xC5\x9B"
+  - "jakim\xC5\x9B"
+  - "jakiego\xC5\x9B"
+  - "jakiemu\xC5\x9B"
+  :flexeme_type: :ppron3
+  :gender: :m2
+- :form_position: 
+  - 2
+  - 0
+  - 5
+  - 1
+  - 6
+  - 4
+  - 2
+  - 0
+  - 4
+  - 3
+  - 4
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - "jakie\xC5\x9B"
+  - "jakich\xC5\x9B"
+  - "jaki\xC5\x9B"
+  - "jakimi\xC5\x9B"
+  - "jakim\xC5\x9B"
+  - "jakiego\xC5\x9B"
+  - "jakiemu\xC5\x9B"
+  :flexeme_type: :ppron3
+  :gender: :m3
+- :form_position: 
+  - 2
+  - 3
+  - 5
+  - 0
+  - 6
+  - 1
+  - 5
+  - 3
+  - 1
+  - 4
+  - 1
+  - 0
+  - 2
+  - 3
+  :suffixes: 
+  - "tych\xC5\xBCe"
+  - "tym\xC5\xBCe"
+  - "ten\xC5\xBCe"
+  - "te\xC5\xBC"
+  - "tymi\xC5\xBC"
+  - "tego\xC5\xBC"
+  - "temu\xC5\xBC"
+  :flexeme_type: :ppron3
+  :gender: :m2
+- :form_position: 
+  - 2
+  - 3
+  - 5
+  - 0
+  - 6
+  - 1
+  - 2
+  - 3
+  - 1
+  - 4
+  - 1
+  - 0
+  - 2
+  - 3
+  :suffixes: 
+  - "tych\xC5\xBCe"
+  - "tym\xC5\xBCe"
+  - "ten\xC5\xBCe"
+  - "te\xC5\xBC"
+  - "tymi\xC5\xBC"
+  - "tego\xC5\xBC"
+  - "temu\xC5\xBC"
+  :flexeme_type: :ppron3
+  :gender: :m3
+- :form_position: 
+  - 6
+  - 2
+  - 4
+  - 0
+  - 5
+  - 1
+  - 4
+  - 2
+  - 1
+  - 3
+  - 1
+  - 0
+  - 6
+  - 2
+  :suffixes: 
+  - "kt\xC3\xB3rych\xC5\xBCe"
+  - "kt\xC3\xB3rym\xC5\xBCe"
+  - "kt\xC3\xB3re\xC5\xBC"
+  - "kt\xC3\xB3rymi\xC5\xBC"
+  - "kt\xC3\xB3rego\xC5\xBC"
+  - "kt\xC3\xB3remu\xC5\xBC"
+  - "kt\xC3\xB3ry\xC5\xBC"
+  :flexeme_type: :ppron3
+  :gender: :m2
+- :form_position: 
+  - 6
+  - 2
+  - 4
+  - 0
+  - 5
+  - 1
+  - 6
+  - 2
+  - 1
+  - 3
+  - 1
+  - 0
+  - 6
+  - 2
+  :suffixes: 
+  - "kt\xC3\xB3rych\xC5\xBCe"
+  - "kt\xC3\xB3rym\xC5\xBCe"
+  - "kt\xC3\xB3re\xC5\xBC"
+  - "kt\xC3\xB3rymi\xC5\xBC"
+  - "kt\xC3\xB3rego\xC5\xBC"
+  - "kt\xC3\xB3remu\xC5\xBC"
+  - "kt\xC3\xB3ry\xC5\xBC"
+  :flexeme_type: :ppron3
+  :gender: :m3
+- :form_position: 
+  - 3
+  - 2
+  - 5
+  - 0
+  - 6
+  - 1
+  - 5
+  - 2
+  - 1
+  - 4
+  - 1
+  - 0
+  - 3
+  - 2
+  :suffixes: 
+  - "akich\xC5\xBCe"
+  - "akim\xC5\xBCe"
+  - "akie\xC5\xBC"
+  - "aki\xC5\xBC"
+  - "akimi\xC5\xBC"
+  - "akiego\xC5\xBC"
+  - "akiemu\xC5\xBC"
+  :flexeme_type: :ppron3
+  :gender: :m2
+- :form_position: 
+  - 3
+  - 2
+  - 5
+  - 0
+  - 6
+  - 1
+  - 3
+  - 2
+  - 1
+  - 4
+  - 1
+  - 0
+  - 3
+  - 2
+  :suffixes: 
+  - "akich\xC5\xBCe"
+  - "akim\xC5\xBCe"
+  - "akie\xC5\xBC"
+  - "aki\xC5\xBC"
+  - "akimi\xC5\xBC"
+  - "akiego\xC5\xBC"
+  - "akiemu\xC5\xBC"
+  :flexeme_type: :ppron3
+  :gender: :m3
+- :form_position: 
+  - 3
+  - 0
+  - 5
+  - 1
+  - 6
+  - 4
+  - 5
+  - 0
+  - 4
+  - 2
+  - 4
+  - 1
+  - 3
+  - 0
+  :suffixes: 
+  - czyjekolwiek
+  - czyichkolwiek
+  - czyimikolwiek
+  - czyjkolwiek
+  - czyimkolwiek
+  - czyjegokolwiek
+  - czyjemukolwiek
+  :flexeme_type: :ppron3
+  :gender: :m2
+- :form_position: 
+  - 3
+  - 0
+  - 5
+  - 1
+  - 6
+  - 4
+  - 3
+  - 0
+  - 4
+  - 2
+  - 4
+  - 1
+  - 3
+  - 0
+  :suffixes: 
+  - czyjekolwiek
+  - czyichkolwiek
+  - czyimikolwiek
+  - czyjkolwiek
+  - czyimkolwiek
+  - czyjegokolwiek
+  - czyjemukolwiek
+  :flexeme_type: :ppron3
+  :gender: :m3
+- :form_position: 
+  - 6
+  - 0
+  - 4
+  - 1
+  - 5
+  - 3
+  - 4
+  - 0
+  - 3
+  - 2
+  - 3
+  - 1
+  - 6
+  - 0
+  :suffixes: 
+  - "kt\xC3\xB3rekolwiek"
+  - "kt\xC3\xB3rychkolwiek"
+  - "kt\xC3\xB3rymikolwiek"
+  - "kt\xC3\xB3rymkolwiek"
+  - "kt\xC3\xB3regokolwiek"
+  - "kt\xC3\xB3remukolwiek"
+  - "kt\xC3\xB3rykolwiek"
+  :flexeme_type: :ppron3
+  :gender: :m2
+- :form_position: 
+  - 6
+  - 0
+  - 4
+  - 1
+  - 5
+  - 3
+  - 6
+  - 0
+  - 3
+  - 2
+  - 3
+  - 1
+  - 6
+  - 0
+  :suffixes: 
+  - "kt\xC3\xB3rekolwiek"
+  - "kt\xC3\xB3rychkolwiek"
+  - "kt\xC3\xB3rymikolwiek"
+  - "kt\xC3\xB3rymkolwiek"
+  - "kt\xC3\xB3regokolwiek"
+  - "kt\xC3\xB3remukolwiek"
+  - "kt\xC3\xB3rykolwiek"
+  :flexeme_type: :ppron3
+  :gender: :m3
+- :form_position: 
+  - 2
+  - 0
+  - 5
+  - 1
+  - 6
+  - 4
+  - 5
+  - 0
+  - 4
+  - 3
+  - 4
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - jakiekolwiek
+  - jakichkolwiek
+  - jakikolwiek
+  - jakimikolwiek
+  - jakimkolwiek
+  - jakiegokolwiek
+  - jakiemukolwiek
+  :flexeme_type: :ppron3
+  :gender: :m2
+- :form_position: 
+  - 2
+  - 0
+  - 5
+  - 1
+  - 6
+  - 4
+  - 2
+  - 0
+  - 4
+  - 3
+  - 4
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - jakiekolwiek
+  - jakichkolwiek
+  - jakikolwiek
+  - jakimikolwiek
+  - jakimkolwiek
+  - jakiegokolwiek
+  - jakiemukolwiek
+  :flexeme_type: :ppron3
+  :gender: :m3
+- :form_position: 
+  - 0
+  - 2
+  - 6
+  - 4
+  - 6
+  - 7
+  - 3
+  - 2
+  - 1
+  - 5
+  - 6
+  - 4
+  - 0
+  - 2
+  :suffixes: 
+  - ta
+  - "t\xC4\x85"
+  - te
+  - "t\xC4\x99"
+  - tych
+  - tymi
+  - tej
+  - tym
+  :flexeme_type: :ppron3
+  :gender: :f
+- :form_position: 
+  - 0
+  - 2
+  - 5
+  - 3
+  - 5
+  - 6
+  - 1
+  - 2
+  - 1
+  - 4
+  - 5
+  - 3
+  - 0
+  - 2
+  :suffixes: 
+  - ja
+  - "j\xC4\x85"
+  - je
+  - ich
+  - imi
+  - jej
+  - im
+  :flexeme_type: :ppron3
+  :gender: :f
+- :form_position: 
+  - 0
+  - 4
+  - 9
+  - 5
+  - 9
+  - 10
+  - 2
+  - 3
+  - 1
+  - 7
+  - 8
+  - 6
+  - 0
+  - 4
+  :suffixes: 
+  - ona
+  - "ni\xC4\x85"
+  - "j\xC4\x85"
+  - je
+  - one
+  - ich
+  - nich
+  - nimi
+  - niej
+  - jej
+  - im
+  :flexeme_type: :ppron3
+  :gender: :f
+- :form_position: 
+  - 0
+  - 3
+  - 6
+  - 4
+  - 6
+  - 7
+  - 1
+  - 2
+  - 1
+  - 5
+  - 6
+  - 4
+  - 0
+  - 3
+  :suffixes: 
+  - ona
+  - "ni\xC4\x85"
+  - nie
+  - one
+  - nich
+  - nimi
+  - niej
+  - nim
+  :flexeme_type: :ppron3
+  :gender: :f
+- :form_position: 
+  - 3
+  - 5
+  - 1
+  - 0
+  - 1
+  - 2
+  - 4
+  - 5
+  - 4
+  - 6
+  - 1
+  - 0
+  - 3
+  - 5
+  :suffixes: 
+  - "tych\xC5\xBCe"
+  - "tej\xC5\xBCe"
+  - "tym\xC5\xBCe"
+  - "ta\xC5\xBC"
+  - "t\xC4\x85\xC5\xBC"
+  - "te\xC5\xBC"
+  - "tymi\xC5\xBC"
+  :flexeme_type: :ppron3
+  :gender: :f
+- :form_position: 
+  - 4
+  - 0
+  - 5
+  - 1
+  - 6
+  - 3
+  - 4
+  - 0
+  - 3
+  - 2
+  - 3
+  - 1
+  - 4
+  - 0
+  :suffixes: 
+  - e
+  - ych
+  - ymi
+  - ym
+  - o
+  - ego
+  - emu
+  :flexeme_type: :ppron3
+  :gender: :n1
+- :form_position: 
+  - 7
+  - 1
+  - 6
+  - 2
+  - 8
+  - 
+  - 0
+  - 0
+  - 5
+  - 4
+  - 5
+  - 3
+  - 7
+  - 1
+  :suffixes: 
+  - je
+  - one
+  - ich
+  - nich
+  - nimi
+  - nim
+  - jego
+  - ono
+  - jemu
+  :flexeme_type: :ppron3
+  :gender: :n1
+- :form_position: 
+  - 6
+  - 1
+  - 5
+  - 2
+  - 7
+  - 4
+  - 0
+  - 0
+  - 4
+  - 3
+  - 4
+  - 2
+  - 6
+  - 1
+  :suffixes: 
+  - nie
+  - one
+  - nich
+  - nimi
+  - nim
+  - niego
+  - ono
+  - niemu
+  :flexeme_type: :ppron3
+  :gender: :n1
+- :form_position: 
+  - 7
+  - 1
+  - 6
+  - 2
+  - 8
+  - 
+  - 0
+  - 0
+  - 5
+  - 4
+  - 5
+  - 3
+  - 7
+  - 1
+  :suffixes: 
+  - je
+  - one
+  - ich
+  - nich
+  - nimi
+  - nim
+  - go
+  - ono
+  - mu
+  :flexeme_type: :ppron3
+  :gender: :n1
+- :form_position: 
+  - 0
+  - 0
+  - 4
+  - 1
+  - 5
+  - 3
+  - 0
+  - 0
+  - 3
+  - 2
+  - 3
+  - 1
+  - 0
+  - 0
+  :suffixes: 
+  - je
+  - ich
+  - imi
+  - im
+  - jego
+  - jemu
+  :flexeme_type: :ppron3
+  :gender: :n1
+- :form_position: 
+  - 5
+  - 2
+  - 4
+  - 0
+  - 6
+  - 1
+  - 5
+  - 2
+  - 1
+  - 3
+  - 1
+  - 0
+  - 5
+  - 2
+  :suffixes: 
+  - "tych\xC5\xBCe"
+  - "tym\xC5\xBCe"
+  - "te\xC5\xBC"
+  - "tymi\xC5\xBC"
+  - "tego\xC5\xBC"
+  - "to\xC5\xBC"
+  - "temu\xC5\xBC"
+  :flexeme_type: :ppron3
+  :gender: :n1
+- :form_position: 
+  - 2
+  - 1
+  - 3
+  - 1
+  - 0
+  - 0
+  - 2
+  :suffixes: 
+  - nikim
+  - nikogo
+  - nikt
+  - nikomu
+  :flexeme_type: :ppron
+  :gender: 
+- :form_position: 
+  - 2
+  - 1
+  - 3
+  - 1
+  - 0
+  - 0
+  - 2
+  :suffixes: 
+  - kim
+  - kogo
+  - kto
+  - komu
+  :flexeme_type: :ppron
+  :gender: 
+- :form_position: 
+  - 2
+  - 1
+  - 3
+  - 1
+  - 0
+  - 0
+  - 2
+  :suffixes: 
+  - "kim\xC5\x9B"
+  - "kogo\xC5\x9B"
+  - "kto\xC5\x9B"
+  - "komu\xC5\x9B"
+  :flexeme_type: :ppron
+  :gender: 
+- :form_position: 
+  - 2
+  - 1
+  - 3
+  - 1
+  - 0
+  - 0
+  - 2
+  :suffixes: 
+  - "kim\xC5\xBCe"
+  - "kog\xC3\xB3\xC5\xBC"
+  - "kt\xC3\xB3\xC5\xBC"
+  - "komu\xC5\xBC"
+  :flexeme_type: :ppron
+  :gender: 
+- :form_position: 
+  - 2
+  - 1
+  - 3
+  - 1
+  - 0
+  - 0
+  - 2
+  :suffixes: 
+  - kimkolwiek
+  - kogokolwiek
+  - ktokolwiek
+  - komukolwiek
+  :flexeme_type: :ppron
+  :gender: 
+- :form_position: 
+  - 0
+  - 2
+  - 3
+  - 0
+  - 1
+  - 1
+  - 0
+  :suffixes: 
+  - nic
+  - niczym
+  - niczego
+  - niczemu
+  :flexeme_type: :imppron
+  :gender: 
+- :form_position: 
+  - 1
+  - 2
+  - 3
+  - 1
+  - 0
+  - 0
+  - 1
+  :suffixes: 
+  - czym
+  - co
+  - czego
+  - czemu
+  :flexeme_type: :imppron
+  :gender: 
+- :form_position: 
+  - 1
+  - 2
+  - 3
+  - 1
+  - 0
+  - 0
+  - 1
+  :suffixes: 
+  - "czym\xC5\x9B"
+  - "co\xC5\x9B"
+  - "czego\xC5\x9B"
+  - "czemu\xC5\x9B"
+  :flexeme_type: :imppron
+  :gender: 
+- :form_position: 
+  - 1
+  - 2
+  - 3
+  - 1
+  - 0
+  - 0
+  - 1
+  :suffixes: 
+  - "czym\xC5\xBCe"
+  - "c\xC3\xB3\xC5\xBC"
+  - "czeg\xC3\xB3\xC5\xBC"
+  - "czemu\xC5\xBC"
+  :flexeme_type: :imppron
+  :gender: 
+- :form_position: 
+  - 1
+  - 2
+  - 3
+  - 1
+  - 0
+  - 0
+  - 1
+  :suffixes: 
+  - czymkolwiek
+  - cokolwiek
+  - czegokolwiek
+  - czemukolwiek
+  :flexeme_type: :imppron
+  :gender: 
+- :form_position: 
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  :suffixes: 
+  - lu
+  :flexeme_type: :pronbgen
+  :gender: 
+- :form_position: 
+  - 1
+  - 1
+  - 1
+  - 1
+  - 0
+  - 1
+  - 1
+  :suffixes: 
+  - loma
+  - lu
+  :flexeme_type: :pronbgen
+  :gender: 
+- :form_position: 
+  - 0
+  - 1
+  - 1
+  - 0
+  - 1
+  - 1
+  - 0
+  :suffixes: 
+  - le
+  - lu
+  :flexeme_type: :pronbgen
+  :gender: 
+- :form_position: 
+  - 1
+  - 2
+  - 2
+  - 1
+  - 0
+  - 2
+  - 1
+  :suffixes: 
+  - loma
+  - le
+  - lu
+  :flexeme_type: :pronbgen
+  :gender: 
+- :form_position: 
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  :suffixes: 
+  - "ilu\xC5\x9B"
+  :flexeme_type: :pronbgen
+  :gender: 
+- :form_position: 
+  - 1
+  - 1
+  - 1
+  - 1
+  - 0
+  - 1
+  - 1
+  :suffixes: 
+  - "iloma\xC5\x9B"
+  - "ilu\xC5\x9B"
+  :flexeme_type: :pronbgen
+  :gender: 
+- :form_position: 
+  - 0
+  - 1
+  - 1
+  - 0
+  - 1
+  - 1
+  - 0
+  :suffixes: 
+  - "ile\xC5\x9B"
+  - "ilu\xC5\x9B"
+  :flexeme_type: :pronbgen
+  :gender: 
+- :form_position: 
+  - 1
+  - 2
+  - 2
+  - 1
+  - 0
+  - 2
+  - 1
+  :suffixes: 
+  - "iloma\xC5\x9B"
+  - "ile\xC5\x9B"
+  - "ilu\xC5\x9B"
+  :flexeme_type: :pronbgen
+  :gender: 
+- :form_position: 
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  :suffixes: 
+  - "lu\xC5\xBC"
+  :flexeme_type: :pronbgen
+  :gender: 
+- :form_position: 
+  - 1
+  - 1
+  - 1
+  - 1
+  - 0
+  - 1
+  - 1
+  :suffixes: 
+  - "loma\xC5\xBC"
+  - "lu\xC5\xBC"
+  :flexeme_type: :pronbgen
+  :gender: 
+- :form_position: 
+  - 0
+  - 1
+  - 1
+  - 0
+  - 1
+  - 1
+  - 0
+  :suffixes: 
+  - "le\xC5\xBC"
+  - "lu\xC5\xBC"
+  :flexeme_type: :pronbgen
+  :gender: 
+- :form_position: 
+  - 1
+  - 2
+  - 2
+  - 1
+  - 0
+  - 2
+  - 1
+  :suffixes: 
+  - "loma\xC5\xBC"
+  - "le\xC5\xBC"
+  - "lu\xC5\xBC"
+  :flexeme_type: :pronbgen
+  :gender: 
+- :form_position: 
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  :suffixes: 
+  - ilukolwiek
+  :flexeme_type: :pronbgen
+  :gender: 
+- :form_position: 
+  - 1
+  - 1
+  - 1
+  - 1
+  - 0
+  - 1
+  - 1
+  :suffixes: 
+  - ilomakolwiek
+  - ilukolwiek
+  :flexeme_type: :pronbgen
+  :gender: 
+- :form_position: 
+  - 0
+  - 1
+  - 1
+  - 0
+  - 1
+  - 1
+  - 0
+  :suffixes: 
+  - ilekolwiek
+  - ilukolwiek
+  :flexeme_type: :pronbgen
+  :gender: 
+- :form_position: 
+  - 1
+  - 2
+  - 2
+  - 1
+  - 0
+  - 2
+  - 1
+  :suffixes: 
+  - ilomakolwiek
+  - ilekolwiek
+  - ilukolwiek
+  :flexeme_type: :pronbgen
+  :gender: 
+- :form_position: 
+  - 0
+  - 2
+  - 2
+  - 2
+  - 1
+  - 2
+  - 0
+  :suffixes: 
+  - ja
+  - "mn\xC4\x85"
+  - mnie
+  :flexeme_type: :ppron12
+  :gender: 
+- :form_position: 
+  - 1
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 1
+  :suffixes: 
+  - ""
+  - y
+  :flexeme_type: :ppron12
+  :gender: 
+- :form_position: 
+  - 0
+  - 0
+  - 1
+  - 0
+  - 0
+  - 0
+  - 0
+  :suffixes: 
+  - ""
+  - i
+  :flexeme_type: :ppron12
+  :gender: 
+- :form_position: 
+  - 1
+  - 2
+  - 3
+  - 0
+  - 2
+  :suffixes: 
+  - "sob\xC4\x85"
+  - siebie
+  - sobie
+  - "si\xC4\x99"
+  :flexeme_type: :siebie
+  :gender: 
+- :form_position: 
+  - 1
+  - 2
+  - 1
+  - 0
+  - 2
+  :suffixes: 
+  - "sob\xC4\x85"
+  - siebie
+  - sobie
+  :flexeme_type: :siebie
+  :gender: 
+- :form_position: 
+  - 0
+  :suffixes: 
+  - ""
+  :flexeme_type: :adjdef
+  :gender: 
+- :form_position: 
+  - 0
+  :suffixes: 
+  - ""
+  :flexeme_type: :numdef
+  :gender: 
+- :form_position: 
+  - 0
+  :suffixes: 
+  - ""
+  :flexeme_type: :prondef
+  :gender: 
+- :form_position: 
+  - 0
+  :suffixes: 
+  - ""
+  :flexeme_type: :adv
+  :gender: 
+- :form_position: 
+  - 0
+  :suffixes: 
+  - ""
+  :flexeme_type: :qub
+  :gender: 
+- :form_position: 
+  - 0
+  :suffixes: 
+  - ""
+  :flexeme_type: :prep
+  :gender: 
+- :form_position: 
+  - 0
+  :suffixes: 
+  - ""
+  :flexeme_type: :conj
+  :gender: 
+- :form_position: 
+  - 0
+  :suffixes: 
+  - ""
+  :flexeme_type: :adjp
+  :gender: 
+- :form_position: 
+  - 0
+  :suffixes: 
+  - ""
+  :flexeme_type: :imps
+  :gender: 
+- :form_position: 
+  - 0
+  :suffixes: 
+  - ""
+  :flexeme_type: :inf
+  :gender: 
+- :form_position: 
+  - 0
+  :suffixes: 
+  - ""
+  :flexeme_type: :pcon
+  :gender: 
+- :form_position: 
+  - 0
+  :suffixes: 
+  - ""
+  :flexeme_type: :pant
+  :gender: 
+- :form_position: 
+  - 0
+  :suffixes: 
+  - ""
+  :flexeme_type: :impspres
+  :gender: 
+- :form_position: 
+  - 0
+  :suffixes: 
+  - ""
+  :flexeme_type: :impspast
+  :gender: 
+- :flexeme_type: :xxx
+  :gender: 
+  :suffixes: 
+  - ""
+  :form_position: 
+  - 0
+- :flexeme_type: :adja
+  :gender: 
+  :suffixes: 
+  - ""
+  :form_position: 
+  - 0
+- :flexeme_type: :ger
+  :gender: :n2
+  :suffixes: 
+  - "ia"
+  - "ie"
+  - "iem"
+  - "iu"
+  :form_position: 
+  - 1
+  - 0
+  - 3
+  - 1
+  - 2
+  - 3
+  - 1
+- :flexeme_type: :depr
+  :gender: :m2
+  :suffixes: 
+  - ""
+  :form_position: 
+  - 0
+  - 0
