@@ -55,13 +55,8 @@ module Rlp
       # is disambiguated, only one flexeme is returned.
       # TODO # 11 add flexeme field.
       def flexemes
-        # TODO #12 fix case in semantics export script!!!
-        if segment.form.value =~ /^[[:upper:]]/
-          form = Rlp::Grammar::WordForm.find_by_value(segment.word_form.downcase)
-          form && form.flexemes || []
-        else
-          segment.form.flexemes
-        end
+        fixed_form = self.fixed_form
+        fixed_form && fixed_form.flexemes
       end
 
       # Returns forms linked with the word form (including itself) of this segment.
@@ -70,8 +65,29 @@ module Rlp
         if flexemes.count > 0
           flexemes.map{|f| f.word_forms.to_a}
         else
-          [segment.form]
+          [self.form]
         end.flatten
+      end
+
+      # Returns true if the segment is in nominal position.
+      def nominal?
+        # TODO #14 should use disambiguated position if present.
+        fixed_form = self.fixed_form
+        self.flexemes.any? do |flexeme|
+          positions = flexeme.positions_for(fixed_form)
+          positions.any?{|p| p && p.include?(Value.for_tag(:nom)) &&
+            p.include?(Value.for_tag(:sg))}
+        end
+      end
+
+      protected
+      def fixed_form
+        # TODO #12 fix case in semantics export script!!!
+        if self.form.value =~ /^[[:upper:]]/
+          Rlp::Grammar::WordForm.find_by_value(self.word_form.downcase)
+        else
+          self.form
+        end
       end
     end
   end
