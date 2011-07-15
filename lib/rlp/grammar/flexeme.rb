@@ -55,6 +55,19 @@ module Rlp
         "#{self.lemma}[#{self.rod_id}] : #{self.type.name} #{self.paradigm.code}\n" +
           self.paradigm.pretty_to_s(self.word_forms.map{|f| f && f.value})
       end
+
+      # Returns all inflection positions occupied by given word +form+.
+      # E.g. [[:nom,:sg]] for form "kot" for flexeme "kot subst:m2".
+      # Note: the values returned are instances of Value, not Symbol.
+      # Raises InvalidArgument if the form does not belong to the flexeme.
+      def positions_for(form)
+        # TODO optimize ?
+        index = self.word_forms.each.with_index{|wf,i| break i if wf == form}
+        raise InvalidArgument.new(self.class,:tags_for,form) unless index.is_a?(Fixnum)
+        positions = self.paradigm.mapping[index]
+        raise RlpException.new("Missing positions for #{form} in flexeme #{self}") if positions.nil?
+        positions[1].map{|ps| ps && ps.map{|v| v && Value.for_tag(v)}}
+      end
     end
   end
 end

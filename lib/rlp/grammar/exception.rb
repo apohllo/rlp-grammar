@@ -15,5 +15,19 @@ module Rlp
         "Abstract method '#{@name}' called for #{@class}"
       end
     end
+
+    # This exception is raised when argument for a method call is invalid.
+    class InvalidArgument < RlpException
+      attr_reader :klass, :method, :value
+      def initialize(klass,method,value)
+        @klass = klass
+        @method = method
+        @value = value
+      end
+
+      def to_s
+        "Invalid argument '#{@value}' for #{@klass}##{@method}"
+      end
+    end
   end
 end
