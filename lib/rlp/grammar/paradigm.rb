@@ -126,43 +126,259 @@ module Rlp
         result
       end
 
-      # Tries to guess the inflection paradigm of the forms. If +type_tag+
-      # is given, the results is less ambigious
-      def self.guess(forms,type_tag=nil,options={})
-        forms = forms.uniq
-        if type_tag
-          result =
-          FlexemeType.for_tag(type_tag).paradigms.map do |paradigm|
-            #matchers = paradigm.suffixes.reverse.map{|s| /#{s}$/}
+      MISSING_MSG = "!MISSING!"
+
+      # Returns pretty string representation of the paradigm.
+      # If +forms+ are given, they are prepend to the the paradigm
+      # inflection table. The +forms+ have to be in the order
+      # of paradigms suffixes.
+      def pretty_to_s(forms=nil)
+        if forms
+          max1 = forms.map{|f| f && f.size}.compact.max + 1
+          max1 = MISSING_MSG.size if MISSING_MSG.size > max1
+          max2 = self.suffixes.map{|s| s.size}.max + 1
+          self.mapping(:type => :long).map.with_index do |mapping,index|
+            form = self.form_position[index] && forms[self.form_position[index]]
+            form = form.nil? ? MISSING_MSG : form
+            sprintf("%-#{max1}s%#{max2}s  %s",form,mapping[0],mapping[1..-1].join(":"))
+          end.join("\n")
+        else
+          raise "TODO implement"
+        end
+      end
+
+      # Returns the index of paradigm's suffix for given +tags+.
+      # The tags for given form have to be sorted.
+      # TODO #1
+      def tags_index(tags)
+        index = self.mapping(:type => :canonical).each.
+          with_index do |suffix_with_tags,suffix_index|
+          suffix_tags = suffix_with_tags[1]
+          # TODO #6 optimize
+          if tags.size == suffix_tags.size &&
+            tags.all?{|ft| suffix_tags.any?{|st| ft == st}}
+            break suffix_index
+          end
+        end
+        index.is_a?(Fixnum) ? index : nil
+      end
+
+      class << self
+        # Tries to guess the inflection paradigm of the forms. If +type_tag+
+        # is given, the results is less ambigious.
+        #
+        # Options:
+        # * +:with_counts+ - returns the paradigms with statistics (+false+ by default)
+        # * +:fuzzy+ - if +true+ allows for fuzzy matching (+false+ by default)
+        # * +:tags+ - an optional array of tags corresponding to +forms+; if
+        #   present they are strictly matched against the paradigm. This have
+        #   important impact on performance but allows for solving issues with
+        #   ambiguous suffixes.
+        def guess(forms,type_tag=nil,options={})
+          forms = forms.uniq
+          if options[:tags]
+            # #5 use FlexemeType canonical order
+            options[:tags] = options[:tags].map{|ts| ts.map{|t| t.sort}}
+          end
+          if type_tag
+            paradigms = FlexemeType.for_tag(type_tag).paradigms
+          else
+            paradigms = self.each
+          end
+          best_value = -1
+          result = paradigms.select do |paradigm|
+            if options[:fuzzy]
+              paradigm.suffixes.size >= forms.size
+            else
+              paradigm.suffixes.size == forms.size
+            end
+          end.map do |paradigm|
             matched = {}
             matched_count = 0
             matchers_size = nil
             suffix_matcher = paradigm.suffix_matcher
-            forms.each do |form|
-              #match = matchers.find{|m| m.match(form)}
-              match_data = suffix_matcher.match(form)
-              if match_data
-                match = match_data.captures.find{|c| c}
-                matchers_size ||= match_data.captures.size
+            forms.each.with_index do |form,form_index|
+              match = nil
+              index = nil
+              if options[:tags]
+                matchers_size = paradigm.suffixes.size
+                index = paradigm.tags_index(options[:tags][form_index])
+                if index
+                  match_data = /(#{paradigm.suffixes[index]})$/.match(form)
+                  if match_data
+                    match = match_data[0]
+                  end
+                end
+              else
+                match_data = suffix_matcher.match(form)
+                if match_data
+                  match,index = match_data.captures.each.with_index{|c,i| break [c,i] if c}
+                  matchers_size ||= match_data.captures.size
+                end
+              end
+              if match
                 matched_count += match.size
-                matched[match] = true
+                matched[index] = true
               end
             end
             [paradigm,matched.size,matchers_size,matched_count]
           end.select do|paradigm,matched_s,matchers_s,matched_c|
-            #matched_s >= forms.size
-            matched_s == forms.size && matched_s == matchers_s
+            if options[:fuzzy]
+              matched_s > 0
+              #matched_s >= forms.size
+            else
+              matched_s == forms.size
+            end
           end.sort_by do |paradigm,matched_s,matchers_s,matched_c|
-            #- matched_c * matched_s.to_f / matchers_s
-            - matched_c * matched_s
+            if options[:fuzzy]
+              - matched_c.to_f * 0.001 - matched_s.to_f / matchers_s
+            else
+              - matched_c * matched_s
+            end
+          end.select do |paradigm,matched_s,matchers_s,matched_c|
+            unless options[:fuzzy]
+              matched_value = matched_c * matched_s
+              best_value = matched_value if best_value < matched_value
+              best_value == matched_value
+            else
+              true
+            end
           end
-          result = result[0..5]
           unless options[:with_counts]
             result.map!{|p,i1,i2,i3| p}
           end
           result
-        else
-          raise "TODO implement"
+        end
+
+        # A multi-level guess. The primary difference with +guess+ is that
+        # the result is always an array containing pairs: [paradigms, forms]
+        # and as such it might return multiple results (still each pair might
+        # be ambiguous. The second difference is that is uses a set of methods,
+        # each more complicated and slower than the previous, but capable
+        # of solving harder issues.
+        #
+        # The methods are as follows:
+        # * trivial cases (flexeme type with one paradigm with one suffix)
+        # * guess without tags
+        # * guess with tags
+        # * guess with detection of ambiguous 'inflection position' -> 'form'
+        #   mappings and heuristic split of forms
+        # * guess with detection of ambiguous mappings and exploration of
+        #   all ambiguous inflection positions' combinations
+        def multiguess(forms,type,tags,gender=nil)
+          # 0) trivial cases
+          type = Rlp::Grammar::FlexemeType.for_tag(type.to_sym)
+          if type.paradigms.size == 1 && type.paradigms.first.suffixes.size == 1
+            return forms.map{|f| [type.paradigms.to_a,[f],tags]}
+          end
+          # 1) guess without tags
+          paradigms = Rlp::Grammar::Paradigm.guess(forms,type.to_sym)
+          unless paradigms.empty?
+            disambiguated = disambiguate(paradigms,gender)
+            if disambiguated.size == 1
+              return [[disambiguated,forms,tags]]
+            end
+          end
+          # 2) guess with tags
+          paradigms = Rlp::Grammar::Paradigm.guess(forms,type.to_sym,
+                                                   :tags => tags)
+          unless paradigms.empty?
+            return [[disambiguate(paradigms,gender),forms,tags]]
+          end
+          # build 'inflection postion' -> 'forms' map
+          position_to_forms = {}
+          forms.zip(tags).each do |form,form_tags|
+            form_tags.uniq.each do |current_tags|
+              position_to_forms[current_tags] ||= []
+              position_to_forms[current_tags] << form
+            end
+          end
+          # There are no ambiguous position -> form mappings,
+          # the paradigm is unknown.
+          unless position_to_forms.values.any?{|fs|  fs.size > 1}
+            return [[[],forms,tags]]
+          end
+          #position_to_forms.values.each{|fs| ambiguity[fs.size] += 1}
+          position_to_forms = position_to_forms.sort_by{|t,fs| fs.size}
+          # in most cases there are only two competing flexemes
+          if position_to_forms.last[1].size == 2
+            # 3) split the forms heuristically into two flexemes
+            #    by taking the last to forms and looking for the
+            #    longest common substring
+            ambig_flexemes = position_to_forms.last[1].
+              map{|f| [[position_to_forms.last[0]],[f]]}
+            position_to_forms[0..-2].each do |position,position_forms|
+              if position_forms.size == 2
+                map = {}
+                2.times.map do |flexeme_index|
+                  position_forms.each.with_index do |form,form_index|
+                    d_index = ambig_flexemes[flexeme_index][1].first.chars.to_a.
+                      zip(form.chars.to_a).each.with_index do |c1_c2,c_index|
+                      break c_index if c1_c2[0] != c1_c2[1]
+                    end
+                    unless d_index.is_a?(Fixnum)
+                      d_index = ambig_flexemes[flexeme_index][1].first.size
+                    end
+                    map[[flexeme_index,form_index]] = d_index - form.size
+                  end
+                end
+                map = map.sort_by{|k,v| -v}
+                # assign the best match (e.g. [1,0])...
+                best_indices = map[0][0]
+                ambig_flexemes[best_indices[0]][0] << position
+                ambig_flexemes[best_indices[0]][1] << position_forms[best_indices[1]]
+                # and the complementary match (e.g. [0,1])
+                map[1..-1].each do |indices,value|
+                  if indices[0] != best_indices[0] && indices[1] != best_indices[1]
+                    ambig_flexemes[indices[0]][0] << position
+                    ambig_flexemes[indices[0]][1] << position_forms[indices[1]]
+                    break
+                  end
+                end
+              else
+                2.times{|i| ambig_flexemes[i][0] << position;
+                  ambig_flexemes[i][1] << position_forms[0]}
+              end
+            end
+            # re-create mappings 'form' -> 'positions', e.g.
+            # transform the array
+            ambig_flexemes.map! do |positions_and_forms|
+              f_positions, f_forms = positions_and_forms
+              map = {}
+              f_positions.zip(f_forms).each do |position,form|
+                map[form] ||= []
+                map[form] << position
+              end
+              [map.keys,map.values]
+            end
+            paradigms = ambig_flexemes.map do |forms_and_positions|
+              f_forms, f_positions = forms_and_positions
+              self.guess(f_forms,type.to_sym,:tags => f_positions)
+            end
+            if paradigms.all?{|ps| !ps.empty?}
+              return ambig_flexemes.zip(paradigms).
+                map do |forms_and_positions,f_paradigms|
+                f_forms, f_positions = forms_and_positions
+                [disambiguate(f_paradigms,gender),f_forms,f_positions]
+              end
+            end
+          end
+          # 4) visit all mappings
+          # # TODO
+          #matched_sets = []
+          #visit_mappings(position_to_forms,type,matched_sets)
+          #unless matched_sets.empty?
+          #  pp matched_sets.map{|e| [e[0].code,e[1]]}
+          #end
+          return [[[],forms,tags]]
+        end
+
+        protected
+        def disambiguate(paradigms,gender)
+          unless paradigms.first.gender.nil?
+            paradigms = paradigms.select{|p| gender.to_sym == p.gender.tag}
+          end
+          paradigms
         end
       end
     end
