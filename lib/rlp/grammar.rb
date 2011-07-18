@@ -11,6 +11,7 @@ require 'rlp/grammar/compound_value'
 require 'rlp/grammar/word_form'
 require 'rlp/grammar/paradigm'
 require 'rlp/grammar/text_segment'
+require 'rlp/grammar/segment_predicates'
 # flexemes
 require 'rlp/grammar/flexeme'
 require 'rlp/grammar/flexeme_type'

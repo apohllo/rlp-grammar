@@ -69,27 +69,6 @@ module Rlp
         end.flatten
       end
 
-      # Returns true if the segment is in nominal position.
-      def nominal?
-        # TODO #14 should use disambiguated position if present.
-        fixed_form = self.fixed_form
-        self.flexemes.any? do |flexeme|
-          positions = flexeme.positions_for(fixed_form)
-          positions.any?{|p| p && p.include?(Value.for_tag(:nom)) &&
-            p.include?(Value.for_tag(:sg))}
-        end
-      end
-
-      # Returns true if the segment is a quote.
-      def quote?
-        self.form.value =~ /["'\p{Pi}\p{Pf}]/
-      end
-
-      # Returns ture if the first letter is capital.
-      def first_capital?
-        self.letter_case[0] == "M"
-      end
-
       protected
       def fixed_form
         # TODO #12 fix case in semantics export script!!!
