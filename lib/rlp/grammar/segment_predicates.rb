@@ -1,5 +1,6 @@
 # encoding: utf-8
 require 'rlp/grammar/word_form'
+require 'set'
 
 module Rlp
   module Grammar
@@ -10,13 +11,13 @@ module Rlp
     module SegmentPredicates
 
       # TODO move to FlexemeType
-      CLOSED_TYPES = [:ppron12, :ppron3, :siebie,:pronbgen,:prondef,:imppron,
-        :ppron,:aglt,:acond,:prep,:conj,:qub,:interp]
-      VERBAL_TYPES = [:praet,:fin,:bedzie,:aglt,:acond,:impt,:imps,:inf,:pcon,:pant,:pant,
-        :pact,:ppas,:imptdef,:anl,:impspres, :impspast]
-      NOUN_TYPES = [:subst,:depr,:sdef,:xxs,:ppron12,:ppron3,:pronbgen,
-        :prondef,:imppron,:ppron,:ger,:brev]
-      ADJECTIVE_TYPES = [:adj,:adja,:adjp,:adjdef,:pact]
+      CLOSED_TYPES = Set.new([:ppron12, :ppron3, :siebie,:pronbgen,:prondef,:imppron,
+        :ppron,:aglt,:acond,:prep,:conj,:qub,:interp])
+      VERBAL_TYPES = Set.new([:praet,:fin,:bedzie,:aglt,:acond,:impt,:imps,:inf,:pcon,:pant,:pant,
+        :pact,:ppas,:imptdef,:anl,:impspres, :impspast])
+      NOUN_TYPES = Set.new([:subst,:depr,:sdef,:xxs,:ppron12,:ppron3,:pronbgen,
+        :prondef,:imppron,:ppron,:ger,:brev])
+      ADJECTIVE_TYPES = Set.new([:adj,:adja,:adjp,:adjdef,:pact])
 
       COMMA = ","
       LINKING = /\A(i|oraz)\Z/
