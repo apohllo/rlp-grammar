@@ -80,3 +80,8 @@ Then /^odmienia się przez przypadki: (.*)$/ do |cases|
     @flexeme.positions(category).include?(kase).should == true
   end
 end
+
+Then /^rządzi on określonymi przypadkami$/ do
+  @flexeme.governance.size.should > 0
+  @flexeme.governance.each{|g| g[:case].should_not == nil}
+end
