@@ -68,6 +68,19 @@ module Rlp
         raise RlpException.new("Missing positions for #{form} in flexeme #{self}") if positions.nil?
         positions[1].map{|ps| ps && ps.map{|v| v && Value.for_tag(v)}}
       end
+
+      # Inflectional requirements for given lexeme if it is a governor in
+      # a government binding.
+      # E.g. verb "gonić" requires accusative case for its object.
+      #
+      # This method should return a list, since alternative requirements
+      # are possible.  The list should contain requirements in form of a
+      # grammar category - value pairs.
+      #
+      # The list is empty by default, thuse the requirements are never met.
+      def requirements
+        []
+      end
     end
   end
 end
