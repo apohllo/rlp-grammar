@@ -19,6 +19,24 @@ module Rlp
         self.tag
       end
 
+      # This equality returns +true+ also when comparing compound values
+      # with atomic values.
+      def ===(other)
+        if self.is_a?(CompoundValue)
+          if other.is_a?(CompoundValue)
+            self == other
+          else
+            self.values.include?(other)
+          end
+        else
+          if other.is_a?(CompoundValue)
+            other.values.include?(self)
+          else
+            self == other
+          end
+        end
+      end
+
       # Returns grammar category value for given +tag+.
       def self.for_tag(tag)
         if tag.to_s =~ /\./
