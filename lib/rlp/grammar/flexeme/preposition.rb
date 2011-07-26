@@ -4,10 +4,9 @@ module Rlp
   module Grammar
     class Flexeme
       class Preposition < Flexeme
-        def requirements(type=:government)
-          raise RlpException.new("Preposition has only government requirements") if type != :government
+        def requirements
           return @governance if defined?(@governance)
-          @governance =
+          tag_sets =
             case self.lemma
             when /\A(bez|dla|dokoła|gwoli|koło|naokoło|od|oprócz|do|podczas|pomimo|prócz|skroś|skutkiem|spod|spode|spomiędzy|sponad|spośród|spoza|sorzed|u|według|wewnątrz|wkoło|wokoło|wokół|wskutek|wśród|wzdłuż|względem|znad|zza|naokół)\Z/
               [{:case => :gen}]
@@ -39,6 +38,14 @@ module Rlp
             else
               raise RlpException.new("Unknown preposition: #{self.lemma}")
             end
+          @governance = []
+          tag_sets.each do |tags|
+            map = {}
+            tags.each do |category_tag,value_tag|
+              map[Category.for_tag(category_tag)] = Value.for_tag(value_tag)
+            end
+            @governance << map
+          end
           @governance
         end
       end
