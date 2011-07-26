@@ -69,6 +69,13 @@ module Rlp
         positions[1].map{|ps| ps && ps.map{|v| v && Value.for_tag(v)}}
       end
 
+      # Similar to +positions_for(form)+, but returns values for all
+      # (inflective, rigid and defective) categories.
+      # TODO #17
+      def values_for(form)
+        self.positions_for(form)
+      end
+
       # Inflectional requirements for given lexeme if it is a governor in
       # a government binding.
       # E.g. verb "gonić" requires accusative case for its object.
