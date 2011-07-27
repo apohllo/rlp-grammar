@@ -32,10 +32,12 @@ module Rlp
         # TODO #14 should use disambiguated position if present.
         fixed_form = self.fixed_form
         self.flexemes.any? do |flexeme|
-          positions = flexeme.positions_for(fixed_form)
+          values = flexeme.values_for(fixed_form)
           # TODO plurale tantum!
-          positions.any?{|p| p && p.include?(Value.for_tag(:nom)) &&
-            p.include?(Value.for_tag(:sg))}
+          values.any?{|v| v && v.include?(Value.for_tag(:nom)) &&
+            (v.include?(Value.for_tag(:sg)) ||
+             (v.any?{|vv| vv === Value.for_tag(:"p1.p2.p3")} &&
+              v.include?(Value.for_tag(:pl))))}
         end
       end
 
