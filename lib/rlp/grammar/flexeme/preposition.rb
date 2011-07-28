@@ -14,7 +14,9 @@ module Rlp
               [{:case => :acc},{:case => :inst}]
             when /\A(dzięki|ku|przeciw|przeciwko|wbrew)\Z/
               [{:case => :dat}]
-            when /\A(w|przy|we)\Z/
+            when /\A(w|we)\Z/
+              [{:case => :loc},{:case => :acc}]
+            when /\A(przy)\Z/
               [{:case => :loc}]
             when /\A(z|zamiast)\Z/
               [{:case => :gen},{:case => :inst}]
