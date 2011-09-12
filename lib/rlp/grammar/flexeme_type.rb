@@ -13,13 +13,13 @@ module Rlp
     # but should be provided via object oriented API.
     class FlexemeType < Model
       # The +tag+ i.e. short name of the flexeme type in form of a symbol.
-      field :tag, :object, :index => true
+      field :tag, :object, :index => :hash
 
       # The descriptive +name+ of the flexeme type.
-      field :name, :string, :index => true
+      field :name, :string, :index => :hash
 
       # The name of the class implementing given flexeme type.
-      field :class_name, :string, :index => true
+      field :class_name, :string, :index => :hash
 
       # The inflections array, i.e. an array containing all the inflectional
       # positions (sets of grammatical categories' values) defined for the
@@ -105,3 +105,4 @@ module Rlp
     end
   end
 end
+

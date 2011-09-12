@@ -4,8 +4,8 @@ module Rlp
   module Grammar
     # This class represtens various grammatical (flexemic and syntactic) categories.
     class Category < Model
-      field :tag, :object, :index => true
-      field :name, :string, :index => true
+      field :tag, :object, :index => :hash
+      field :name, :string, :index => :hash
       has_many :values
 
       # String representation of the grammatical category.

@@ -5,7 +5,7 @@ module Rlp
   module Grammar
     class Flexeme < Model
       # The +lemma+ of the flexeme, i.e. its base form.
-      field :lemma, :string, :index => true
+      field :lemma, :string, :index => :hash
 
       # The paradigm of the flexeme, i.e. the way the flexeme
       # inflects itself.

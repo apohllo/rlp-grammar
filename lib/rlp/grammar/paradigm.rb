@@ -21,7 +21,7 @@ module Rlp
       # These elements are joined with colons.
       # E.g. (Digest::SHA2.new << "subst:m1:a:ac:e:owie:ami:owi:ł:em:om:ów").
       #   hexdigest[0...6] => "ebe733"
-      field :code, :string, :index => :flat
+      field :code, :string, :index => :hash
 
       # A mapping (as an array) between flexemic positions and form positions, i.e.
       # for given flexemic position the position of a form (i.e. its

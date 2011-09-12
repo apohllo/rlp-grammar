@@ -9,7 +9,7 @@ module Rlp
     module TextSegment
       def self.included(mod)
         mod.field :letter_case, :string
-        mod.has_one :form, :class_name => "Rlp::Grammar::WordForm", :index => :segmented
+        mod.has_one :form, :class_name => "Rlp::Grammar::WordForm", :index => :hash
       end
 
       # Assigns word form for this text segment as +string+.

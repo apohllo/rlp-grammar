@@ -5,8 +5,8 @@ module Rlp
     # This class represents various grammar
     # (flexemic and syntactic) categories' values.
     class Value < Model
-      field :tag, :object, :index => true
-      field :name, :string, :index => true
+      field :tag, :object, :index => :hash
+      field :name, :string, :index => :hash
       has_one :category
 
       # A string representation of the value.
