@@ -55,8 +55,7 @@ module Rlp
       # is disambiguated, only one flexeme is returned.
       # TODO # 11 add flexeme field.
       def flexemes
-        fixed_form = self.fixed_form
-        fixed_form && fixed_form.flexemes
+        self.form.flexemes
       end
 
       # Returns forms linked with the word form (including itself) of this segment.
@@ -67,16 +66,6 @@ module Rlp
         else
           [self.form]
         end.flatten
-      end
-
-      protected
-      def fixed_form
-        # TODO #12 fix case in semantics export script!!!
-        if self.form.value =~ /^[[:upper:]]/
-          Rlp::Grammar::WordForm.find_by_value(self.word_form.downcase)
-        else
-          self.form
-        end
       end
     end
   end
