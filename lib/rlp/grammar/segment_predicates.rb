@@ -17,6 +17,7 @@ module Rlp
         :pact,:ppas,:imptdef,:anl,:impspres, :impspast])
       NOUN_TYPES = Set.new([:subst,:depr,:sdef,:xxs,:ppron12,:ppron3,:pronbgen,
         :prondef,:imppron,:ppron,:ger,:brev])
+      STRICT_NOUN_TYPES = Set.new([:subst,:depr,:sdef,:xxs,:ger,:brev])
       ADJECTIVE_TYPES = Set.new([:adj,:adja,:adjp,:adjdef,:pact])
 
       COMMA = ","
