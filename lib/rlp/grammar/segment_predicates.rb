@@ -31,9 +31,8 @@ module Rlp
       # default number (mostly :sg).
       def nominal?
         # TODO #14 should use disambiguated position if present.
-        fixed_form = self.fixed_form
         self.flexemes.any? do |flexeme|
-          values = flexeme.values_for(fixed_form)
+          values = flexeme.values_for(self.form)
           # TODO plurale tantum!
           values.any?{|v| v && v.include?(Value.for_tag(:nom)) &&
             (v.include?(Value.for_tag(:sg)) ||
