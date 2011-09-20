@@ -65,7 +65,7 @@ module Rlp
           flexemes.map{|f| f.word_forms.to_a}
         else
           [self.form]
-        end.flatten
+        end.flatten.uniq
       end
     end
   end
