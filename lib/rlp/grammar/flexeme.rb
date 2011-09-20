@@ -1,3 +1,4 @@
+# encoding: utf-8
 require 'rlp/grammar/model'
 require 'rlp/grammar/exception'
 
@@ -6,6 +7,9 @@ module Rlp
     class Flexeme < Model
       # The +lemma+ of the flexeme, i.e. its base form.
       field :lemma, :string, :index => :hash
+
+      # TODO #19
+      # has_one :base_form, :class_name => "Rlp::Grammar::WordForm"
 
       # The paradigm of the flexeme, i.e. the way the flexeme
       # inflects itself.
@@ -24,6 +28,13 @@ module Rlp
       # Returns the type of the flexeme.
       def type
         FlexemeType.for_class_name(self.class.to_s)
+      end
+
+      # Returns the base form of the flexeme. Unlike +lemma+
+      # the result is an instance of WordForm.
+      # TODO should be registered in the DB or computed more efficently.
+      def base_form
+        @base_form ||= self.word_forms.find{|ff| ff.value == self.lemma.downcase}
       end
 
       # Does the flexeme have a defined value for given
