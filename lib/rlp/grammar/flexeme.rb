@@ -34,7 +34,7 @@ module Rlp
       # the result is an instance of WordForm.
       # TODO should be registered in the DB or computed more efficently.
       def base_form
-        @base_form ||= self.word_forms.find{|ff| ff.value == self.lemma.downcase}
+        @base_form ||= self.word_forms.find{|ff| ff && ff.value == self.lemma.downcase}
       end
 
       # Does the flexeme have a defined value for given
