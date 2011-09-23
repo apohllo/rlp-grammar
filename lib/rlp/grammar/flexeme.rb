@@ -87,6 +87,16 @@ module Rlp
         self.positions_for(form)
       end
 
+      # The measure of flexeme information based on corpus.
+      def corpus_information
+        -Math::log10(self.word_forms.inject(0.0){|s,f| s + (f && f.corpus_probability || 0)})
+      end
+
+      # The measure of flexeme information based on semantic dictionary.
+      def semantic_information
+        -Math::log10(self.word_forms.inject(0.0){|s,f| s + (f && f.semantic_probability || 0)})
+      end
+
       # Inflectional requirements for given lexeme if it is a governor in
       # a government binding.
       # E.g. verb "gonić" requires accusative case for its object.
