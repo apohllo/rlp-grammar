@@ -46,6 +46,16 @@ module Rlp
         :greater_than_or_equal_to => 0.0,
         :less_than_or_equal_to => 1.0,
         :allow_nil => true
+
+      # The information of the word form computed from the corpus.
+      def corpus_information
+        -Math::log10(self.corpus_probability)
+      end
+
+      # The information of the word form semantic dictionary from the corpus.
+      def semantic_information
+        -Math::log10(self.semantic_probability)
+      end
     end
   end
 end
