@@ -88,7 +88,10 @@ module Rlp
       end
 
       # Returns the probability for a given +position+.
+      # The position have to be in the proper order (as returned by
+      # Flexeme#positions_for).
       def probability_for(position)
+        position.map!{|value| value.to_sym}
         if self.positions_probability.has_key?(position)
           return self.positions_probability[position]
         end
