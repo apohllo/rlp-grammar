@@ -30,6 +30,12 @@ module Rlp
       # flexeme type.
       field :fixed_values, :object
 
+      # The conditional probability of each position.
+      # The value is a hash of pairs:
+      # * inflectional positions' tags -> probability
+      field :positions_probability, :object
+
+
       # A list of grammatical categoreis, which this flexeme type inflects for.
       has_many :inflective_categories, :class_name => "Rlp::Grammar::Category"
 
@@ -82,6 +88,28 @@ module Rlp
         end
       end
 
+      # The hash returned indicates how many binds given
+      # flexeme type might have for the other flexeme type. If there is no
+      # indication for given type, it means that there is no restriction
+      # on the number of binds of that type. The special type +:total+
+      # indicates the maximum total number of binds.
+      #
+      # E.g. preposition should have only one binde with one noun and
+      # conjunction usually has two noun or adjective binds.
+      #
+      # TODO should be in lexeme type.
+      # TODO #15 should be externalized.
+      # TODO work out the direction of binds
+      def bind_counts
+        # TODO make complete
+        case self.tag
+        when :conj
+          {:total => 2}
+        else
+          {:total => 1}
+        end
+      end
+
       # Returns the flexeme type for given flexeme type +tag+.
       def self.for_tag(tag)
         type = self.find_by_tag(tag)
@@ -105,4 +133,3 @@ module Rlp
     end
   end
 end
-
