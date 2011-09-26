@@ -35,7 +35,6 @@ module Rlp
       # * inflectional positions' tags -> probability
       field :positions_probability, :object
 
-
       # A list of grammatical categoreis, which this flexeme type inflects for.
       has_many :inflective_categories, :class_name => "Rlp::Grammar::Category"
 
@@ -85,6 +84,18 @@ module Rlp
             values << inflection.find{|v| Value.for_tag(v).category == category}
           end
           values.uniq.compact.map{|v| Value.for_tag(v)}
+        end
+      end
+
+      # Returns the probability for a given +position+.
+      def probability_for(position)
+        if self.positions_probability.has_key?(position)
+          return self.positions_probability[position]
+        end
+        if self.inflective_categories.empty? && self.defective_categories.empty?
+          1.0
+        else
+          0.0
         end
       end
 
