@@ -24,8 +24,8 @@ module Rlp
       field :code, :string, :index => :hash
 
       # A mapping (as an array) between flexemic positions and form positions, i.e.
-      # for given flexemic position the position of a form (i.e. its
-      # index in flexeme#word_forms) is returned.
+      # for given flexemic position at index +i+ of the +form_position+ array
+      # the position of a form (i.e. its index in flexeme#word_forms) is returned.
       field :form_position, :object
 
       # A list of common suffixes of all flexemes belonging to this
@@ -79,7 +79,7 @@ module Rlp
             [findex && self.suffixes[findex], tags]
           end
         when :canonical
-          # #1 use FlexemeType canonical order
+          # TODO #1 use FlexemeType canonical order
           mapping(:type => :short).map{|s,ts| [s,ts.map{|t| t && t.sort}]}
         else
           self.suffixes.map.with_index do |suffix,index|
@@ -113,7 +113,7 @@ module Rlp
         end
         forms.each.with_index do |form,form_index|
           if tags
-            index = self.tags_index(tags[form_index])
+            index = self.positions_index(tags[form_index])
             result[index] = form if index
           else
             matched = matcher.match(form)
@@ -147,16 +147,31 @@ module Rlp
         end
       end
 
-      # Returns the index of paradigm's suffix for given +tags+.
-      # The tags for given form have to be sorted.
+      # Returns the index of paradigm's suffix for given flexemic +positions+.
+      # The tags in each of the flexemic positions have to be sorted.
       # TODO #1
-      def tags_index(tags)
+      def positions_index(positions)
         index = self.mapping(:type => :canonical).each.
-          with_index do |suffix_with_tags,suffix_index|
-          suffix_tags = suffix_with_tags[1]
+          with_index do |suffix_with_position,suffix_index|
+          suffix_position = suffix_with_position[1]
           # TODO #6 optimize
-          if tags.size == suffix_tags.size &&
-            tags.all?{|ft| suffix_tags.any?{|st| ft == st}}
+          if positions.size == suffix_position.size &&
+            positions.all?{|tags| suffix_position.include?(tags)}
+            break suffix_index
+          end
+        end
+        index.is_a?(Fixnum) ? index : nil
+      end
+
+      # Returns the index of paradigm's suffix for given flexemic +position+
+      # (unlike the in previous function - there should be only one array with symbols).
+      # The tags have to be sorted.
+      def position_index(position)
+        index = self.mapping(:type => :canonical).each.
+          with_index do |suffix_with_position,suffix_index|
+          suffix_position = suffix_with_position[1]
+          if position.size == suffix_position.first.size &&
+            suffix_position.include?(position)
             break suffix_index
           end
         end
@@ -187,6 +202,8 @@ module Rlp
           end
           best_value = -1
           result = paradigms.select do |paradigm|
+            next if paradigm.nil?
+            next if paradigm.suffixes.nil?
             if options[:fuzzy]
               paradigm.suffixes.size >= forms.size
             else
@@ -202,7 +219,7 @@ module Rlp
               index = nil
               if options[:tags]
                 matchers_size = paradigm.suffixes.size
-                index = paradigm.tags_index(options[:tags][form_index])
+                index = paradigm.positions_index(options[:tags][form_index])
                 if index
                   match_data = /(#{paradigm.suffixes[index]})$/.match(form)
                   if match_data
