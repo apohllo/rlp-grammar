@@ -48,6 +48,13 @@ module Rlp
         !self.positions(category).nil?
       end
 
+      # Return the word form for a given flexemic +position+.
+      def inflect(position)
+        position = position.sort
+        index = self.paradigm.position_index(position)
+        self.word_forms[index]
+      end
+
       # Returns all the inflection positions (sets of tags which might
       # have distinct forms) of given flexeme. If +category+ is given,
       # only the values of the category for which the flexeme has forms
@@ -77,7 +84,8 @@ module Rlp
         raise InvalidArgument.new(self.class,:tags_for,form) unless index.is_a?(Fixnum)
         positions = self.paradigm.mapping[index]
         raise RlpException.new("Missing positions for #{form} in flexeme #{self}") if positions.nil?
-        positions[1].map{|ps| ps && ps.map{|v| v && Value.for_tag(v)}}
+        # TODO #20 check why there might be nil in positions
+        positions[1].map{|ps| ps && ps.map{|v| v && Value.for_tag(v)} || []}
       end
 
       # Similar to +positions_for(form)+, but returns values for all
