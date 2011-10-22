@@ -9,7 +9,11 @@ module Rlp
     module TextSegment
       def self.included(mod)
         mod.field :letter_case, :string
+        mod.field :space_after, :string
+        mod.field :position, :integer
         mod.has_one :form, :class_name => "Rlp::Grammar::WordForm", :index => :hash
+        mod.validates :position, :numericality => {:greater_than_or_equal_to => 0}
+        mod.validates :form, :presence => true
       end
 
       # Assigns word form for this text segment as +string+.
@@ -66,6 +70,16 @@ module Rlp
         else
           [self.form]
         end.flatten.uniq
+      end
+
+      # Default string representation of the text segment.
+      def to_s
+        self.word_form + self.space
+      end
+
+      # Returns the space after the text segment with breaklines changed into spaces.
+      def space
+        @space ||= self.space_after.gsub(/\s*(\n|\r)+\s*/," ")
       end
     end
   end
