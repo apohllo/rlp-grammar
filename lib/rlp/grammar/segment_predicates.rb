@@ -30,8 +30,12 @@ module Rlp
       # Returns true if the segment has nominal case and has
       # default number (mostly :sg).
       def nominal?
-        # TODO #14 should use disambiguated position if present.
-        self.flexemes.any? do |flexeme|
+        if self.respond_to(:flexeme) && self.flexeme
+          flexemes = [self.flexeme]
+        else
+          flexemes = self.flexemes
+        end
+        flexemes.any? do |flexeme|
           values = flexeme.values_for(self.form)
           # TODO plurale tantum!
           values.any?{|v| v && v.include?(Value.for_tag(:nom)) &&
