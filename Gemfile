@@ -2,10 +2,13 @@ source "http://rubygems.org"
 
 # Specify your gem's dependencies in rlp.gemspec
 gemspec
-#gem 'rod', :git => 'file:///home/fox/src/nlp/wsd/rod/.git', :branch => 'v0.6.x'
-gem 'rod', '0.7.0'
 #gem 'rlp', "0.3.8"
-#gem "ruby-prof"
-#gem 'ruby-debug19'
-#gem 'ruby-debug-base19'
 gem 'colors'
+if ENV['production']
+  gem 'rod', :git => 'git://github.com/apohllo/rod.git', :branch => 'v0.7.x'
+else
+  gem 'rod', :path => '/home/fox/src/nlp/wsd/rod/'
+  gem 'ruby-debug19'
+  gem 'ruby-debug-base19'
+  #gem "ruby-prof"
+end
