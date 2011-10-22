@@ -5,6 +5,24 @@
   - ""
   :form_position: 
   - 0
+- :flexeme_type: :brev
+  :gender: 
+  :suffixes: 
+  - ""
+  :form_position: 
+  - 0
+- :flexeme_type: :numnum
+  :gender: 
+  :suffixes: 
+  - ""
+  :form_position: 
+  - 0
+- :flexeme_type: :interp
+  :gender: 
+  :suffixes: 
+  - ""
+  :form_position: 
+  - 0
 - :flexeme_type: :adja
   :gender: 
   :suffixes: 
