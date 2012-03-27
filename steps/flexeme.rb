@@ -82,6 +82,6 @@ Then /^odmienia się przez przypadki: (.*)$/ do |cases|
 end
 
 Then /^rządzi on określonymi przypadkami$/ do
-  @flexeme.governance.size.should > 0
-  @flexeme.governance.each{|g| g[:case].should_not == nil}
+  @flexeme.requirements.size.should > 0
+  @flexeme.requirements.each{|g| g[:case].should_not == nil}
 end
