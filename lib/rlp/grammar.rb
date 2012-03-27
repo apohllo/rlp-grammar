@@ -1,3 +1,4 @@
+# encoding: utf-8
 # external dependencies
 require 'string_cmp_pl'
 
