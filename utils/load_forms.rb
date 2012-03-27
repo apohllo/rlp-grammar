@@ -7,7 +7,8 @@ require 'string_cmp_pl'
 require 'rod'
 require 'pp'
 
-Rlp::Grammar::Client.instance.open_database("tmp/rlp-grammar",:readonly => false)
+#Rlp::Grammar::Client.instance.open_database("tmp/rlp-grammar",:readonly => false)
+Rlp::Grammar::Client.instance.open_database("../rlp-corpus/data/rlp",:readonly => false)
 TEXT_FORMS = {}
 
 if ARGV.size < 1
@@ -70,7 +71,7 @@ end
 
 if ARGV.size == 2
   puts "Reading from #{ARGV[1]}"
-  require File.join(".",File.dirname(__FILE__),"sgjp_to_rlp") if ARGV[1] =~ /sgjp/
+  require File.join(".",File.dirname(__FILE__),"sgjp_to_rlp") #if ARGV[1] =~ /sgjp/
   File.open(ARGV[1],"r:iso-8859-2") do |file|
     file.each.with_index do |line,index|
       break if LIMIT && index > LIMIT
@@ -81,7 +82,7 @@ if ARGV.size == 2
       base = elements.join(" ")
       # TODO resolve these issues
       # TODO verb!!! is not in MISSING_FORMS!
-      next if tag_groups =~ /^(brev|interj|burk|comp|pred|adjc)/
+      next if tag_groups =~ /^(interj|burk|comp|pred|adjc)/
       #break if index > 100000
       tag_groups.each do |tags|
         #tags = Rlp::Utils.map_tags(tags.split(":"))
