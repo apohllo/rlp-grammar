@@ -30,7 +30,7 @@ module Rlp
       # Returns true if the segment has nominal case and has
       # default number (mostly :sg).
       def nominal?
-        if self.respond_to(:flexeme) && self.flexeme
+        if self.respond_to?(:flexeme) && self.flexeme
           flexemes = [self.flexeme]
         else
           flexemes = self.flexemes
