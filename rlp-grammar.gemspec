@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_dependency("rod", [">= 0.7.0","< 0.8.0"])
-  s.add_dependency("string_case_pl", ["0.1.0"])
+  s.add_dependency("string_case_pl", ["~> 0.1.0"])
 
   s.add_development_dependency("rspec", ["~> 2.2.0"])
   s.add_development_dependency("cucumber", ["~> 1.0.0"])
